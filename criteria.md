@@ -51,63 +51,43 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall accuracy
 
-<!-- Your criterion. It must name a number. -->
+Accuracy on the held-out test split is at least 0.65 in each of the three seeds.
 
-
-
-**Why this target:**
-
-
+**Why this target:** DRAFT. Three labels means a guesser gets about 33%, and `fact_post` alone is about 50% of my draft file, so 0.65 has to beat "always say fact_post". It is high enough to be useful and low enough for about 200 examples.
 
 ---
 
-## 2.
+## 2. Per-label performance
 
-<!-- Your criterion. -->
+Every label has an F1 of at least 0.50 on the held-out test split in each seed.
 
-
-
-**Why this target:**
-
-
+**Why this target:** DRAFT. `speculation` is my smallest label (5 of 36 draft rows, about 14%), so only a handful of its posts will land in the test split and its F1 will jump around. I set the floor lower than the accuracy target for that reason.
 
 ---
 
-## 3.
+## 3. Balance
 
-<!-- Your criterion. -->
+No label is above 60% or below 15% of the rows in `labels.csv`.
 
-
-
-**Why this target:**
-
-
+**Why this target:** DRAFT. The course cap is 70%, but a label near 70% makes "always guess it" score too well. `speculation` is already near the 15% floor in my draft, so this criterion is one I may fail unless I collect more of it.
 
 ---
 
-## 4.
+## 4. Consistency
 
-<!-- Your criterion. -->
+When I relabel the 30 staff posts under the staff taxonomy, I agree with staff on at least 21 of 30 (70%).
 
-
-
-**Why this target:**
-
-
+**Why this target:** DRAFT. Several of the 30 are chosen to be ambiguous, so I do not expect near-perfect agreement. 70% would show I apply written rules the same way most of the time.
 
 ---
 
-## 5.
+## 5. Confidence
 
-<!-- Your criterion. -->
+Among test predictions where the model's top probability is at least 0.80, at least 80% are correct, in each seed.
 
-
-
-**Why this target:**
-
-
+**Why this target:** DRAFT. A confident prediction should be right more often than an unsure one, or the confidence number tells me nothing. I set 0.80 and 80% to match each other, not because I have a baseline for it.
 
 ---
 
