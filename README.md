@@ -39,140 +39,121 @@
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
-
-
+DRAFT, to be reviewed. TakeMeter sorts posts from r/universe, a public subreddit about space and the cosmos, into three labels: `fact_post`, `question` and `speculation`. The goal is to tell apart posts that give checkable information, posts that ask the community something, and posts that push the poster's own unsupported theory.
 
 ---
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+### `fact_post`
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
-
-### `label_one`
-
-**Definition:**
+**Definition:** Shares or explains specific, checkable information (a number, a named object or mission, a mechanism) as its main content.
 
 **Example 1:**
->
+> Phoenix A: a galaxy forming stars at an astonishing rate. The Milky Way forms roughly 1–2 solar masses of new stars per year. But the central galaxy of the Phoenix Cluster has been observed forming stars at roughly 740 solar masses per year...
 
 **Example 2:**
->
+> DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth? Neutron stars pack more mass than our Sun into a sphere only about 20 km (12 miles) across...
 
-### `label_two`
+### `question`
 
-**Definition:**
+**Definition:** Mainly asks the community something, with little or no claim of its own.
 
 **Example 1:**
->
+> Why is gravity attractive? I understand that gravity is the reason planets and stars form and what not. I'm just curious why gravity causes things to attract and not repel or do neither?
 
 **Example 2:**
->
+> Recent potential Dark Matter detection. I recently read the some experiments had 2.6 sigma dark matter detection. Can someone explain in simple words?
+
+### `speculation`
+
+**Definition:** Puts forward the poster's own theory or big claim about the universe with nothing checkable behind it.
+
+**Example 1:**
+> My theory related to the universe and its origins. Guys listen to my theory about the universe... what if big bang isn't the start... time itself existed before the big bang.
+
+**Example 2:**
+> The Superluminous Aether: Why the Cosmic Vacuum Appears Empty Yet Conceals Enormous Superluminal Energy (researchgate.net link, no supporting detail)
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `question` and `speculation`.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
-
-
+**The decision rule I used every time:** If most of the post is the poster's own theory or claim, it is `speculation`, even if it ends with a question mark. If most of the post is asking for an answer and the poster offers little of their own, it is `question`. A post that mainly states checkable facts is `fact_post` even if it ends with "Thoughts?".
 
 ---
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+**Where the posts came from:** r/universe, copied by hand from the public subreddit. Draft count so far is 36 posts. The target is 200.
 
-**Where the posts came from:**
+**How I labeled them:** DRAFT. The first 36 rows were pre-labeled by Claude and are marked "NOT YET REVIEWED" in the note column until I read and correct them. The 20 cold-labeled rows are still to do and will be marked `cold`.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
-
-**Counts per label:**
+**Counts per label:** (draft, update after collecting more)
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| fact_post | 18 | 50.0% |
+| question | 13 | 36.1% |
+| speculation | 5 | 13.9% |
+| **Total** | 36 | 100% |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
-> *The post:*
+> *The post:* Are we closer to the Biggest or the Smallest thing in existence... in the whole universe? (asks a question, but also says "we'll never understand how the universe really works")
 >
-> *Could have been:*
+> *Could have been:* `question` or `speculation`
 >
-> *I chose, because:*
+> *I chose, because:* `speculation` in the draft, since it makes its own sweeping claims. This is a draft call for me to confirm.
 
 **2.**
-> *The post:*
+> *The post:* How Do We Define the Largest Structures in the Universe? (mentions Quipu at roughly 1.4 billion light-years and the cosmological principle, then asks the reader)
 >
-> *Could have been:*
+> *Could have been:* `fact_post` or `question`
 >
-> *I chose, because:*
+> *I chose, because:* `question` in the draft, since the facts support the question rather than being the point. This is a draft call for me to confirm.
 
 **3.**
-> *The post:*
+> *The post:* Pluto went from a blurry dot to a surprisingly complex world. (facts about New Horizons, then a reflective question to the reader)
 >
-> *Could have been:*
+> *Could have been:* `fact_post` or `question`
 >
-> *I chose, because:*
+> *I chose, because:* `question` in the draft, since most of the post is the reflection and the closing ask. This is a draft call for me to confirm.
+
+**Not labeled:** "The Moon has been following Earth for billions of years and still hasn't asked for directions." is a joke that fits none of the three labels. It suggests a fourth label such as `reaction` may be missing.
 
 ---
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Base model:** TO FILL IN from the notebook after the run.
 
-**Base model:**
+**Settings:** TO FILL IN (defaults are 3 epochs, learning rate 2e-5, batch size 16, 128 tokens).
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Anything I changed from the defaults, and why:** TO FILL IN.
 
-**Anything I changed from the defaults, and why:**
-
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
-
-
+**Split sizes:** TO FILL IN after section 3 of the notebook. Device: CPU only (torch 2.14.1+cpu, Python 3.12.7).
 
 ---
 
 ## How I Used AI
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
-
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
-
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Claude to draft label definitions and a labels.csv from the posts I pasted.
+- *What came back:* three draft labels and 36 pre-labeled rows.
+- *What I changed:* TO FILL IN after review.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Claude to draft acceptance criteria.
+- *What came back:* five draft criteria with reasons.
+- *What I changed:* TO FILL IN. I need to rewrite the numbers and reasons in my own words.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** The first 36 rows of `labels.csv` were pre-labeled by Claude and then reviewed by me. This section must be updated to match what I actually did.
+
+---
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
