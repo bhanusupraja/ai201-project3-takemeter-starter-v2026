@@ -1,0 +1,330 @@
+Why does light take so long to escape a star? A random walk, from a 3D atmosphere to the blackboard
+Play
+Apparently I keep coming back to this example... The hair, shirt and classroom change a bit with the years; the random walk remains. Consistency of a physics professor, perhaps? :-)
+
+Here we go from a photon finding its way through our 3D model atmosphere to the simplest possible blackboard model: one step forwards, or one step backwards. The average displacement is zero, so that won’t get us very far. The mean square gives us something more useful.
+
+The neat up-and-down argument is inspired by The Feynman Lectures on Physics, Volume I, §6–3, “The random walk”. Still my favourite way to get to that familiar square root of N.
+
+Lectures and visualisations by Jon Sundqvist, Institute of Astronomy, KU Leuven. The stellar-atmosphere calculation is part of SUPERSTARS-3D.
+
+A note on the two examples in the opening: the 9.7 million scatterings and roughly 98 minutes describe this particular path through our simulated hot-star atmosphere. The roughly 100,000-year solar diffusion timescale refers to a different problem and depends on the solar model.
+
+Questions and corrections are welcome, as always. Enjoy :-)
+
+----
+
+DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
+DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
+r/didyouknow
+•
+1 day ago
+DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
+r/universe - DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
+88 upvotes · 20 comments
+Neutron stars pack more mass than our Sun into a sphere only about 20 km (12 miles) across. Gravity crushes protons and electrons together into neutrons. Estimates for a teaspoon range from hundreds of millions to a few billion tons, depending on the star, so "about a billion tons" is a common round figure.
+
+----
+
+Mercury Has Ice, Extreme Temperatures, and a Day Longer Than Its Year
+Play
+Mercury is the closest planet to the Sun, but there's much more to this small world than meets the eye.
+
+Despite being so close to the Sun, Mercury has water ice hidden inside permanently shadowed craters near its poles. Its surface experiences extreme temperature swings, and it takes about 176 Earth days for the Sun to return to the same position in its sky — longer than Mercury's 88-day year.
+
+It also has an enormous metallic core and mysterious surface formations that scientists are still studying.
+
+I made a video exploring Mercury's extreme environment, hidden ice, unusual rotation, and the discoveries that have changed our understanding of this planet.
+
+----
+
+Can Humanity planet hop when the sun goes red giant?
+How fast or slow will the sun expand into red giant phase? This is a dumb question it if goes fast (explosion) but if it is slow, as in over millions of years, could humanity essentially planet hop by moving to the new habitable zone each time? I know humanity won’t exist then in any case. (Even if we survive, we would have evolved into something unrecognizable to us now.) But thought experiments are fun.
+
+----
+
+Thought experiment: If observable universe was the size of the Earth
+Observable universe (diameter ≈ 93 billion light-years) scaled down to Earth’s diameter 12,742
+
+One light year would be 0.137 mm
+
+Voyager 1 which has travelled 17km/s since 1977 is 0.000374 mm away from earth.
+
+Closest star (Proxima Centauri, is 0.582 mm away.
+
+Your naked eye sees about 2% of the 200000 stars located within 6cm from earth.
+
+The Milkyway Galaxy is 13.7 meters in diameter and 13.7cm thick disk.
+
+The galaxy ic 1101 is 233 meters in diameter (not a thin disk like Milkyway.)
+
+Andromeda galaxy which is on crash course to Milky way is 343 meters away.
+
+Boötes Void which is massive near empty region of space is 55 kilometers in diameter.
+
+Cosmological event horizon is 2192km away, ligh speed travel would never allow us to reach further than that.
+
+Thoughts?
+
+----
+
+Where Did the Universe Come From? Discussing the Biggest Mysteries of Reality with Astrophysicist Geraint F. Lewis
+Hi, everyone, I had a great conversation with Geraint F. Lewis, a Welsh astrophysicist and Professor at the University of Sydney, about some of the biggest questions in cosmology, physics, and our understanding of the world.
+
+We explore what the Big Bang theory tells us about the beginning of the universe, why our current understanding of physics reaches limits when we try to look further back in time, and how neutrinos could reveal secrets about the cosmos — including why matter exists at all. We also mention the 2026 Nobel Prize in Physics, awarded to Francis Halzen for his work on the IceCube Neutrino Observatory.
+
+Professor Lewis also explores what sparked the Scientific Revolution, how modern science transformed our understanding of the world, and why Einstein challenged aspects of quantum mechanics.
+
+Professor Lewis's latest book, The Shortest History of Reality: From Plato’s Cave to the Mind-Bending Discoveries of Modern Physics — The Human Quest to Explain the World, traces humanity’s changing understanding of reality, from everyday intuition and ancient philosophy to the discoveries of modern physics. It explores the ideas that reshaped our view of existence, from Newton’s universe to the strange probabilities of quantum physics and beyond.
+
+If you're interested in these subjects, you can check out our conversation: https://youtu.be/38rUHEeAVHw
+
+----
+
+Why is gravity attractive?
+I understand that gravity is the reason planets and stars form and what not. I'm just curious why gravity causes things to attract and not repel or do neither?
+
+Seems like an arbitrary feature of our universe's laws.
+
+So it makes me wonder if gravity could have worked differently if our universe happened to have different laws.
+
+----
+
+Why universe love us so much?
+Why universe love us so much? Like see we are conscious and have intelligence and everything can kill us in a second but it doesn't everything in this planet or solar system it protect us and let us get more intelligent. Why only us?
+
+----
+
+The Milky Way and Andromeda are very likely to interact strongly and may merge within a few to several billion years, but recent work shows the outcome and timing aren't certain - there's roughly a ~50% chance of a direct merger and similar odds of a near-miss that delays or avoids a full collision
+
+----
+
+My theory related to the universe and its origins
+Guys listen to my theory about the universe, I might sound like a movie geek here.
+We do know that Universe we know was created by big bang but what if big bang isn't the start
+I mean imagine the numbers, let's assume we start from 0 to 1,2,3,4,......., ∞ but now here this sequence does appear to have a start, unless we look at the negative numbers that range from -1,-2,-3, ...... , -∞
+So basically entire numerical sequence is among -∞ to ∞.
+
+So what my point is that the universe itself doesn't have a start point like creation of universe didn't created time, but time itself existed before the big bang.
+What I want to say is that we have big bang which is start and big crunch which is the end that's what science believes.
+But what if this whole big bang and big crunch thing is just a cycle, like universe keeps operating in a series of big bangs and big crunches and these cycles keep happening in a loop.
+Because like I said time itself as a construct can't be created when the universe appears cause time itself doesn't have a start or an end.
+So are we living in a universe that runs in a loop and that has collapsed and emerged several times?
+I don't know I maybe wrong but that is simply my theory, feel free to correct me.
+
+----
+
+Those Kepler-138s
+Today I had planned on writing about Water Worlds; I picked two, Kepler-138 c and d. Their bulk density, that is their radii and mass estimates tell us there is significant water on both. Here are the rendering my own algorithm came up with.
+
+u/Exoplanetary-Systems - Kepler-138 c, credit: author at https://exoplanetary.systems
+Kepler-138 c, credit: author at https://exoplanetary.systems
+u/Exoplanetary-Systems - Kepler-138 d, credit author at https://exoplanetary.systems
+Kepler-138 d, credit author at https://exoplanetary.systems
+Wait a sec, the astute reader might notice. Those are not water worlds, those are hot, dry scorched worlds with one side baked to lava from being tidally locked forever facing its star. Did you cut-n-paste the wrong images, perhaps?
+
+After checking, I find my algorithm to be correct. These two worlds have orbital periods of 14 and 23 days respectively. That’s how long their year is. Their distance from their star is 0.09 and 0.12 AU. (Earth is at 1 AU from our sun.) These tell us these planets orbit unimaginably close to their star. That would make these worlds tidally locked with the same side continually facing the sun, the same way our moon is tidally locked to Earth.
+
+Yet, this article in EarthSky, https://earthsky.org/space/water-worlds-kepler-138-c-kepler-138-d-exoplanets/ tells us these are indeed water worlds. I have no reason to dispute a well-respected publication.
+
+This case exemplifies a broader problem: with only mass, radius, orbital period, and stellar luminosity estimates, I’m triangulating a world from four numbers. I can’t tell you if there’s an atmosphere, what it’s made of, whether the water is liquid or steam or ice, what color the sky is, whether there are continents. Every artistic choice: the cloud cover, the sea color, the terminator gradient, on any planet is an educated guess. Here is a simplified table of the data I use to update my database from Nasa’s JPL database. This is all I go on.
+
+u/Exoplanetary-Systems - Snippet of my weekly download of exoplanets. Source from https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+*+from+ps&format=json
+Snippet of my weekly download of exoplanets. Source from https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+*+from+ps&format=json
+This gives me: the orbital period, orbital distance, the planet’s mass; radius; density; and then some data about the host star like the radius, mass, and luminosity. From the orbital distance, my formula determined these worlds to be tidally locked hot eyeball worlds. From the from density and radius data the article’s author determined them to be water-worlds. Both are correct.
+
+The James Webb Space Telescope will one day give us actual atmospheric spectra for Kepler-138 c and d. When that happens I’ll have more data points and can make better educated guesses. I’m taken back to an earlier article of mine, “To What End?” in which Hypatia of Alexandria mapped the sky with instruments that couldn’t resolve a planet’s face. Now we’ve refined our instruments to detect molecular signatures in exoplanet atmospheres. We still can’t say with confidence what these Kepler-138 planets look like from the surface. The gap between “we detected water vapor” and “here is what the ocean looks like” is where we live. It’s a fantastic time to be alive.
+
+----
+
+Is our local group a part or more specifically bound to something larger?
+As space continuous to expand in every space not bound by gravity the distance between them expands. I know our local group is gravitational bound and will become another galaxy. we are also a part of the local supercluster, but the problem is we are not gravitational bound with it we just somehow going with the flow idk where to but the space between will continue to expand.
+
+Now it got me to ponder if travel between our galaxies possible in our local group it will get easier but outside our local group will get harder and harder.
+
+I am hoping or I want to know if our local group is gravitational bound to another local group. the more the merrier.
+
+----
+
+Pluto went from a blurry dot to a surprisingly complex world.
+Pluto and the Mind: When Clearer Sight Changes Everything
+r/AcharyaPrashant_AP
+•
+17 days ago
+Pluto and the Mind: When Clearer Sight Changes Everything
+r/universe - Pluto went from a blurry dot to a surprisingly complex world.
+30 upvotes · 5 comments
+For most of my life, Pluto was basically just a tiny, distant dot at the edge of the Solar System. Then New Horizons flew past it in 2015 and shared whole different images.. mountains of water ice, vast plains, glaciers of nitrogen ice, and an active surface.
+
+I was thinking about something beyond astronomy .. How frequently we mistake an incomplete picture for the complete reality, simply because it’s the best picture we currently have?
+
+Pluto is a nice reminder that better observation can completely change the story we thought we already understood. Isn’t it ?
+
+Very curious to know what other discovery in astronomy made you realise how incomplete our previous picture of the universe was?
+
+----
+
+Could a universe devoid of matter and energy exist?
+Could a realm of totally empty space possibly exist? A place without matter, without energy, without particles or a single atom, with no singularity for anything to explode from but only a simple void, how could “existence” be determined? Obviously, this is purely a thought exercise because without an observer to recognize and identify the state of “being”, there’s no awareness to define it. Looking from the outside into what could only be described as an empty black bag of nothingness, how could such a place be measured? Is it big or small and relative to what standard with nothing in it to define any dimensions? Time would still exist if it is an intrinsic feature of “space” and inseparable from it, but what quality could define space with nothing occupying it to measure it against and no awareness to recognize it? It seems to follow that no version of “reality” is possible without, at minimum, a single partical or atom for it to contain. There can be no “container” without something for it to contain. In our universe, space isn’t “nothing” because it exists and contains all the “somethings” in our reality. It has certain features in that it can be warped by mass and its expansion can be measured relative to bits of matter moving apart to create “dimension”. Without something to compare nothing against, how could anything be? It seems therefore that for a universe to exist, it must have something in it to qualify it. But can there be any “something” without some form of awareness to acknowledge it? Otherwise, how can it be defined as “real”?
+
+Does this mean then that matter/energy must be for a universe to exist and is therefore intrinsic to its manifestation? Wouldn't it also then follow that some kind of awareness would also be needed to define “something” vs “nothing”, thereby making consciousness an essential part of reality itself? After all, how could anything be without an observer to acknowledge that there is “something” as opposed to “nothing”? Doesn't this mean that no objective reality is possible without some awareness to acknowledge it's existence? As such, it seems both matter/energy and a consciousness to acknowledge it is not “nothing” are required for a universe to exist at all.
+
+----
+
+51 Pegasi b, the Nobel Prize Exoplanet
+You know the Doppler effect, when a screaming siren has a different pitch when it approaches vs. when it recedes? That’s how the exoplanet, 51 Pegasi b was discovered, and the technique is called the radial velocity method.
+
+In 1995 two scientists, Michel Mayor and Didier Queloz made the discovery that the star 51 Pegasi had a wobble, a Doppler shift. The cycle was every four days. The conclusion was that a planet orbited every four days, and to perturb the star so, it must be a giant.
+
+The planet was named 51 Pegasi b, the b became the naming convention for objects associated with a star. B being the first, c the second, and so forth. That discovery of October 6, 1995 earned them a Nobel Prize in physics in 2019.
+
+While Dimidium was the first exoplanet discovered orbiting a main sequence star it was not the first exoplanet ever found. See my earlier article on Draugr, Poltergeist, and Phobetor which were discovered in 1992.
+
+This world is about half the mass of Jupiter. That earned it the name Dimidium, meaning half. First estimates put it at .46 Jupiters. Current estimates at the time of this writing put it at 0.61 Jupiters. That four day year makes the planet sit 0.052 AU (Astronomical Units) from its star. 1 AU is the average distance from the Earth to the Sun. So, yeah that’s close. This is a Hot Jupiter.
+
+What the heck is a gas giant doing so close to its star? Gas giants are supposed to be cold, like Jupiter, Saturn, Neptune, and Uranus. Indeed Dimidium changed the assumptions of planetary formation. Its peculiar orbit may be due to early gravitational interactions with the protoplanetary disc, causing it to lose energy and spiral inward. There may be a lot of factors at play, like drag, or just the disk-planet dynamics.
+
+We learned that planets do not stay in fixed orbits. That over time they can migrate. Indeed any orbital system with three or more objects is inherently unstable, albeit in solar system configurations over a very long time. Think the three body problem. (Not the books or series, but the phenomenon.) This kind of migration happened in our own solar system, too.
+
+Here’s a great explanation of the positions of Jupiter, Saturn, and why Mars is so small compared to Earth and Venus. https://youtu.be/cPouwOKMS2s?si=yNvWVv4O5D0FGw25
+
+I’ll leave you with a NASA post card from 51 Pegasi b along with my own rendering of this intriguing milestone world and a link to exoplanetary.systems with renderings of all 6300+ exoplanets discovered to date
+
+----
+
+PHYS.Org: A tiny stellar system may be a 'satellite of a satellite'
+r/universe - PHYS.Org: A tiny stellar system may be a 'satellite of a satellite'
+phys.org
+Astronomers using data from the Euclid space telescope have discovered an exceptionally faint stellar system near the Fornax dwarf galaxy. Called Fornax-7, it appears to contain only about 170 times the mass of the sun in stars. The discovery paper was posted to the arXiv preprint server on Sept. 13.
+
+----
+
+Recent potential Dark Matter detection
+I recently read the some experiments had 2.6 sigma dark matter detection. Can someone explain in simple words?
+
+----
+
+What is your favorite dwarf planet?
+Mine used to be pluto but now its makemake
+
+----
+
+Interesting facts about Earth and the Universe
+I'm very interested in learning about the things that have happened on Earth and in the Universe. I don't know where to start researching, but I really want to learn more. I love the Carboniferous Period, the Carnian Period, dinosaurs, etc. Honestly, I'll appreciate any fun facts you think I'd find interesting!
+
+----
+
+Two galaxies are colliding 60 million light-years away - and this is what it looks like
+
+----
+
+How did life come to earth? How did plants just form and animals come from no where? (no religious explanations)
+
+----
+
+At the end of everything in the universe after the heat death and eventual end of matter via black holes, would the collision of super massive bhs into one final bh be strong enough to shrink space itself and time with it into that one black hole? Or would the black hole thats left encompasses the s
+
+----
+
+Are we closer to the Biggest or the Smallest thing in existence... in the whole universe?
+The smallest and biggest thing isn't known to mankind yet. In fact, it'll never be because either our imagination or the evidence we have won't be even close to those.
+
+At the moment, the smallest, theoretically, thing is the theory of threads making the quark of an atom, but what are those threads really made of? And what is the biggest thing, bigger than a black hole, bigger than the known universe, in existence?
+
+Where would you put yourself? Closer to the smallest or closer to the biggest? Maybe you're in the center, at 50% between a scale from 0-100. But who knows, we'll never understand how the universe really works...
+
+----
+
+Phoenix A: a galaxy forming stars at an astonishing rate
+r/universe - Phoenix A: a galaxy forming stars at an astonishing rate
+The Milky Way forms roughly 1–2 solar masses of new stars per year. But the central galaxy of the Phoenix Cluster has been observed forming stars at roughly 740 solar masses per year. The Phoenix Cluster contains an enormous reservoir of extremely hot gas. As some of that gas loses energy, it cools and becomes denser. Gravity then pulls the cooling gas toward the cluster's center, where it accumulates and eventually condenses into much colder, denser clouds. Inside those clouds, gravity causes pockets of gas and dust to collapse, forming new stars.
+
+It's essentially a chain: Hot gas → cooling → denser gas → molecular clouds → gravitational collapse → new stars
+
+Another major player in the middle is an active supermassive black hole. It is also feeding on the surrounding gas, while its powerful jets inject energy back into the environment and can affect how quickly the gas cools.
+
+----
+
+realtime 100M particle nbody simulation on a laptop, using AI autoresearch (higher resolution)
+Play
+It doesn’t display all 100M particle (that’s too many particles to display) but a density map, the 100M particles are properly simulated though (gravity only, no dark matter, no heat, no fusion/explosion). I need to make a new video without the flashing. I’ll publish the code as well but it’s AI slop in its current state. I’ll clean it up manually (yes, i can code ^^). it’s running at ~ 32fps so the simulation is technically a bit faster than the video. The initial distribution can be tuned via cmdline argument.
+
+----
+
+The Pale Blue Dot.
+r/universe - The Pale Blue Dot.
+Voyager 1 was speeding out of the solar system — beyond Neptune and about 3.7 billion miles (6 billion kilometers) from the Sun — when mission managers commanded it to look back toward home for a final time. It snapped a series of 60 images that were used to create the first “family portrait” of our solar system.
+
+The picture that would become known as the Pale Blue Dot shows Earth within a scattered ray of sunlight. Voyager 1 was so far away that — from its vantage point — Earth was just a point of light about a pixel in size.
+
+----
+
+A 3D map of the matter distribution of the local universe got update: now every one of its 43,500 real galaxies can be identified and searched
+A 3D map of the m
+
+----
+
+How do you think Earth would respond to finding an alien planet's version of the Voyager Space Probe?
+
+----
+
+How Do We Define the Largest Structures in the Universe?
+While researching the largest structures in the universe, I came across something I hadn't thought about before:
+How do we decide when a distribution of galaxies becomes a single cosmic structure?
+At large scales, galaxies form filaments, walls, clusters, and voids, but these aren't necessarily gravitationally bound.
+It gets even more interesting when you consider the cosmological principle: on sufficiently large scales, the universe should become homogeneous and isotropic.
+
+Are these truly unique structures, or are we only beginning to uncover the enormous patterns hidden within the cosmic web?
+Quipu, spanning roughly 1.4 billion light-years, is a fascinating example.
+The more I looked into this, the more interesting the question became.
+
+https://youtu.be/h9Ci__uhAGo?si=I2m2aP24RxN2sQJn
+
+----
+
+What do you think on the expansion of universe
+Let's just talk about the expansion of the universe what are your thoughts and theories on it and what is the universe expanding for
+
+----
+
+Elephants trunk nebula IC1396
+
+r/universe - Elephants trunk nebula IC1396
+Page 1 (Current page)
+Page 2
+
+
+Item 1 of 2
+I recorded this on my dwarf mini with 60 gain, 214 60 second exposures and 154 30 second exposures and duoband filter. Utilized stellar sudio to denoise and lightroom for finishing touches.
+
+The Elephant’s Trunk is IC 1396A, a dark globule inside the bigger emission nebula IC 1396. It’s in Cepheus, the king, high in the northern sky in the fall. OnIt’s about 2,400 light-years away. The trunk itself is a column of cold gas and dust about 20 to 25 light-years long. The whole IC 1396 cloud is roughly 100 light-years across.
+
+----
+
+If energy can neither be created nor destroyed, where did it come from, and I need real critical thinkers here please.
+
+----
+
+Billions of years from now, the Sun will enter its red giant phase.
+Play
+Mercury and Venus are expected to be engulfed as the Sun expands. Earth will become uninhabitable long before that, while the surviving planets will gradually move into wider orbits as the Sun loses mass. But there’s an unexpected twist: as the Sun expands, its habitable zone will move outward. Some of the icy moons around the outer planets could temporarily enter a region where conditions might allow liquid water to exist.
+
+https://youtu.be/AMHOrMpQlzw
+
+----
+
+In November 18 2026, voyager 1 will be one light-day away from us.
+
+----
+
+The Moon has been following Earth for billions of years and still hasn't asked for directions.
+
+----
+
+C27 crescent nebula bortle 7
+Edited puurely on lightroom and stellar studio. This was recoreded on a dwarf mini and had a total of 475 frames 45second exposures, duoband and 60 gain. I will be using stacking wizard and astrowizard later today to make the image better.
+
+----
+
+The Superluminous Aether: Why the Cosmic Vacuum Appears Empty Yet Conceals Enormous Superluminal Energy
+researchgate.net
