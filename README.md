@@ -85,73 +85,87 @@ DRAFT, to be reviewed. TakeMeter sorts posts from r/universe, a public subreddit
 
 ## The Dataset
 
-**Where the posts came from:** r/universe, copied by hand from the public subreddit. Draft count so far is 36 posts. The target is 200.
+**Where the posts came from:** r/universe, a public subreddit. The first 36 were copied by hand; the rest came from listing files (top, controversial, search) saved from my browser and converted with `scrape_posts.py`. Current count is 166 posts. The target is 200 (150 minimum under the stop rule), so I am still collecting.
 
-**How I labeled them:** DRAFT. The first 36 rows were pre-labeled by Claude and are marked "NOT YET REVIEWED" in the note column until I read and correct them. The 20 cold-labeled rows are still to do and will be marked `cold`.
+**How I labeled them:** DRAFT. I labeled 20 posts cold (no help, no tools), marked `cold` in the note column. Claude pre-labeled the other rows (the first 36 plus 112 more) and I then read every one and corrected the labels I disagreed with. I also removed two near-duplicate posts that appeared twice. I also set aside 17 posts in `excluded_posts.csv` (astrophoto captions with only equipment lists, image-only or link-only posts) because none of my three labels applies to them.
 
-**Counts per label:** (draft, update after collecting more)
+**Counts per label:** (166 rows, update after collecting more)
 
 | Label | Count | Share |
 |---|---|---|
-| fact_post | 18 | 50.0% |
-| question | 13 | 36.1% |
-| speculation | 5 | 13.9% |
-| **Total** | 36 | 100% |
+| fact_post | 51 | 30.7% |
+| question | 73 | 44.0% |
+| speculation | 42 | 25.3% |
+| **Total** | 166 | 100% |
+
+My 20 cold labels first came out as 13 `question`, 4 `speculation` and 3 `fact_post`. I had been treating a title ending in "?" as a `question`. After rereading my own definitions I changed 12 of the 20 (now 9 `fact_post`, 7 `question`, 4 `speculation`) and marked those rows `cold; relabeled after rule clarification`. The original labels are kept in `cold_20_original.csv`. This means the cold set is no longer a pure first-instinct check, and it also shows exactly where my definitions were unclear: posts with a question title and an explanatory body.
 
 **Three hard cases**
 
+*(Wording drafted by Claude from the notes I wrote in the `note` column while reviewing `labels.csv`; I need to read it and edit it so it is mine.)*
+
 **1.**
-> *The post:* Are we closer to the Biggest or the Smallest thing in existence... in the whole universe? (asks a question, but also says "we'll never understand how the universe really works")
+> *The post:* "Thought experiment: If observable universe was the size of the Earth" — a long list of scaled-down distances (one light year is 0.137 mm, Proxima Centauri is 0.582 mm away, the Milky Way is 13.7 m across).
+>
+> *Could have been:* `fact_post` or `speculation`
+>
+> *I chose, because:* `speculation`. The numbers are checkable, but the post is framed as the poster's own thought experiment and observation, not as a source of information. My review note said "assuming it is their thought/observation". This is the weakest of my calls: by my own rule that a post mainly stating checkable facts is `fact_post`, it could easily be the other label.
+
+**2.**
+> *The post:* "Interesting question I don't know if this is a unique thought..." — the poster describes an astronomy-class thought experiment about a universe where all life has vanished, defines "life" as anything that can perceive the universe, and then works through what that means.
 >
 > *Could have been:* `question` or `speculation`
 >
-> *I chose, because:* `speculation` in the draft, since it makes its own sweeping claims. This is a draft call for me to confirm.
-
-**2.**
-> *The post:* How Do We Define the Largest Structures in the Universe? (mentions Quipu at roughly 1.4 billion light-years and the cosmological principle, then asks the reader)
->
-> *Could have been:* `fact_post` or `question`
->
-> *I chose, because:* `question` in the draft, since the facts support the question rather than being the point. This is a draft call for me to confirm.
+> *I chose, because:* `question`. The title calls it a question and the poster mostly wonders aloud rather than asserting a result; my review note said "assuming they have only asked a question". But a long chain of the poster's own reasoning is what my decision rule calls `speculation`, so this sits right on my hardest boundary.
 
 **3.**
-> *The post:* Pluto went from a blurry dot to a surprisingly complex world. (facts about New Horizons, then a reflective question to the reader)
+> *The post:* "Some thoughts on the holographic principle." — explains the principle and links a video, then argues from accelerating expansion and horizons toward the poster's own conclusion.
 >
-> *Could have been:* `fact_post` or `question`
+> *Could have been:* `fact_post` or `speculation`
 >
-> *I chose, because:* `question` in the draft, since most of the post is the reflection and the closing ask. This is a draft call for me to confirm.
+> *I chose, because:* `speculation`. The first half restates a known idea, but the second half is the poster connecting "puzzle pieces" into their own claim, and my review note said "assuming they have mentioned their thoughts". If I had only read the first paragraph I would have called it `fact_post`.
 
-**Not labeled:** "The Moon has been following Earth for billions of years and still hasn't asked for directions." is a joke that fits none of the three labels. It suggests a fourth label such as `reaction` may be missing.
+**What these three have in common:** each starts with something checkable or a question-shaped title and then turns into the poster's own reasoning. That is the same pattern that made me relabel 12 of my cold labels, so I expect the model to struggle in the same place.
+
+**Not labeled:** 17 posts in `excluded_posts.csv` are image captions or link-only posts with no claim, which fit none of the three labels. Also, "The Moon has been following Earth for billions of years and still hasn't asked for directions." is a joke that fits none of the three labels. It suggests a fourth label such as `reaction` may be missing.
 
 ---
 
 ## The Training Run
 
-**Base model:** TO FILL IN from the notebook after the run.
+**Base model:** `distilbert-base-uncased`
 
-**Settings:** TO FILL IN (defaults are 3 epochs, learning rate 2e-5, batch size 16, 128 tokens).
+**Settings:** 3 epochs, learning rate 2e-5, batch size 16, max length 128 tokens, seed 42.
 
-**Anything I changed from the defaults, and why:** TO FILL IN.
+**Anything I changed from the defaults, and why:** Nothing. I left every training setting at its default. The only things I edited in the notebook were my name/email and the label list (`fact_post`, `question`, `speculation`).
 
-**Split sizes:** TO FILL IN after section 3 of the notebook. Device: CPU only (torch 2.14.1+cpu, Python 3.12.7).
+**Split sizes:** 166 posts split 70/15/15, stratified: train 116, validation 25, test 25. By label: `fact_post` 35 / 8 / 8, `question` 51 / 11 / 11, `speculation` 30 / 6 / 6 (train / val / test). Only 6 `speculation` posts landed in the test split, so any score for that label is very jumpy.
+
+**Device:** CPU only (torch 2.14.1+cpu, Python 3.12.7). Training took about 110 seconds.
+
+**Result (seed 42, the unit 5 run):** accuracy 0.640, macro F1 0.483. Per label: `fact_post` F1 0.714 (n=8), `question` F1 0.733 (n=11), `speculation` F1 0.000 (n=6). The model never predicted `speculation` on the test split: 5 of its 6 posts were called `question` and 1 was called `fact_post`. Validation accuracy rose each epoch (0.56, 0.60, 0.64), which says training converged, not that it learned my distinction. Saved in `results.json` and `test_split.csv`.
 
 ---
 
 ## How I Used AI
 
-**Moment 1**
+*(Wording drafted by Claude from what actually happened in this project; I need to check it against my own memory and edit it.)*
 
-- *What I asked for:* Claude to draft label definitions and a labels.csv from the posts I pasted.
-- *What came back:* three draft labels and 36 pre-labeled rows.
-- *What I changed:* TO FILL IN after review.
+**Moment 1 — pre-labelling 112 posts, then correcting them**
 
-**Moment 2**
+- *What I asked for:* Claude to pre-label a batch of 138 r/universe posts I had collected, using my three definitions. I labelled 20 other posts cold first and did not show Claude those.
+- *What came back:* a label for 112 of them and 17 set aside as fitting none of the labels, plus nine duplicates skipped. It marked about ten as "unsure".
+- *What I changed:* I read every pre-labelled row and corrected the ones I disagreed with. Across the file the counts moved from 82 `question` / 52 `fact_post` / 34 `speculation` to 73 / 53 / 42, so at least nine posts changed label, mostly `question` to `speculation`. I also found two posts that appeared twice and removed one copy of each so they could not end up in both train and test.
 
-- *What I asked for:* Claude to draft acceptance criteria.
-- *What came back:* five draft criteria with reasons.
-- *What I changed:* TO FILL IN. I need to rewrite the numbers and reasons in my own words.
+**Moment 2 — misreading my own `question` rule**
 
-**Pre-labelling disclosure:** The first 36 rows of `labels.csv` were pre-labeled by Claude and then reviewed by me. This section must be updated to match what I actually did.
+- *What I asked for:* help labelling my cold 20, and then whether a title ending in "?" makes a post a `question`.
+- *What came back:* an explanation that my definition looks at what most of the post does, not at the punctuation, with examples from my own data such as a "Friday Fun Fact" whose title is a question but whose body explains quantum gravity. Claude also listed the cold posts where title and body disagreed, but left the labels to me.
+- *What I changed:* I relabelled 12 of my 20 cold posts (13 `question` / 4 `speculation` / 3 `fact_post` became 7 / 4 / 9) and kept the originals in `cold_20_original.csv`. Because I changed them after being told the rule, the cold set is no longer a pure first-instinct check, and I say so in The Dataset above.
+
+**Other help:** Claude also wrote `scrape_posts.py` and `label_cold.py`, drafted the first versions of my label definitions, the README, and the five acceptance criteria, and ran the notebook cells for me to produce `results.json`. I treat the criteria numbers as my own decisions to confirm, not as something Claude set.
+
+**Pre-labelling disclosure:** 146 of the 166 rows in `labels.csv` were pre-labelled by Claude and then reviewed one by one by me, with my corrections applied; the other 20 are my cold labels (12 of which I changed after clarifying my rule).
 
 ---
 
