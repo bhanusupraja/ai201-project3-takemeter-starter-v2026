@@ -1,0 +1,121 @@
+C:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\bhanusupraja.d\.cache\huggingface\hub\models--distilbert-base-uncased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+device: cpu  (CPU)
+torch:  2.14.1+cpu
+
+⚠️  WRITE THIS DOWN. Your results depend on it.
+
+Two people running this notebook on the same data with the same seed can
+get different numbers, because different hardware does the arithmetic in
+a slightly different order. That is not a bug and it is not one of you
+being wrong — it is a real property of the thing you are building, and
+unit 6 asks you to report it alongside your three seeds.
+Working in: C:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026
+Results will be labelled: Bhanu Supraja <bhanusupraja@users.noreply.github.com>
+  README.md
+  RUNNING.md
+  _run_unit5.py
+  agreement.py
+  baseline.py
+  candidates.csv
+  candidates_rest.csv
+  check_labels.py
+  cold_20.csv
+  cold_20.xlsx
+  cold_20_original.csv
+  controversial.json
+  criteria.md
+  data
+  excluded_posts.csv
+  hot.json
+  label_cold.py
+  label_definitions.txt
+  labels.csv
+  labels.xlsx
+  labels_template.csv
+  new.json
+  raw.txt
+  requirements.txt
+  run_log_unit5.txt
+  scrape_posts.py
+  spec1.json
+  spec2.json
+  takemeter.ipynb
+  test.py
+  top_month.json
+  top_year.json
+3 labels: fact_post, question, speculation
+seed 42, 3 epochs, lr 2e-05, batch 16
+Loaded labels.csv: 166 rows
+Columns: text, label, note
+[look at]  166 rows — under the 200 the brief asks for. Say so in your README.
+
+Data looks fine.
+
+label
+question       73
+fact_post      51
+speculation    42
+train 116  ·  val 25  ·  test 25
+
+             train  val  test
+label                        
+fact_post       35    8     8
+question        51   11    11
+speculation     30    6     6
+
+[note] 'speculation' has only 6 examples in the test split.
+
+A metric computed on that few examples moves a lot between seeds.
+Write that down now — next unit it's a diagnosis, not a surprise.
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 2239.94 examples/s]
+Map:   0%|          | 0/25 [00:00<?, ? examples/s]Map: 100%|██████████| 25/25 [00:00<00:00, 4531.64 examples/s]
+  0%|          | 0/24 [00:00<?, ?it/s]C:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+  4%|▍         | 1/24 [00:05<02:11,  5.71s/it]  8%|▊         | 2/24 [00:10<01:56,  5.29s/it] 12%|█▎        | 3/24 [00:15<01:44,  4.99s/it] 17%|█▋        | 4/24 [00:19<01:35,  4.79s/it] 21%|██        | 5/24 [00:24<01:28,  4.68s/it] 25%|██▌       | 6/24 [00:29<01:29,  4.99s/it] 29%|██▉       | 7/24 [00:34<01:22,  4.83s/it] 33%|███▎      | 8/24 [00:35<00:59,  3.70s/it]
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00,  2.51it/s][A                                              
+                                             [A 33%|███▎      | 8/24 [00:37<00:59,  3.70s/it]
+100%|██████████| 2/2 [00:00<00:00,  2.51it/s][A
+                                             [AC:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+ 38%|███▊      | 9/24 [00:42<01:11,  4.74s/it] 42%|████▏     | 10/24 [00:47<01:05,  4.65s/it]                                                42%|████▏     | 10/24 [00:47<01:05,  4.65s/it] 46%|████▌     | 11/24 [00:51<00:59,  4.57s/it] 50%|█████     | 12/24 [00:56<00:55,  4.60s/it] 54%|█████▍    | 13/24 [01:01<00:54,  4.95s/it] 58%|█████▊    | 14/24 [01:06<00:48,  4.86s/it] 62%|██████▎   | 15/24 [01:11<00:43,  4.78s/it] 67%|██████▋   | 16/24 [01:12<00:30,  3.75s/it]{'eval_loss': 1.0239695310592651, 'eval_accuracy': 0.56, 'eval_f1_macro': 0.404040404040404, 'eval_runtime': 2.149, 'eval_samples_per_second': 11.633, 'eval_steps_per_second': 0.931, 'epoch': 1.0}
+{'loss': 1.0617, 'grad_norm': 1.4495505094528198, 'learning_rate': 1.25e-05, 'epoch': 1.25}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00,  3.16it/s][A                                               
+                                             [A 67%|██████▋   | 16/24 [01:14<00:30,  3.75s/it]
+100%|██████████| 2/2 [00:00<00:00,  3.16it/s][A
+                                             [AC:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+ 71%|███████   | 17/24 [01:18<00:31,  4.50s/it] 75%|███████▌  | 18/24 [01:23<00:27,  4.52s/it] 79%|███████▉  | 19/24 [01:28<00:22,  4.59s/it] 83%|████████▎ | 20/24 [01:32<00:18,  4.65s/it]                                                83%|████████▎ | 20/24 [01:32<00:18,  4.65s/it] 88%|████████▊ | 21/24 [01:38<00:14,  4.97s/it] 92%|█████████▏| 22/24 [01:43<00:09,  4.83s/it] 96%|█████████▌| 23/24 [01:47<00:04,  4.72s/it]100%|██████████| 24/24 [01:48<00:00,  3.68s/it]{'eval_loss': 0.9655328989028931, 'eval_accuracy': 0.6, 'eval_f1_macro': 0.4603174603174603, 'eval_runtime': 1.79, 'eval_samples_per_second': 13.967, 'eval_steps_per_second': 1.117, 'epoch': 2.0}
+{'loss': 0.9894, 'grad_norm': 1.7696735858917236, 'learning_rate': 4.166666666666667e-06, 'epoch': 2.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00,  3.10it/s][A                                               
+                                             [A100%|██████████| 24/24 [01:50<00:00,  3.68s/it]
+100%|██████████| 2/2 [00:00<00:00,  3.10it/s][A
+                                             [A                                               100%|██████████| 24/24 [01:50<00:00,  3.68s/it]100%|██████████| 24/24 [01:50<00:00,  4.61s/it]
+{'eval_loss': 0.9380753040313721, 'eval_accuracy': 0.64, 'eval_f1_macro': 0.4965517241379311, 'eval_runtime': 1.7756, 'eval_samples_per_second': 14.079, 'eval_steps_per_second': 1.126, 'epoch': 3.0}
+{'train_runtime': 110.6453, 'train_samples_per_second': 3.145, 'train_steps_per_second': 0.217, 'train_loss': 1.0177776614824932, 'epoch': 3.0}
+
+Trained.
+Map:   0%|          | 0/25 [00:00<?, ? examples/s]Map: 100%|██████████| 25/25 [00:00<00:00, 638.32 examples/s]
+C:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00,  3.08it/s]100%|██████████| 2/2 [00:00<00:00,  3.06it/s]
+accuracy  0.640
+macro F1  0.483
+
+  fact_post        F1 0.714   (n=8)
+  question         F1 0.733   (n=11)
+  speculation      F1 0.000   (n=6)
+
+confidence   most-sure third 0.750   ·   least-sure third 0.500
+
+Wrote results.json and test_split.csv. Commit them both — they're the
+evidence the run happened, and next unit reads test_split.csv.
