@@ -1,0 +1,147 @@
+text,label,note
+"Low Earth orbit - Great Lakes of North America
+Views of the Great Lakes of North America from orbit. Photos by: NASA [spacetroves](https://www.instagram.com/p/DZ5aED2lqDn/?hl=en)",,file:top_year.json
+"I built an interactive 3D universe explorer — a hobbyist's attempt to visualize the cosmos
+Hey everyone,
+
+I'm John, a software engineer. As I've gotten older, I've fallen deeper into space - I watch every astronomy channel I can find, slowly trying to wrap my head around just how vast and strange our universe is.
+
+The more I learn, the harder it gets to actually picture any of it. The scales are too much for intuition to handle. At some point I started wondering what it would be like to try expressing all of this on the web - and that's how this project began, out of a small wish to build a little universe of my own.
+
+The result is **AstroGrid(**[https://velonspace.com/](https://velonspace.com/)**)** \- a web-based 3D explorer that lets you wander through the solar system, stars, nebulae, galaxies, and larger structures like superclusters and cosmic filaments. The goal was never scientific precision; it was to help curious amateurs like me feel the scale and beauty of it all.
+
+A few honest disclaimers before you dive in:
+
+&gt;It's still in development, so there are bugs. I'm fixing them as fast as I can on my own, but this is a hobby project and carving out time is genuinely hard. Please bear with me.
+
+&gt;**I'm an amateur.** Everything here was built through self-study. I tried to ground things in real data wherever I could, but verifying alone whether every object sits in the right place - or whether the universe actually behaves the way I've implemented it (subtle things like the Moon being tidally locked to Earth) - is really difficult. If you spot mistakes, wrong labels, or sloppy descriptions, please tell me. I'll take the time to learn and fix them.
+
+&gt;Within the limits of what I currently understand, I tried to be as faithful as I could. As a small example, I attempted to mimic the recent finding that the two main spiral arms of our galaxy are slightly warped. Details like that mattered to me, even if the whole thing is far from rigorous overall.
+
+&gt;I'm still learning, and I want to keep expanding this so it can represent more of the universe over time.
+
+Experts won't find anything new here. But if even one fellow enthusiast walks away with a slightly better intuition for how vast this place is, I'll be genuinely happy.
+
+&gt;**A note on performance :** I tested on a MacBook Pro M4, and on the high-quality preset it works the GPU pretty hard. Optimization is on my list, but with limited time I've been prioritizing implementing more ideas first. I'll keep polishing it whenever I can. Just a heads-up before you jump in.
+
+**Edit: Added more info for clarity.**
+
+Yes, this was built with heavy use of AI tools (Cursor - Composer 2, and Claude Code - Opus 4.6). Of course it was.  
+  
+Honestly, without these AI tools, I wouldn't have dared to even attempt a personal project like this on top of a busy day job. It just wouldn't have been realistic.  
+  
+What genuinely excites me is that these tools have gotten good enough to attempt things I wouldn't have dared to try a few years ago. The countless late nights working on this were honestly some of the most enjoyable hours I've had in a long time. (I'm teaching myself piano on the side too, and already daydreaming about what to build next.)  
+  
+That's enough for me. If the result helps even one person feel the universe a little more vividly, how it got made feels secondary.  
+  
+Thoughts, corrections, and ideas for what I should try to represent next are all very welcome. A small Discord is in the works for anyone who wants to follow along.
+
+Wishing you all beautiful skies.",,file:top_year.json
+"Andromeda galaxy round 2
+I used a dwarf mini and had 30 sec exposure time through 192 frames, 60 grain, in bortle 7 and edited with lightroom and astro wizard.",,file:top_year.json
+"M31: Our Galactic Neighbor
+✨ Target: Milky Way + M31
+
+🔭 Mount: Star Adventurer 2i
+
+📷 Camera: Canon EOS 6D mod.
+
+🔎 Lens: Samyang 14mm f/2.8 (f8)
+
+🔬 Sampling: 1.61'/px
+
+🔴 Acquisition: ISO1600
+
+⏰ Integration: 170x60s (2h 50min)
+
+ Calibration: 50 dark, 50 flat, 50 dark-flat
+
+💻 Processing: Siril, GIMP, Snapseed
+
+📍 Location: Pantelleria (Italy)
+
+📅 Date: Aug. 11, 2026
+
+🌌 Sky: Bortle 3",,file:top_year.json
+"The Unanswerable Question: NGC7822 + Sh2-170
+✨ Target: Question Mark N. + Little Rosette N.
+
+🔭 Mount: Star Adventurer 2i
+
+📷 Camera: ASI 294 MC Pro Color
+
+🔎 Scope: Askar FMA180 Pro
+
+🕶️ Filter: Dualband Svbony SV220
+
+🎯 Guide Camera: ASI 120mm Mini Mono
+
+🦮 Guide Scope: Svbony SV165
+
+🔬 Sampling: 2.66""/px (x2 drizzle)
+
+❄️ Cooling: -10°C
+
+🔴 Acquisition: Gain 120
+
+⏰ Integration: 78x300s (6h 30min)
+
+📊 Calibration: 40 dark, 40 flat, 40 dark-flat
+
+💻 Processing: PixInsight, RawTherapee
+
+📍 Location: Turin (Italy)
+
+📅 Date: Oct. 13-14, 2026
+
+🌌 Sky: Bortle 8
+
+This cosmic complex is universally nicknamed by astronomers and astrophotographers as the **""Question Mark Nebula.""** When telescopes capture the entire area with the correct orientation, its immense interstellar clouds form an unmistakable shape:
+
+**The hook of the question mark** is drawn by the arched silhouette of the ionized gas and dark dust filaments of NGC 7822, a spectacular and chaotic star-forming region located roughly **3,000 light-years away** in the northern constellation of Cefeus.
+
+**The dot at the base** is formed by a separate, smaller emission nebula located slightly to the south, cataloged as **Sharpless 170** (also known as the *Little Rosette Nebula*).
+
+While they appear perfectly aligned from our perspective to form a ""cosmic question mark,"" **the two structures are not physically connected**: Sh2-170 sits much further away at about 7,500 light-years. It is a stunning optical illusion of cosmic perspective.",,file:top_year.json
+"Pleadis and the double cluster
+I used a dwarf mini and had 30 sec exposure time through 100 frames on pleadis and 60 for the double cluster, 60 grain, in bortle 7 and edited with lightroom",,file:top_year.json
+"4 million particles 3D n-body simulation on a laptop GPU (Barnes-Hut)
+Hi r/universe, a while ago I made this GPU accelerated Barnes-Hut n-body simulation in CUDA that runs on my laptop at \~430 ms per step.
+
+By fiddling with the simulation parameters I was able to obtain this visually interesting result. The clip shows a sort of bounce back after an initial collapse, starting from a spherical distribution of \~4 million particles. Note that the integration timestep is relatively high, causing numerical instabilities at the collapse point, but I guess that's what is making the particles fly outwards and clump in this peculiar way.
+
+You can find the code at: [https://github.com/lechebs/nbody](https://github.com/lechebs/nbody)
+
+I'd love to get feeback from curious and experts in the field!",,file:top_year.json
+"Elephants trunk nebula IC1396
+I recorded this on my dwarf mini with 60 gain, 214 60 second exposures and 154 30 second exposures and duoband filter. Utilized stellar sudio to denoise and lightroom for finishing touches. 
+
+The Elephant’s Trunk is IC 1396A, a dark globule inside the bigger emission nebula IC 1396. It’s in Cepheus, the king, high in the northern sky in the fall. OnIt’s about 2,400 light-years away. The trunk itself is a column of cold gas and dust about 20 to 25 light-years long. The whole IC 1396 cloud is roughly 100 light-years across.",,file:top_month.json
+"Rosette Nebula ZWO Seestar S50
+Shot on ZWO Seestar S50 in moderately light polluted suburban skies",,file:top_month.json
+"Triangulum Galaxy ZWO Seestar S50
+Shot from moderately light polluted suburban skies, Seestar S50",,file:top_month.json
+"Arcturus ZWO Seestar S50
+Shot from moderately light polluted suburban skies on Seestar S50",,file:top_month.json
+"Find yourself and never turn back
+https://preview.redd.it/eqegm45ne5vh1.jpg?width=1196&amp;format=pjpg&amp;auto=webp&amp;s=1dcac9bfe707babf85eec437177489ec6601b78e
+
+Don’t ask for a rebate, debate, quarrel or anything other than answers.",,file:top_month.json
+"Pillar of creation in bortle 7
+30 exposure per frame 200 frames and 60 grain with a dwarf mini in bortle 7.",,file:new.json
+"El Descubrimiento de la Expansión del Universo: Edwin Hubble y la ley que lleva su nombre.
+Este post puede ser interesante para los miembros de esta comunidad.",,file:controversial.json
+"(dumb post, thoguht of a stoner) MAAAAAAN i freaking2love space and universe
+Idk i remember how i freaking2love space Even i'm music, games, art. It is truly Amazing. But that terrify af",,file:controversial.json
+"Flying next to a black hole and accelerating to see how fast you have to go to move around it.
+It's mindblowing how large black holes really are! In my head, I assumed you could fly around one decently quickly in a normal rocketship. However, this is absolutely not the case. Even at the speed of light, some large black holes barely move since they are so large. Very very scary.",,file:controversial.json
+"Falling into BLACK HOLE, but it is not so simple.
+**There are many, many theories about what would happen if we fell into a black hole**. May be we come out from a white hole, in another universe! Or it may be so dangerous as if our time would just stop.
+
+&amp;#x200B;
+
+[\[VIDEO THUMBNAIL\]](https://preview.redd.it/e2z2g411qns71.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=69867af1772c576e01190f1ab5fbb8f47482de1c)
+
+First you'll need to know about the various theories. Watch the video\[link [https://youtu.be/S\_TQ4DgBCNk](https://youtu.be/S_TQ4DgBCNk)\] Then comment here which could be true...
+
+&gt;My personal opinion is, ***""THE LIMIT IS OUR IMAGINATION""***",,file:spec1.json

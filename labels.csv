@@ -1,17 +1,4 @@
 text,label,note
-"Why does light take so long to escape a star? A random walk, from a 3D atmosphere to the blackboard
-Play
-Apparently I keep coming back to this example... The hair, shirt and classroom change a bit with the years; the random walk remains. Consistency of a physics professor, perhaps? :-)
-
-Here we go from a photon finding its way through our 3D model atmosphere to the simplest possible blackboard model: one step forwards, or one step backwards. The average displacement is zero, so that won’t get us very far. The mean square gives us something more useful.
-
-The neat up-and-down argument is inspired by The Feynman Lectures on Physics, Volume I, §6–3, “The random walk”. Still my favourite way to get to that familiar square root of N.
-
-Lectures and visualisations by Jon Sundqvist, Institute of Astronomy, KU Leuven. The stellar-atmosphere calculation is part of SUPERSTARS-3D.
-
-A note on the two examples in the opening: the 9.7 million scatterings and roughly 98 minutes describe this particular path through our simulated hot-star atmosphere. The roughly 100,000-year solar diffusion timescale refers to a different problem and depends on the solar model.
-
-Questions and corrections are welcome, as always. Enjoy :-)",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
 "DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
 DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
 r/didyouknow
@@ -20,7 +7,7 @@ r/didyouknow
 DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
 r/universe - DYK a neutron star is so dense that a teaspoon of its material would weigh about a billion tons on Earth?
 88 upvotes · 20 comments
-Neutron stars pack more mass than our Sun into a sphere only about 20 km (12 miles) across. Gravity crushes protons and electrons together into neutrons. Estimates for a teaspoon range from hundreds of millions to a few billion tons, depending on the star, so ""about a billion tons"" is a common round figure.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+Neutron stars pack more mass than our Sun into a sphere only about 20 km (12 miles) across. Gravity crushes protons and electrons together into neutrons. Estimates for a teaspoon range from hundreds of millions to a few billion tons, depending on the star, so ""about a billion tons"" is a common round figure.",fact_post,fact
 "Mercury Has Ice, Extreme Temperatures, and a Day Longer Than Its Year
 Play
 Mercury is the closest planet to the Sun, but there's much more to this small world than meets the eye.
@@ -29,9 +16,9 @@ Despite being so close to the Sun, Mercury has water ice hidden inside permanent
 
 It also has an enormous metallic core and mysterious surface formations that scientists are still studying.
 
-I made a video exploring Mercury's extreme environment, hidden ice, unusual rotation, and the discoveries that have changed our understanding of this planet.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+I made a video exploring Mercury's extreme environment, hidden ice, unusual rotation, and the discoveries that have changed our understanding of this planet.",fact_post,
 "Can Humanity planet hop when the sun goes red giant?
-How fast or slow will the sun expand into red giant phase? This is a dumb question it if goes fast (explosion) but if it is slow, as in over millions of years, could humanity essentially planet hop by moving to the new habitable zone each time? I know humanity won’t exist then in any case. (Even if we survive, we would have evolved into something unrecognizable to us now.) But thought experiments are fun.",question,"pre-labelled by Claude, NOT YET REVIEWED"
+How fast or slow will the sun expand into red giant phase? This is a dumb question it if goes fast (explosion) but if it is slow, as in over millions of years, could humanity essentially planet hop by moving to the new habitable zone each time? I know humanity won’t exist then in any case. (Even if we survive, we would have evolved into something unrecognizable to us now.) But thought experiments are fun.",question,
 "Thought experiment: If observable universe was the size of the Earth
 Observable universe (diameter ≈ 93 billion light-years) scaled down to Earth’s diameter 12,742
 
@@ -53,7 +40,7 @@ Boötes Void which is massive near empty region of space is 55 kilometers in dia
 
 Cosmological event horizon is 2192km away, ligh speed travel would never allow us to reach further than that.
 
-Thoughts?",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+Thoughts?",speculation,assuming it is their thought/observation
 "Where Did the Universe Come From? Discussing the Biggest Mysteries of Reality with Astrophysicist Geraint F. Lewis
 Hi, everyone, I had a great conversation with Geraint F. Lewis, a Welsh astrophysicist and Professor at the University of Sydney, about some of the biggest questions in cosmology, physics, and our understanding of the world.
 
@@ -63,16 +50,16 @@ Professor Lewis also explores what sparked the Scientific Revolution, how modern
 
 Professor Lewis's latest book, The Shortest History of Reality: From Plato’s Cave to the Mind-Bending Discoveries of Modern Physics — The Human Quest to Explain the World, traces humanity’s changing understanding of reality, from everyday intuition and ancient philosophy to the discoveries of modern physics. It explores the ideas that reshaped our view of existence, from Newton’s universe to the strange probabilities of quantum physics and beyond.
 
-If you're interested in these subjects, you can check out our conversation: https://youtu.be/38rUHEeAVHw",fact_post,"pre-labelled by Claude, NOT YET REVIEWED; hard: promo with facts"
+If you're interested in these subjects, you can check out our conversation: https://youtu.be/38rUHEeAVHw",fact_post,
 "Why is gravity attractive?
 I understand that gravity is the reason planets and stars form and what not. I'm just curious why gravity causes things to attract and not repel or do neither?
 
 Seems like an arbitrary feature of our universe's laws.
 
-So it makes me wonder if gravity could have worked differently if our universe happened to have different laws.",question,"pre-labelled by Claude, NOT YET REVIEWED"
+So it makes me wonder if gravity could have worked differently if our universe happened to have different laws.",question,
 "Why universe love us so much?
-Why universe love us so much? Like see we are conscious and have intelligence and everything can kill us in a second but it doesn't everything in this planet or solar system it protect us and let us get more intelligent. Why only us?",speculation,"pre-labelled by Claude, NOT YET REVIEWED; hard: question vs speculation"
-"The Milky Way and Andromeda are very likely to interact strongly and may merge within a few to several billion years, but recent work shows the outcome and timing aren't certain - there's roughly a ~50% chance of a direct merger and similar odds of a near-miss that delays or avoids a full collision",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+Why universe love us so much? Like see we are conscious and have intelligence and everything can kill us in a second but it doesn't everything in this planet or solar system it protect us and let us get more intelligent. Why only us?",speculation,
+"The Milky Way and Andromeda are very likely to interact strongly and may merge within a few to several billion years, but recent work shows the outcome and timing aren't certain - there's roughly a ~50% chance of a direct merger and similar odds of a near-miss that delays or avoids a full collision",fact_post,
 "My theory related to the universe and its origins
 Guys listen to my theory about the universe, I might sound like a movie geek here.
 We do know that Universe we know was created by big bang but what if big bang isn't the start
@@ -84,7 +71,7 @@ What I want to say is that we have big bang which is start and big crunch which 
 But what if this whole big bang and big crunch thing is just a cycle, like universe keeps operating in a series of big bangs and big crunches and these cycles keep happening in a loop.
 Because like I said time itself as a construct can't be created when the universe appears cause time itself doesn't have a start or an end.
 So are we living in a universe that runs in a loop and that has collapsed and emerged several times?
-I don't know I maybe wrong but that is simply my theory, feel free to correct me.",speculation,"pre-labelled by Claude, NOT YET REVIEWED"
+I don't know I maybe wrong but that is simply my theory, feel free to correct me.",speculation,
 "Those Kepler-138s
 Today I had planned on writing about Water Worlds; I picked two, Kepler-138 c and d. Their bulk density, that is their radii and mass estimates tell us there is significant water on both. Here are the rendering my own algorithm came up with.
 
@@ -104,13 +91,13 @@ u/Exoplanetary-Systems - Snippet of my weekly download of exoplanets. Source fro
 Snippet of my weekly download of exoplanets. Source from https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+*+from+ps&format=json
 This gives me: the orbital period, orbital distance, the planet’s mass; radius; density; and then some data about the host star like the radius, mass, and luminosity. From the orbital distance, my formula determined these worlds to be tidally locked hot eyeball worlds. From the from density and radius data the article’s author determined them to be water-worlds. Both are correct.
 
-The James Webb Space Telescope will one day give us actual atmospheric spectra for Kepler-138 c and d. When that happens I’ll have more data points and can make better educated guesses. I’m taken back to an earlier article of mine, “To What End?” in which Hypatia of Alexandria mapped the sky with instruments that couldn’t resolve a planet’s face. Now we’ve refined our instruments to detect molecular signatures in exoplanet atmospheres. We still can’t say with confidence what these Kepler-138 planets look like from the surface. The gap between “we detected water vapor” and “here is what the ocean looks like” is where we live. It’s a fantastic time to be alive.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+The James Webb Space Telescope will one day give us actual atmospheric spectra for Kepler-138 c and d. When that happens I’ll have more data points and can make better educated guesses. I’m taken back to an earlier article of mine, “To What End?” in which Hypatia of Alexandria mapped the sky with instruments that couldn’t resolve a planet’s face. Now we’ve refined our instruments to detect molecular signatures in exoplanet atmospheres. We still can’t say with confidence what these Kepler-138 planets look like from the surface. The gap between “we detected water vapor” and “here is what the ocean looks like” is where we live. It’s a fantastic time to be alive.",fact_post,
 "Is our local group a part or more specifically bound to something larger?
 As space continuous to expand in every space not bound by gravity the distance between them expands. I know our local group is gravitational bound and will become another galaxy. we are also a part of the local supercluster, but the problem is we are not gravitational bound with it we just somehow going with the flow idk where to but the space between will continue to expand.
 
 Now it got me to ponder if travel between our galaxies possible in our local group it will get easier but outside our local group will get harder and harder.
 
-I am hoping or I want to know if our local group is gravitational bound to another local group. the more the merrier.",question,"pre-labelled by Claude, NOT YET REVIEWED"
+I am hoping or I want to know if our local group is gravitational bound to another local group. the more the merrier.",question,
 "Pluto went from a blurry dot to a surprisingly complex world.
 Pluto and the Mind: When Clearer Sight Changes Everything
 r/AcharyaPrashant_AP
@@ -125,11 +112,11 @@ I was thinking about something beyond astronomy .. How frequently we mistake an 
 
 Pluto is a nice reminder that better observation can completely change the story we thought we already understood. Isn’t it ?
 
-Very curious to know what other discovery in astronomy made you realise how incomplete our previous picture of the universe was?",question,"pre-labelled by Claude, NOT YET REVIEWED; hard: fact_post vs question"
+Very curious to know what other discovery in astronomy made you realise how incomplete our previous picture of the universe was?",fact_post,
 "Could a universe devoid of matter and energy exist?
 Could a realm of totally empty space possibly exist? A place without matter, without energy, without particles or a single atom, with no singularity for anything to explode from but only a simple void, how could “existence” be determined? Obviously, this is purely a thought exercise because without an observer to recognize and identify the state of “being”, there’s no awareness to define it. Looking from the outside into what could only be described as an empty black bag of nothingness, how could such a place be measured? Is it big or small and relative to what standard with nothing in it to define any dimensions? Time would still exist if it is an intrinsic feature of “space” and inseparable from it, but what quality could define space with nothing occupying it to measure it against and no awareness to recognize it? It seems to follow that no version of “reality” is possible without, at minimum, a single partical or atom for it to contain. There can be no “container” without something for it to contain. In our universe, space isn’t “nothing” because it exists and contains all the “somethings” in our reality. It has certain features in that it can be warped by mass and its expansion can be measured relative to bits of matter moving apart to create “dimension”. Without something to compare nothing against, how could anything be? It seems therefore that for a universe to exist, it must have something in it to qualify it. But can there be any “something” without some form of awareness to acknowledge it? Otherwise, how can it be defined as “real”?
 
-Does this mean then that matter/energy must be for a universe to exist and is therefore intrinsic to its manifestation? Wouldn't it also then follow that some kind of awareness would also be needed to define “something” vs “nothing”, thereby making consciousness an essential part of reality itself? After all, how could anything be without an observer to acknowledge that there is “something” as opposed to “nothing”? Doesn't this mean that no objective reality is possible without some awareness to acknowledge it's existence? As such, it seems both matter/energy and a consciousness to acknowledge it is not “nothing” are required for a universe to exist at all.",speculation,"pre-labelled by Claude, NOT YET REVIEWED"
+Does this mean then that matter/energy must be for a universe to exist and is therefore intrinsic to its manifestation? Wouldn't it also then follow that some kind of awareness would also be needed to define “something” vs “nothing”, thereby making consciousness an essential part of reality itself? After all, how could anything be without an observer to acknowledge that there is “something” as opposed to “nothing”? Doesn't this mean that no objective reality is possible without some awareness to acknowledge it's existence? As such, it seems both matter/energy and a consciousness to acknowledge it is not “nothing” are required for a universe to exist at all.",question,
 "51 Pegasi b, the Nobel Prize Exoplanet
 You know the Doppler effect, when a screaming siren has a different pitch when it approaches vs. when it recedes? That’s how the exoplanet, 51 Pegasi b was discovered, and the technique is called the radial velocity method.
 
@@ -147,44 +134,44 @@ We learned that planets do not stay in fixed orbits. That over time they can mig
 
 Here’s a great explanation of the positions of Jupiter, Saturn, and why Mars is so small compared to Earth and Venus. https://youtu.be/cPouwOKMS2s?si=yNvWVv4O5D0FGw25
 
-I’ll leave you with a NASA post card from 51 Pegasi b along with my own rendering of this intriguing milestone world and a link to exoplanetary.systems with renderings of all 6300+ exoplanets discovered to date",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+I’ll leave you with a NASA post card from 51 Pegasi b along with my own rendering of this intriguing milestone world and a link to exoplanetary.systems with renderings of all 6300+ exoplanets discovered to date",fact_post,
 "PHYS.Org: A tiny stellar system may be a 'satellite of a satellite'
 r/universe - PHYS.Org: A tiny stellar system may be a 'satellite of a satellite'
 phys.org
-Astronomers using data from the Euclid space telescope have discovered an exceptionally faint stellar system near the Fornax dwarf galaxy. Called Fornax-7, it appears to contain only about 170 times the mass of the sun in stars. The discovery paper was posted to the arXiv preprint server on Sept. 13.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+Astronomers using data from the Euclid space telescope have discovered an exceptionally faint stellar system near the Fornax dwarf galaxy. Called Fornax-7, it appears to contain only about 170 times the mass of the sun in stars. The discovery paper was posted to the arXiv preprint server on Sept. 13.",fact_post,
 "Recent potential Dark Matter detection
-I recently read the some experiments had 2.6 sigma dark matter detection. Can someone explain in simple words?",question,"pre-labelled by Claude, NOT YET REVIEWED"
+I recently read the some experiments had 2.6 sigma dark matter detection. Can someone explain in simple words?",question,
 "What is your favorite dwarf planet?
-Mine used to be pluto but now its makemake",question,"pre-labelled by Claude, NOT YET REVIEWED"
+Mine used to be pluto but now its makemake",question,
 "Interesting facts about Earth and the Universe
-I'm very interested in learning about the things that have happened on Earth and in the Universe. I don't know where to start researching, but I really want to learn more. I love the Carboniferous Period, the Carnian Period, dinosaurs, etc. Honestly, I'll appreciate any fun facts you think I'd find interesting!",question,"pre-labelled by Claude, NOT YET REVIEWED"
-Two galaxies are colliding 60 million light-years away - and this is what it looks like,fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-How did life come to earth? How did plants just form and animals come from no where? (no religious explanations),question,"pre-labelled by Claude, NOT YET REVIEWED"
-"At the end of everything in the universe after the heat death and eventual end of matter via black holes, would the collision of super massive bhs into one final bh be strong enough to shrink space itself and time with it into that one black hole? Or would the black hole thats left encompasses the s",question,"pre-labelled by Claude, NOT YET REVIEWED; truncated post"
+I'm very interested in learning about the things that have happened on Earth and in the Universe. I don't know where to start researching, but I really want to learn more. I love the Carboniferous Period, the Carnian Period, dinosaurs, etc. Honestly, I'll appreciate any fun facts you think I'd find interesting!",fact_post,
+Two galaxies are colliding 60 million light-years away - and this is what it looks like,fact_post,
+How did life come to earth? How did plants just form and animals come from no where? (no religious explanations),question,
+"At the end of everything in the universe after the heat death and eventual end of matter via black holes, would the collision of super massive bhs into one final bh be strong enough to shrink space itself and time with it into that one black hole? Or would the black hole thats left encompasses the s",question,
 "Are we closer to the Biggest or the Smallest thing in existence... in the whole universe?
 The smallest and biggest thing isn't known to mankind yet. In fact, it'll never be because either our imagination or the evidence we have won't be even close to those.
 
 At the moment, the smallest, theoretically, thing is the theory of threads making the quark of an atom, but what are those threads really made of? And what is the biggest thing, bigger than a black hole, bigger than the known universe, in existence?
 
-Where would you put yourself? Closer to the smallest or closer to the biggest? Maybe you're in the center, at 50% between a scale from 0-100. But who knows, we'll never understand how the universe really works...",speculation,"pre-labelled by Claude, NOT YET REVIEWED; hard: question vs speculation"
+Where would you put yourself? Closer to the smallest or closer to the biggest? Maybe you're in the center, at 50% between a scale from 0-100. But who knows, we'll never understand how the universe really works...",question,
 "Phoenix A: a galaxy forming stars at an astonishing rate
 r/universe - Phoenix A: a galaxy forming stars at an astonishing rate
 The Milky Way forms roughly 1–2 solar masses of new stars per year. But the central galaxy of the Phoenix Cluster has been observed forming stars at roughly 740 solar masses per year. The Phoenix Cluster contains an enormous reservoir of extremely hot gas. As some of that gas loses energy, it cools and becomes denser. Gravity then pulls the cooling gas toward the cluster's center, where it accumulates and eventually condenses into much colder, denser clouds. Inside those clouds, gravity causes pockets of gas and dust to collapse, forming new stars.
 
 It's essentially a chain: Hot gas → cooling → denser gas → molecular clouds → gravitational collapse → new stars
 
-Another major player in the middle is an active supermassive black hole. It is also feeding on the surrounding gas, while its powerful jets inject energy back into the environment and can affect how quickly the gas cools.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+Another major player in the middle is an active supermassive black hole. It is also feeding on the surrounding gas, while its powerful jets inject energy back into the environment and can affect how quickly the gas cools.",fact_post,
 "realtime 100M particle nbody simulation on a laptop, using AI autoresearch (higher resolution)
 Play
-It doesn’t display all 100M particle (that’s too many particles to display) but a density map, the 100M particles are properly simulated though (gravity only, no dark matter, no heat, no fusion/explosion). I need to make a new video without the flashing. I’ll publish the code as well but it’s AI slop in its current state. I’ll clean it up manually (yes, i can code ^^). it’s running at ~ 32fps so the simulation is technically a bit faster than the video. The initial distribution can be tuned via cmdline argument.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+It doesn’t display all 100M particle (that’s too many particles to display) but a density map, the 100M particles are properly simulated though (gravity only, no dark matter, no heat, no fusion/explosion). I need to make a new video without the flashing. I’ll publish the code as well but it’s AI slop in its current state. I’ll clean it up manually (yes, i can code ^^). it’s running at ~ 32fps so the simulation is technically a bit faster than the video. The initial distribution can be tuned via cmdline argument.",fact_post,
 "The Pale Blue Dot.
 r/universe - The Pale Blue Dot.
 Voyager 1 was speeding out of the solar system — beyond Neptune and about 3.7 billion miles (6 billion kilometers) from the Sun — when mission managers commanded it to look back toward home for a final time. It snapped a series of 60 images that were used to create the first “family portrait” of our solar system.
 
-The picture that would become known as the Pale Blue Dot shows Earth within a scattered ray of sunlight. Voyager 1 was so far away that — from its vantage point — Earth was just a point of light about a pixel in size.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
+The picture that would become known as the Pale Blue Dot shows Earth within a scattered ray of sunlight. Voyager 1 was so far away that — from its vantage point — Earth was just a point of light about a pixel in size.",fact_post,
 "A 3D map of the matter distribution of the local universe got update: now every one of its 43,500 real galaxies can be identified and searched
-A 3D map of the m",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-How do you think Earth would respond to finding an alien planet's version of the Voyager Space Probe?,question,"pre-labelled by Claude, NOT YET REVIEWED"
+A 3D map of the m",fact_post,
+How do you think Earth would respond to finding an alien planet's version of the Voyager Space Probe?,question,
 "How Do We Define the Largest Structures in the Universe?
 While researching the largest structures in the universe, I came across something I hadn't thought about before:
 How do we decide when a distribution of galaxies becomes a single cosmic structure?
@@ -195,9 +182,9 @@ Are these truly unique structures, or are we only beginning to uncover the enorm
 Quipu, spanning roughly 1.4 billion light-years, is a fascinating example.
 The more I looked into this, the more interesting the question became.
 
-https://youtu.be/h9Ci__uhAGo?si=I2m2aP24RxN2sQJn",question,"pre-labelled by Claude, NOT YET REVIEWED; hard: fact_post vs question"
+https://youtu.be/h9Ci__uhAGo?si=I2m2aP24RxN2sQJn",question,
 "What do you think on the expansion of universe
-Let's just talk about the expansion of the universe what are your thoughts and theories on it and what is the universe expanding for",question,"pre-labelled by Claude, NOT YET REVIEWED"
+Let's just talk about the expansion of the universe what are your thoughts and theories on it and what is the universe expanding for",question,
 "Elephants trunk nebula IC1396
 
 r/universe - Elephants trunk nebula IC1396
@@ -208,15 +195,1508 @@ Page 2
 Item 1 of 2
 I recorded this on my dwarf mini with 60 gain, 214 60 second exposures and 154 30 second exposures and duoband filter. Utilized stellar sudio to denoise and lightroom for finishing touches.
 
-The Elephant’s Trunk is IC 1396A, a dark globule inside the bigger emission nebula IC 1396. It’s in Cepheus, the king, high in the northern sky in the fall. OnIt’s about 2,400 light-years away. The trunk itself is a column of cold gas and dust about 20 to 25 light-years long. The whole IC 1396 cloud is roughly 100 light-years across.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-"If energy can neither be created nor destroyed, where did it come from, and I need real critical thinkers here please.",question,"pre-labelled by Claude, NOT YET REVIEWED"
+The Elephant’s Trunk is IC 1396A, a dark globule inside the bigger emission nebula IC 1396. It’s in Cepheus, the king, high in the northern sky in the fall. OnIt’s about 2,400 light-years away. The trunk itself is a column of cold gas and dust about 20 to 25 light-years long. The whole IC 1396 cloud is roughly 100 light-years across.",fact_post,
+"If energy can neither be created nor destroyed, where did it come from, and I need real critical thinkers here please.",question,
+"In November 18 2026, voyager 1 will be one light-day away from us.",fact_post,
+"C27 crescent nebula bortle 7
+Edited puurely on lightroom and stellar studio. This was recoreded on a dwarf mini and had a total of 475 frames 45second exposures, duoband and 60 gain. I will be using stacking wizard and astrowizard later today to make the image better.",fact_post,
+"The Superluminous Aether: Why the Cosmic Vacuum Appears Empty Yet Conceals Enormous Superluminal Energy
+researchgate.net",question,
+"Why do galaxies almost always have a supermassive black hole at their center? Why the center specifically
+I don’t understand why the black hole is always in the middle.
+
+Is it because gravity pulls everything inward over time?
+
+Or did the black hole form first and the galaxy formed around it?
+
+Why does the center of a galaxy end up having such a massive object instead of it being somewhere random?",question,cold
+"Do Black Hole Stars Exist
+Black hole stars may have powered the universe’s first light.
+
+Astrophysics postdoctoral fellow Rohan Naidu of MIT Kavli Institute for Astrophysics and Space Research, explores the idea that some early cosmic objects were not powered by nuclear fusion like our Sun, but by a black hole at their core. These massive, gas-filled structures could explain the mysterious “little red dots” spotted in deep space images of the early universe. If true, black hole stars may have played a major role in the rapid growth of supermassive black holes and the formation of the first galaxies.",fact_post,cold; relabeled after rule clarification
+"Where does the Solar System actually end? Kuiper Belt? Oort Cloud? Heliopause??
+I always thought the Solar System was simple:
+
+it starts at the Sun and basically ends at the Kuiper Belt (Neptune/Pluto area).
+
+But then I keep seeing terms like Scattered Disk, Heliopause, and Oort Cloud, and now I’m confused",question,cold
+"I wonder if one day we will be able to colonize the moon and make it habitable?
+Total Solar Eclipse by the Moon captured by Artemis II mission",question,cold; relabeled after rule clarification
+"Space Is Expanding While You Watch This
+Space is getting bigger right now. 🔭
+
+Erika Hamden explains why galaxies appear to move away from us, not because they are speeding through space, but because space itself is expanding between them. Astronomers discovered this cosmic expansion more than 100 years ago, and today scientists think it may be accelerating because of something we still do not fully understand called dark energy. There is literally more space now than when you started watching this video. 
+
+This project is part of IF/THEN®, an initiative of Lyda Hill Philanthropies.",fact_post,cold
+"How We Find Earth-Like Planets
+Finding another Earth isn’t easy, it’s a cosmic challenge. 🌍
+
+Avi Shporer, a research scientist at the MIT Kavli Institute, studies how astronomers detect planets beyond our solar system. We’ve found thousands of exoplanets, but Earth-sized, rocky worlds remain some of the hardest to spot. Their small size makes them incredibly difficult to detect around distant stars. Their year-long orbits make them even harder to find, which is why so few true Earth-like planets have been confirmed.",fact_post,cold; relabeled after rule clarification
+"IC 1396 - The Elephant's Trunk Nebula (SHO, 23hrs)
+Full-resolution image: [https://app.astrobin.com/i/u5q68q](https://app.astrobin.com/i/u5q68q)
+
+Floating in Cepheus, roughly 2,400 light-years away, this is IC 1396, a vast emission nebula over 100 light-years across, ionised by the massive star system HD 206267 at its heart. Snaking through the glow is the Elephant's Trunk: a dense, dark pillar of gas and dust about 20 light-years long, where gravity is forming new stars even as radiation slowly erodes it away.
+
+The whole region spans nearly 3° of sky, or about six full moons side by side. That faint blue ""star"" to the right isn't a star at all, but PK 100+04.1, a planetary nebula: the glowing shell ejected by a dying star, shining almost entirely in ionised oxygen.
+
+Two more faint objects caught my eye in this frame: a blue, semi-circular cloud near the top, and a red, two-lobed shape to the left of the main nebula. I nearly submitted them as new discoveries, but both turned out to be known planetary nebulae, Cr 1 and StDr 4 (just obscure enough that I'd never crossed paths with them before).
+
+The light in this image left IC 1396 around 374 BC. Back on Earth, Athens had just lost the Peloponnesian War, her Long Walls torn down after her last fleet was destroyed at the Hellespont; Socrates was condemned to death in Athens, while Hippocrates founded his school of medicine on Kos. All of that happened before this light even began its journey.
+
+Acquisition:
+
+* Shot in Bedfordshire, UK, Bortle 5-6
+* RGB (Stars): 1h 30min
+* SHO: 21h 15min
+
+Equipment:
+
+* ZWO FF65 + 0.75x reducer
+* ZWO EAF
+* Altair Hypercam 26M
+* Altair 7x2"" EFW
+* Antlia 3nm Pro SHO filters
+* Altair ColourPRO LRGB
+* SW EQ6R-Pro
+* Astromenia 50/200 Guide Scope + ZWO ASI120MM Mini + IR/UV Cut",fact_post,cold
+"We are literally made of dead stars
+The Carl Sagan’s phrase “We are made of stardust” got me hooked. I’ve heard about it before as well but at some point i have a desire to explore it deeply, to get to the essence of his words.    
+The more you dive into this topic, the more details appear.    
+The origin of dust and gas is a moment where the concept of star matter comes into effect. A significant part of the material that later formed the Solar System consist of hydrogen and helium, the elements that have existed since the early stages of universe. However, the more complex and heavy elements such as carbon, oxygen, nitrogen, iron and others first appeared much later, approximately the hundreds of millions of years after the Big Bang.  At that moment hydrogen and helium started to collapsing under gravity and gave rise to the first generation of starts. The formation of elements first began to form exactly inside the stars.    
+There were multiple of reactions of nuclear fusion under the immense influence of pressure and temperature, light elements slowly fused into heavier ones. This is how the complexity of matter was born, forming the basis of everything around us.    
+When a star runs out of fuel and breaks apart, it releases all the material that was once inside it into space. This material becomes the raw material for future generations of stars, planets, and star systems. Thus, the universe works like a continuous cycle: starts are born from the remnants of previous generations, the exhaustion of their fuel, explosion and the dispersal of matter back into space – from this, new systems gradually form, and ultimately the Earth emerges. Over time, life arises from the same recycled stellar materials.    
+The phosphorus is also take place in our structure. For instance, iron in our blood was formed deep inside a massive star once upon a time. Then its explosion was able to outshine an entire galaxy like the Milky Way due to its power. As a result, everything we perceive as living or non-living is actually made from the remnants of long-dead starts.
+
+“As Carl Sagan said:    
+The nitrogen in our DNA, calcium in our bones, iron in our blood and carbon in our apple pies was originated deep inside collapsing stars. We are made of stellar materials.”
+
+“Lawrence Krauss:    
+Every atom in our body was formed from exploded star. Perhaps, the atoms of your left hand belonged to another star than those in right hand. It’s the most poetic thing i know about physics: we all are a stardust. “",fact_post,cold; relabeled after rule clarification
+"Open-source browser model of the universe built from HYG, Gaia, NED and JPL catalogs
+There's a browser-based model of the universe at ""Your Eyes In Space"" that this sub might appreciate. Free, open source, nothing to install
+
+It's basically real catalogs wired into one continuous scene: Solar System bodies on JPL elements with a time control, 109,000 stars from HYG with their parallaxes and spectral types, 55 galaxies at NED/SIMBAD distances, Sgr A\* with the S-stars on their GRAVITY/Keck orbits, a handful of other black holes and pulsars with catalog parameters, nebulae and clusters at literature positions, and the deep-space probes on their trajectories. Anything that isn't catalog data is labelled procedural, and there's a toggle that tints all of it so it's always clear what's real and what's filler.
+
+The plan for it is to grow into a proper learning platform, basic physics and astrophysics with the universe as the blackboard. There are some narrated tours in there already as a first step. If something's in the wrong place or a distance doesn't match the literature, the project's on GitHub and takes issues.",fact_post,cold
 "Billions of years from now, the Sun will enter its red giant phase.
-Play
 Mercury and Venus are expected to be engulfed as the Sun expands. Earth will become uninhabitable long before that, while the surviving planets will gradually move into wider orbits as the Sun loses mass. But there’s an unexpected twist: as the Sun expands, its habitable zone will move outward. Some of the icy moons around the outer planets could temporarily enter a region where conditions might allow liquid water to exist.
 
-https://youtu.be/AMHOrMpQlzw",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-"In November 18 2026, voyager 1 will be one light-day away from us.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-"C27 crescent nebula bortle 7
-Edited puurely on lightroom and stellar studio. This was recoreded on a dwarf mini and had a total of 475 frames 45second exposures, duoband and 60 gain. I will be using stacking wizard and astrowizard later today to make the image better.",fact_post,"pre-labelled by Claude, NOT YET REVIEWED"
-"The Superluminous Aether: Why the Cosmic Vacuum Appears Empty Yet Conceals Enormous Superluminal Energy
-researchgate.net",speculation,"pre-labelled by Claude, NOT YET REVIEWED"
+[https://youtu.be/AMHOrMpQlzw](https://youtu.be/AMHOrMpQlzw)",fact_post,cold; relabeled after rule clarification
+"Why does light take so long to escape a star? A random walk, from a 3D atmosphere to the blackboard
+Apparently I keep coming back to this example... The hair, shirt and classroom change a bit with the years; the random walk remains. Consistency of a physics professor, perhaps? :-)
+
+
+
+Here we go from a photon finding its way through our 3D model atmosphere to the simplest possible blackboard model: one step forwards, or one step backwards. The average displacement is zero, so that won’t get us very far. The mean square gives us something more useful.
+
+
+
+The neat up-and-down argument is inspired by The Feynman Lectures on Physics, Volume I, §6–3, “The random walk”. Still my favourite way to get to that familiar square root of N.
+
+
+
+Lectures and visualisations by Jon Sundqvist, Institute of Astronomy, KU Leuven. The stellar-atmosphere calculation is part of SUPERSTARS-3D.
+
+
+
+A note on the two examples in the opening: the 9.7 million scatterings and roughly 98 minutes describe this particular path through our simulated hot-star atmosphere. The roughly 100,000-year solar diffusion timescale refers to a different problem and depends on the solar model.
+
+
+
+Questions and corrections are welcome, as always. Enjoy :-)",fact_post,cold; relabeled after rule clarification
+"Do you think the universe came to existence by destiny or just a incredibly low chance ?
+By destined I don’t mean the God or religions, I mean liki some law “a must”. I hope my question is clear to understand",question,cold
+"Are we on the verge of detecting a definitive alien technosignature?
+Lately I’ve been reading about technosignatures. Things like laser pulses, unusual light patterns, strange transits, or anything that could indicate advanced technology beyond Earth.
+
+With advances in AI, sky surveys, and next-generation telescopes, it feels like our ability to search for technosignatures is scaling up dramatically in the next 10-30 years. Do you think we could find evidence so strong that it would be widely accepted as an alien technosignature within our lifetime?",question,cold
+"Are there any answers in the cosmos that can’t also be found by going smaller instead of bigger?
+If reality is consistent across scales, then maybe the deepest insights are just as easy to find in the small structures we've not yet discovered, as they are in distant galaxies.  Miniaturization. Higher resolution observation. Understanding smaller and smaller systems with greater precision.",speculation,cold; relabeled after rule clarification
+"Is space expansion a theory or a fact?
+Hi! As per title. Until now I thought expansion of space time was a fact, but recently I've read different interpretations of the phenomenon. Is it actually a \*certain\* fact or a potentially temporary explanation?",question,cold
+"Is the universe really flat?
+This image shows the results of the BOOMERanG experiment, which studied the cosmic microwave background radiation, the remnant radiation from the Big Bang. The measurements showed that the universe is geometrically flat on a cosmological scale, meaning that the curvature of spacetime is very close to zero, rather than a two-dimensional surface. This finding is one of the most important discoveries in cosmology because it supports the Big Bang model and is consistent with the predictions of the theory of cosmic inflation, which posits that the massive expansion at the beginning of the universe resulted in its geometry appearing flat. The WMAP and Planck missions later confirmed this result with even greater precision, making the flat universe model the most consistent with observational evidence available to date.",fact_post,cold; relabeled after rule clarification
+"If you don't like the theory of panspermia, please respond.
+Even if you don't believe in panspermia because of whatever logical conceit that you use to dismiss it, you must accept that for over 3.5+ billion years somehow the Earth has housed the exact sort of microbes that can easily travel to, infect, and propagate on other terran bodies.
+
+So even if your geocentric views on the origin of life are true, panspermia must have been occurring locally for billions of years.
+
+If you dispute this, please tell us what celestial event could possibly sterilize the estimated 10^41 self-replicating microbes that have supposedly existed in the entire history of Earth, especially considering that each and every of these microbes is fully capable of becoming the LUCA of all subsequent life on any other terran body that contains liquid water and chemical energy?
+
+And every time so-called ""astrobiologists"" find what they all once agreed were chemical signatures of life literally everywhere, these former biosignatures are written off the exact same way that the Catholic church wrote off heliocentrism. Instead of accepting that any self-replicating system capable of infecting other places obviously must have done so after having ben given countless millions of chances to spread over (at least) 3.5+ billions of years, ""astrobiologists"" desperately seek non-microbial explanations for every disequilibrium that was previously accepted as a clear biosignature.",speculation,cold; relabeled after rule clarification
+"STEM Major and Religion
+My question is surrounded around the unknown. And this could be controversial, but I mean it with an open mind and heart coming from someone whose read a handful of books written by some of the top voices in theoretical physics, astrophysics and orbital mechanics, and more. 
+
+What percent, and this was posed by a top religious voice that debates a lot, of the universe is known or our understanding of how physics work within the universe?
+
+I do subscribe to theoretical physics and what the math shows. 
+
+But I think the discussion was around if the response to the question isn’t close to 100% why isn’t there a possibility of a creator, God and Christ, possible and still fall in line with the modern day theories, which I still think the term theory is over-used in a way. Especially if you subscribe to the infinite universe idea where every possible iteration/derivative occurs at every second. 
+
+Truly wanting to have a civil discussion on this.",question,cold; relabeled after rule clarification
+"The Dream or Reality?
+Today, I dreamed. A voice overlooking the universe speaking, yet  there was no sound, it was like the words it spoke was somehow getting imprinted in my mind. There was a quote which even though I don't remember word to word but got the meaning of it stated : ""The chapter of **Humanity** is currently in it's initial phase, this story has been in the **Exploration** phase for a quite long time, but soon there will be revelations. A new verse, **Multiverse** is coming.""
+
+When I woke up in sweat, only this message remained in my head. There was more to the dream that I can't remeber but only this gist. 
+
+I know I might sound a bit Animist or Oneiromancer but this was indeed something else. There are theories going around that the dream we see is our consciousness connection to a parallel world and what we see is somehow getting us entangled with that realm. We also believe that there is a possibility of multiverse existing. We have ancient scriptures talk about it as well.
+
+It could also be some thoughts venturing deep within my mind taking the shape of dream. Or it might be a resonance to something outside our knowledge. But this did send me into deep thoughts that what if its true, maybe not an immediate factor but what if. I mean, I do get myself involved with the mysteries of universe quite alot so could be a dream created by my desire.
+
+I don't quite understand the message as it could have multiple meaning like 
+1. A new universe is getting born
+2. Us being able to discover traces of other universes
+3. Or maybe our universe in some manner getting connected to other universes.
+
+The possibility of getting connected with other universe does give rise to many questions though. The first being how is it going to happen? 
+- Will be a tear in space-time fabric?
+- Will we be able to find the existence of wormhole?
+Maybe an incredibly dense energetic phenomenon?
+
+I don't know. But I thought of speaking my mind out here. Whether this means something or not. Please, do share if you have any take on this.
+
+Regards",speculation,cold; relabeled after rule clarification
+"Expansion of the universe or....?
+first of all, sorry for my english. Unfortunately I live in modern Russia, it is difficult to practice English here.
+There is a theory of the expansion of the universe, according to which space expands.
+In addition, a substance consists of positively or negatively charged elements.
+Hence the question. What if it is not space that expands, but matter that decreases? For example, the charge of elements of particles of matter decreases, but space remains unchanged. The redshift effect will persist as matter decreases
+I'm interested in your opinion.",speculation,cold; relabeled after rule clarification
+"3D map of an actual local universe you can fly through, made using real data from cosmic survey 2MRS
+Hey all, check out this.
+
+It’s called Know the Universe. You fly through the cosmic web: the actual large-scale structure of the nearby universe, with its filaments, voids, and clusters. The galaxies are not procedural or faked. They are \~43,500 real galaxies from the 2MRS redshift survey. I take their RA, Dec, and redshift, convert them to Cartesian megaparsecs with a Hubble-law distance, and that point cloud is what you fly through.
+
+Every dot is a galaxy and we can see up to 1Bn years.
+
+There are a lot of visual settings and shaders to help visualize the cosmic web.
+
+Feel free to ask any questions or try it at [https://knowtheuniverse.com/](https://knowtheuniverse.com/)
+
+EDIT: added orbit mode as requested",fact_post,
+"The Fastest Human-Made Object
+This is NASA’s Parker Solar Probe, the fastest human-made object video 📸 ever.
+
+It reached a speed of around 687,000 km/h while passing close to the Sun.
+
+The spacecraft came as close as about 6.2 million km from the Sun’s surface.
+
+It was launched in 2018 to study the Sun, especially its corona and solar wind.
+
+Imagine travelling at almost 7 lakh km/h this close to the Sun. ☀️🚀",fact_post,
+"The Pale Blue Dot .
+*Voyager 1 was speeding out of the solar system — beyond Neptune and about 3.7 billion miles (6 billion kilometers) from the Sun — when mission managers commanded it to look back toward home for a final time. It snapped a series of 60 images that were used to create the first “family portrait” of our solar system.*
+
+*The picture that would become known as the Pale Blue Dot shows Earth within a scattered ray of sunlight. Voyager 1 was so far away that — from its vantage point — Earth was just a point of light about a pixel in size.*",fact_post,
+"Space question : What space fact made like this 🫪 ! (Gives new perceptive)
+Source : nasa hubble 
+
+Fact : if you point your pinky , before your screen , approx there 1000 - many galaxies are filled in your small pinky",speculation,
+"Black Hole at Center of Milky Way?!
+At the center of our galaxy lives a supermassive black hole called Sagittarius A\*. 🔭
+
+Amanda Peake, a PhD candidate at the MIT Kavli Institute, explores Sagittarius A\*, the supermassive black hole at the center of our galaxy. Astrophysicists are so fascinated by it because it controls our entire galaxy. The Sun is in orbit around Sagittarius A\*, which means our existence here on Earth is fundamentally dictated by it. Everything in our galaxy is arranged in a spiral around the massive black hole at the center.",fact_post,
+"Why did we photograph Messier 87’s black hole instead of a closer one?
+I know the famous First image of a black hole was taken of the black hole in M87 even though it’s around 55 million light years away from us.
+
+So why didn’t scientists just photograph a black hole in a much closer galaxy like Andromeda instead (assuming the black holes are somewhat similar in size)?
+
+Does distance matter less than size somehow? Or was the M87 black hole just easier to image for technical reasons?",question,
+"Can someone explain the difference between the Virgo Cluster, Virgo Supercluster, and Laniakea in simple terms?
+I’m a bit confused about large-scale structures in the universe.
+
+I keep seeing these names:
+	•	Virgo Cluster
+	•	Virgo Supercluster
+	•	Laniakea Supercluster
+
+Can someone explain what the difference is between them in simple language?
+Like:
+	•	Which one is bigger?
+	•	Which one contains the Milky Way?
+	•	Are they nested inside each other or totally separate?
+
+I don’t have a strong astronomy background, so an easy explanation would really help. Thanks!",question,
+"If the universe is expanding, what is it expanding into?
+If the universe has been expanding, what exactly is it expanding into? If there was no space outside the universe to begin with, how can we say that the universe is getting bigger, and what does ‘outside the universe’ even mean?”",question,
+"what is beyond Observable universe?
+As we know, beyond Earth lies the Solar System  but I wonder what could be beyond the observable universe. Could it be that our universe is rotating around an even bigger sun?",question,
+"An Hourglass Pattern Around a Dying Star
+I couldn’t find the video, but in it they compared this image with the description in Ezekiel’s vision of a cherub. If this is a real photo and such phenomena are common, then it would mean that all the Holy Scriptures are descriptions of space. So my question is: how did they see all of this without telescopes in order to describe it?",fact_post,
+"Had a thought and wondering if this is a legit theory somewhere involving black holes and the beginning and end of the universe..
+I’ve heard that through the “life cycle” of the universe, we are still in the infantile stage more or less. In billions of years, all the stars will eventually burn out and there will be a “dark period” and eventually there will be nothing but black holes in the whole universe. Assuming this is true, what if the Big Bang is the death of the previous universe? Like there’s one mega black hole left that swallowed everything in its universe and hits the limit and explodes re-releasing everything back out into the new space and it starts all over again. It this a thing somewhere I can look up or who has cool thoughts on this I’m curious",speculation,
+"What's in the space between galaxies?
+Is there actually something? Is it possible for a planet or a star to be in that space?",question,
+"Stars Are Orbiting Sagittarius A*!
+Did you know there are stars orbiting a black hole at the center of the Milky Way? 🌌
+
+Astrophysicist Erika Hamden tells us about this star cluster that lives around Sagittarius A\* and what it teaches us about the black hole. Scientists have been tracking these stars for decades, watching them complete full orbits. Those orbits are actually how we know the black hole is there, and researchers use them to measure its mass and pin down its exact location.
+
+This project is part of IF/THEN®, an initiative of Lyda Hill Philanthropies.",fact_post,
+"Why does the universe even exist? Still not satisfied with any explanation.
+I’ve been going down the rabbit hole of understanding the universe—reading about things like the Big Bang theory, steady state theory, and different scientific and philosophical perspectives.
+
+But the more I read, the more I feel like I’m just scratching the surface.
+
+I still can’t wrap my head around some basic questions:
+
+Why does the universe exist in the first place?
+
+What is the reason for our existence?
+
+Why are there so many planets and galaxies out there?
+
+And the biggest one—who or what created all of this?
+
+I understand that science explains the how to some extent, but the why still feels completely unanswered.
+
+Despite all the information out there, I don’t feel satisfied. If anything, it’s made me more curious (and a bit overwhelmed).
+
+I’d really love to hear your perspectives—whether scientific, philosophical, or even personal beliefs. What do you think about the creation and purpose of the universe?",question,
+"The universe feels way too big for us to be the only intelligent life
+Sometimes I think about how there are billions of stars and planets out there and it feels statistically impossible that we're the only civilization 
+
+&amp;#x200B;
+
+I'm not saying aliens are visiting Earth or anything like that but the sheer size of the universe makes me wonder 
+
+&amp;#x200B;
+
+When you start thinking about how many galaxies there are and how many stars are in each one it becomes hard to imagine that Earth is the only place where intelligent life ever developed 
+
+&amp;#x200B;
+
+Do you think intelligent life is common,rare or are we actually alone?",speculation,
+"Blood on the Tracks: Hydrogen-alpha emission across the Milky Way
+Those deep red clouds glowing across the Milky Way are largely hydrogen speaking in its native wavelength: Hα, at 656.3 nm — one of the most important wavelengths in astrophotography, and one that most cameras can barely see.
+
+It is produced in two main ways. Mostly inside H II regions, where the intense UV radiation from young, massive stars ionizes hydrogen atoms. As the electrons recombine with the hydrogen ions and cascade back down through the atom's energy levels, one specific transition — from the third level to the second — releases a photon at exactly this wavelength. The same red light also comes from supernova remnants (SNR), where a dying star's shockwave heats and excites the surrounding gas instead.
+
+Across the Milky Way, Hα traces the galaxy's star-forming skeleton: Orion, Carina, the Rosette — and above all Cygnus, home to the North America and Pelican Nebulae, and the shock-lit filaments of the Veil.
+
+The catch: a stock DSLR's built-in filter is tuned for natural daylight color, and it blocks most of that deep red — transmitting only a small fraction of the Hα light reaching the sensor. An astro-modification swaps that filter for one tuned to pass Hα instead, revealing the red the sky was hiding all along.
+
+🔭 Mount: Star Adventurer 2i
+
+📷 Camera: Canon EOS 6D mod.
+
+🔎 Lens: Samyang 14mm f/2.8 (f8)
+
+🔴 Acquisition: ISO1600
+
+⏰ Integration: 170x60s (2h 50min)",fact_post,
+"What is the largest single object in the universe?
+I dont mean a cluster like the wall or a theoretical black hole, i mean what's the real current biggest singular object in space.",question,
+"How big is the space beyond our universe?
+(I’m not very well educated on this but I have a question that I would like answered if it can be) If the universe is constantly expanding what is it expanding into? And how big is that space beyond the observable universe? Is it infinite if so what was here before the universe",question,
+"What's something that's technically obvious, but still blows your mind every time you think about it?
+I'm just a student, but here's something I find really interesting: We, from our perspective, think the earth is huge. From the earth's perspective, the sun is huge (not to mention the entire solar system). The earth itself is just a tiny black dot in the face of the sun. And yet, the sun is just a tiny dot in the face of Stephenson 2-18, the largest star ever found. And yet, that isn't anything to the constantly expanding universe, and God knows what's out there. 
+
+What do you find interesting?",question,
+"Space question: Found an funny group of Stars and wonder why they begin this close together.
+I was taking some Pictures of the Night Sky and found something kinda funny. The group of the Stars what I took an closer Look, looking like a ""2"" or a ""?"". It is for me funny and cool, then I never saw before that am star group is this close together or from kinda something like that. Did someone saw something like that before?",speculation,
+"How massive can a black hole actually become?
+We often hear about TON 618 and its estimated mass of around 66 billion Suns. But there’s another interesting case in the Phoenix Cluster.
+
+The central black hole in Phoenix A was initially estimated at around 20 billion solar masses. Later, a theoretical model suggested it could potentially be closer to 100 billion Suns.
+
+What I found most interesting is that these numbers aren’t equally certain. The 100-billion figure comes from a model rather than a direct measurement.
+
+It made me wonder: if there’s no known hard upper limit, could the universe contain black holes with hundreds of billions — or even a trillion solar masses?
+
+https://youtu.be/jwIeJ42Esoo?si=Km\\\_yIBQ8Li5tpG3T",fact_post,
+"Is it crazier to think we’re the only intelligent civilization in the universe—or that others exist?
+Which idea is more unrealistic: that Earth is the only place with intelligent life in the entire universe, or that other civilizations exist but we haven’t found them yet?
+
+With so many galaxies and planets, what makes more sense to you—and why?",question,
+"Do you believe that our universe is infinite?
+Ok so i know that we can only see a small part of the actual universe (i.e observable universe). I have heard that scientist believes or consider a possibility that our universe might be infinite. I have read this soo many times but do you actually believe that our universe is infinite? 
+Personally its just my opinion, i dont believe in infinite universe. I believe infinity is just theoretical and in reality infinity doesn't exist. I would love to hear your opinion. And please forgive me if i am wrong about something 😅",question,
+"What do you think the Higgs field truly is?
+I just learned about it, and I can’t imagine how this thing exists. It’s everywhere, and without it, nothing can exist. But where did it come from? How could it exist before anything else? Because if it didn’t, the universe couldn’t expand, right?",question,
+"How did time start?
+Recently, I was reading a theory it that said time is an illusion. Once we go beyond the observable universe, it becomes a non-factor, because the universe starts expanding faster than the speed of light. Hence, we cannot see the true expansion of the universe. Due to this it becomes a non-factor in the overall scheme of things. Expansion is happening due to dark energy
+
+What are your thoughts on it?",question,
+"The Pale Blue Dot.
+*Voyager 1 was speeding out of the solar system — beyond Neptune and about 3.7 billion miles (6 billion kilometers) from the Sun — when mission managers commanded it to look back toward home for a final time. It snapped a series of 60 images that were used to create the first “family portrait” of our solar system.*
+
+*The picture that would become known as the Pale Blue Dot shows Earth within a scattered ray of sunlight. Voyager 1 was so far away that — from its vantage point — Earth was just a point of light about a pixel in size.*",fact_post,
+"The Orion Nebula (M42): a stellar nursery 1,344 light-years away
+The Orion Nebula (M42) is the nearest massive star-forming region to Earth, visible to the naked eye as the middle star of Orion's sword. This cloud of gas and dust spans about 24 light-years and is birthing thousands of new stars. Credit: photo from Unsplash.",fact_post,
+"The Anguish of Cygnus - NGC 6960 and the Cygnus Loop
+Full-resolution image: [https://app.astrobin.com/i/hsx2ry](https://app.astrobin.com/i/hsx2ry)
+
+In the vicinity of the Cygnus Constellation, we find the Cygnus Loop supernova remnant: the shattered remains of a star that once burned 20 times more massively than our Sun. About 20000 years ago, it detonated as a supernova, briefly outshining Venus and visible in broad daylight from Earth. What remains today is a shockwave still travelling outward at some 1.5 million km/h, colliding with a wall of cooler, denser gas and igniting these filaments as it goes (hydrogen in red, ionised oxygen in blue).
+
+What looks like a thin ring is actually deceptive: the true 3D structure is closer to a bowl, a cavity carved out by the star before it even exploded, into which the blast wave is now crashing. We happen to be looking at it face-on, which is why a solid shape reads to us as a delicate, open loop.
+
+The entire structure spans nearly 3° of sky, about six full moons side by side, and stretches across some 110 light-years of space. Lower right is NGC 6960, the Witch's Broom; upper left, NGC 6995, the Bat Nebula. Between them is Pickering's Triangle, a delicate filamentary wedge of heated gas, discovered by Williamina Fleming but credited, as was common at the time, to her supervisor at Harvard, Edward Pickering.
+
+Framed vertically, the whole structure takes on a different character than in the typical alignment I've shown it in before. It evokes a creature caught mid-scream, its edges torn and trailing into the dark like matted hair.
+
+The people who saw this supernova happen with their own eyes were hunter-gatherers living through the last Ice Age. The world they lived in was almost unrecognisable: sea levels were so low you could walk from Siberia to Alaska across Beringia, and Britain was still joined to mainland Europe. Australia and New Guinea were a single landmass. These people created fine stone blades and tools of bone and ivory, wrapped in tailored clothing sewn from hide and fur. The light captured in tonight's image left the nebula much more recently, around 371 BC, a violent period when Spartan dominance over Thebes ceased for good after the Battle of Leuctra.
+
+Acquisition:
+
+* Shot in Bedfordshire, UK, Bortle 5-6 
+* RGB (Stars): 1h 
+* HOO: 16h 5min
+
+Equipment:   
+
+* ZWO FF65 + 0.75x reducer
+* ZWO EAF
+* Altair HyperCam 26M
+* Altair 7x2"" EFW
+* Antlia 3nm Pro SHO filters
+* Altair ColourPRO LRGB 
+* SW EQ6R-Pro
+* Astromenia 50/200 Guide Scope + ZWO ASI120MM Mini + IR/UV Cut
+
+PixInsight DSO Processing:
+
+* WBPP
+* SPFS
+* SPCC
+* MGC
+* BlurX
+* NoiseX
+* SyQon Starless
+* SetiAstro StarStretch
+* GHS
+* ColorSaturation
+* Curves
+* CosmicPhotons ScreenStars
+* CosmicPhotons StarReduction
+
+Lightroom Processing:
+
+* Contrast enhancement
+* Clarity increase
+* Shadows &amp; Highlights
+* Vibrance",fact_post,
+"Has anyone COMPLETELY understood how light speed affects age?
+I ask this question because most people who tried to answer this, couldn’t answer the “how” part. 
+The person in the fast-moving spacecraft would not notice any change; their biological processes, clocks, and perception of time would all seem normal to them. It is only when they compare their age or clocks with the person who remained on Earth that the difference becomes apparent.
+ - but how? I cannot comprehend this by any means. Somebody care to explain in simple terms?",question,
+"Why NASA not sending VOYAGER every year
+If information and pics from Voyager 1 and 2 is so important why NASA is not sending VOYAGER upgraded with latest technology every year so Future generations can be benefited from this.",question,
+"How is space a thing?
+I always thought space was insanely cool but i just got a thought in my head:
+
+How is there space
+
+People always come with the scientific answers, but where did science come from? How is the universe even a damn thing it just doesn’t seem possible
+
+Just the face that there are an uncountable amount of planets floating around in, nothing? Just emptyness
+
+That gravity exist? A mass pulling other masses in? Keeping planets in orbits?
+
+Atmospheres just not being visible but able to burn up anything that comes inside? 
+
+How could any of this be a thing? How are we a thing? We started with rocks and sticks and just became intelligent to build a damn rocket to fly out of this planrt
+
+How the hell is any of this possible? It genuinely scares me
+
+For people that say that it’s because of god: i respect your believes but, how does god exist? Where does he come from? Its all just a giant question that nobody can answer
+
+“How?”",question,
+"How loud the big bang was?
+Hi! I understand that the big bang wasn't an explosion and it's a common mistake, but it was an ""extreme event"" anyway. How loud it was anyway, if it could be possible to hear sounds in space?",speculation,
+"What's a cool Universe fact I can tell my 7 year old who apparently knows more about it than I do?
+My 7 year old is obsessed with the Universe, and has been since he was like 4-5. Watches YouTube videos about it, watches Neil deGrasse Tyson videos, even has this game where he can make his own solar system and stuff. He'll come up to me sometimes asking me a question, asking me ""what would happen if \_\_\_"", or tells me a random fact and that I google to see if its right, and it is!
+
+I already knew a bit about blackholes, but he drew me a picture explaining what would happen, what was what. Then he also grabbed a bowl, filled it with water, made a whirlpool with it and said to pretend it was a blackhole, and then put a small leaf near it and told me about once it gets to a certain point it'll be sucked in, etc etc. 
+
+He asks me what's the closest star to us (not including our sun), or the largest star, largest blackhole, which galaxy is beside ours, and a bunch of other stuff. He keeps talking about Ton 618, I think it's called? 
+
+ANYWAY, what's the coolest fact you know about the Universe so I can have something interesting to talk about with my son? Maybe it'll be something he doesn't know, so he's learning something new instead of me always learning something new from him 😂",question,
+"Sgr A* and other matter is moving the Sun very fast around the galaxy but...?
+The Sun is moving very fast around the galaxy:  
+roughly 220 km/s (about 790,000 km/h) taking about 225–250 million years to complete one orbit around the galaxy.
+
+If the gravitational center of our galaxy is holding the Sun in orbit, why don’t we see effects from it inside our Solar System?
+
+None of our satellites drift toward the galactic center and objects in the Kuiper Belt don’t seem to get pulled there either. The Earth, Moon and planets behave entirely according to the suns gravity.
+
+So what’s happening?
+
+How can the Sun’s gravity completely dominate the Solar System if the Sun itself is being held in orbit by SgrA?
+
+And I’m not even talking about larger scale motion, like the Great Attractor pulling entire galaxies and galaxy clusters.
+
+pls no Bot answers.",speculation,
+"How did gravity come into existence?
+hi, I'm still in grade 10 and I've got this question stuck in my head. We all know that gravity is what we call the warping of space and time caused by mass and energy. But, do we actually know how gravity got an existence? I lowk want to know how gravity had a beginning after The BB or maybe before The BB. This question has been lingering in my head for quite a long time. Please do share your thoughts on this if you're someone who has got more knowledge than I do.",question,
+"thousands of satellites stream across the sky in this long exposure of the orion Nebula,
+This long-exposure image of the Orion Nebula lasted 208 minutes. In that time, multiple satellite trails streaked across the night sky. Credit: A. H. Abolfath/NOIRLab/NSF/AURA
+
+“satellites in the sky is getting worse and, if left untempered, will brighten the night sky so much, astronomers will struggle to study the Universe and continue to make discoveries.
+
+That's the key takeaway from a European Southern Observatory study that found current proposals to launch over 1.7 million satellites into orbit would have ""devastating consequences for astronomy.""”
+
+“The study says no more than 100,000 faint satellites – satellites that can't be seen with the naked eye – should be in orbit around Earth at any time.  
+Such a limit would, say the study authors, ensure astronomers can continue to observe the night sky, unravel the secrets of the Universe, search for alien life and detect hazardous asteroids.”
+
+Excerpt From  
+“This is one hour of satellite trails over the world's darkest sky. Astronomers say nearly 2 million planned satellites could be 'devastating'”  
+Iain Todd  
+BBC Sky at Night Magazine  
+https://apple.news/A5E\_SYf9kSn-NY7ACae38tQ  
+This material may be protected by copyright.
+
+The study say 1.7 million proposed new satellites would have drastic consequences for astronomy, which can only be avoided limiting the overall total to 100,000 satellites faint enough to not be seen with the naked eye.",fact_post,
+"If we travel through universe, then why we see the same stars?
+We are going as a planetary system through space, right? Can we see new things because of that?",question,
+"Is space actually infinite? Because the math gets weird if it is..
+Hey everyone,
+
+&amp;#x200B;
+
+I've been thinking about this lately and it's keeping me up at night. Is space truly infinite?
+
+&amp;#x200B;
+
+If the answer is yes, what are the actual chances that our Big Bang was a completely isolated, one-time event? Could there be other universes out there that had their own separate Big Bangs?
+
+&amp;#x200B;
+
+And if space goes on forever, doesn't the math say there must be an infinite number of universes out there?
+
+&amp;#x200B;
+
+Fascinating, isn't it? What are your thoughts on this?",question,
+"Striking star clusters and irregular clumps
+Our universe is vast enough to hold billions of galaxies   
+but still, are we the only civilization to be advanced enough to explore the beauty of cosmos",speculation,
+"Back in June I pictured the moon and this planet?
+Okay so don’t laugh at me, I’m just an admirer of the universe but I’m not very knowledgeable about it.
+
+Back in June I pictured the moon and the, what I believe is a, planet. The second picture is the same dot but zoomed in. 
+
+ChatGPT said it’s Venus but I’m not even sure if it’s a planet or maybe my iPhone camera playing tricks on me. 
+
+What do y’all think?",speculation,
+"Weird barrier when observing on JWST Data
+Hi! I'm new to studying the universe and discovered the MAST site for visualizing JWST data, but when I was observing this galaxy I noticed this large barrier where it changes hue. Is this just a weird compiling thing?
+
+Last photo is some fun I had trying to colour one of the images of the galaxy.",speculation,
+"The moon, is the camera generating or?
+iPhone 18 pro max.   
+Exposure: -2 
+
+I heard things on this subreddit that the iPhone generates the image, not sure. But looking at the last one, where my hand wasn’t as steady.. to what extent is the iPhone generating ?",question,
+"Why does every star eventually die?
+A star survives because gravity pulls inward while energy from nuclear fusion pushes outward; when the star can no longer sustain that balance, its evolution changes.
+
+The outcome depends mainly on its mass:
+
+☀️ Sun-like stars → red giant → planetary nebula → white dwarf  
+💥 Massive stars → supernova → neutron star or black hole  
+🌀 Binary stars → mass transfer can dramatically alter their evolution  
+🕳️ Stars near black holes → can be torn apart by tidal forces
+
+Every star has a different ending, but the same basic story drives them all: gravity, fusion, and the finite supply of stellar fuel.
+
+[https://youtu.be/46CLnkYp24U](https://youtu.be/46CLnkYp24U)",fact_post,
+"Moon units and the Sun
+Astronomical numbers get so large that eventually they stop meaning anything. The Sun is so massive that our minds are almost incapable of understanding its splendor. 
+
+The Moon is about 3,475 km (2,160 miles) across, roughly the width of Australia. Now imagine flying across one Moon.
+
+Of course, you would not be anywhere close to crossing the Sun. You would have to cross another Moon. And another. And another. After a full day, you have crossed about 37 Moons. After a week, you have crossed about 260.
+
+You would have to keep going until you had crossed roughly 400 Moons, or roughly 3.6 times the distance from Earth to the Moon.
+
+Only then would you have traveled a distance equal to the diameter of the Sun. The trip would take almost 11 days. And if you turned around and came home, you would spend nearly 22 days traveling.
+
+Four hundred Moon-sized worlds, one after another. That is how wide the Sun is.",fact_post,
+"If a meteor is the light in the atmosphere, shouldn't a meteoroid (meteor-like object) resemble that light, rather than refer to the rock in space that produces it?
+**Meteor:** a small body of matter from outer space that enters the earth's atmosphere, becoming incandescent as a result of friction and appearing as a streak of light.
+
+**Meteoroid:** a small body moving in the solar system that would become a meteor if it entered the earth's atmosphere.
+
+My gripe is with the word meteoroid itself. The suffix -oid means ""resembling"" or ""having the form of,"". Asteroids on the other hand I am all good with, since it was understandable that early telescopes showed them as a tiny point of light, hence Star-like.
+
+Meteoroid on the other hand means meteor-like, yet it refers to the object that produces a meteor and it is neither a luminous streak of light nor an atmospheric phenomenon while in space.",question,
+"Time with a Mass axis to fix the Einstein Singularity (4D Space Model)
+Title: Space-Mass Model (4D): Replacing Time with Mass to fix the Singularity
+
+Заголовок: Модель «Пространство — Масса» (4D): Замена времени массой для решения сингулярности
+
+\[ENG\]
+
+Concept: A 4D universe with 3 Space dimensions (x, y, z) and 1 Mass-Energy axis (m). Time (t) is not a fundamental axis, but a secondary effect of movement on the spatial floor.
+
+Equation: m = (E \* t²) / x²
+
+• Floor (x, y, z): 3D space. Photons (m=0) slide at the bottom, experiencing no internal time.
+
+• Peak (x → 0): In Einstein's math, x=0 causes a division-by-zero explosion. Here, time (t) and space (x) shrink in sync. The 0/0 form resolves into a finite value. The math doesn't break; it creates a stable traversable wormhole where mass dominates geometry.
+
+\[RUS\]
+
+Концепция: 4D-Вселенная с 3 осями Пространства (x, y, z) и 1 осью Массы-Энергии (m). Время (t) — не фундаментальная ось, а вторичный эффект движения по трехмерному «полу».
+
+Уравнение: m = (E \* t²) / x²
+
+• Пол (x, y, z): 3D-космос. Фотоны (m=0) скользят на самом дне, не имея внутреннего времени.
+
+• Пик (x → 0): У Эйнштейна сжатие в точку вызывает взрыв уравнений из-за деления на ноль. Здесь время (t) и пространство (x) сжимаются синхронно. Неопределенность 0/0 раскрывается в конечное число. Формула не ломается, а создает стабильную проходимую червоточину, где масса полностью подчиняет себе геометрию.",speculation,
+"My take on existence.
+I will begin by giving you a segment of time. I'll say a year.
+
+You can divide that year into months, those months into weeks, those weeks into days, those days into hours, minutes, seconds etc.
+
+In theory, you could divide a segment of time infinitely. That being said, there is no definitive point at which things can be established. There is no 'moment' at which things 'must' begin or end.
+
+Through this lens, the best way to describe existence is as a 'blur', and the 'moment' as a purely human concept (such as an inch marking on a ruler).
+
+But now you're wondering 'how did everything start existing if there was no definitive point when it could begin?'
+
+Good question, and I will do my best to provide an explaination.
+
+Without movement there is nothing. No atoms. No sun, no ebb or flow. In order to facilitate existence, there must be an explaination for this phenomenon of movement, and I believe it all springs from one thing:
+
+The void.
+
+A void has movement surrounding it at all times in part to its nature. A void is nothingness, and I believe the force of a void passively conjoures​ movement, thus passively bringing everything into existence.
+
+There is no point at which the void began or when it will end. It is the constant force behind everything and is the only indestructible thing of existence (being nothingness). And all things obey its rule.
+
+Take a good look around. Everything is repeating itself. Everything is in a looped system. Everything revolves around another thing because that is all it can do.​ All is helpless against the tide of nothingness, that which it ultimately spins about.
+
+And it will never end because there is no definitive point where it could in the first place. So don't go asking 'When I die, what happens?"" because just like how you were brought into being, there is no definitive point at which you will 'stop' being.
+
+Don't get me wrong, though. To me, consciousness is an illusion facilitated by an organic computer in our heads. Don't ask me why, but something tells me if that computer stops processing stimuli, so will I.
+
+I guess I'm finished now. Let me know whatchya think.",speculation,
+"FRIDAY FUN FACT #001 | Does time exist at the fundamental level?
+In some approaches to quantum gravity, the universe's fundamental equations contain no external time variable at all.
+
+In ordinary quantum mechanics, a system's state evolves relative to an external time parameter. But when physicists attempt to quantize spacetime itself, that familiar framework becomes problematic. There may be no external clock against which the entire universe can evolve.
+
+This is especially striking in canonical quantum gravity. The Wheeler-DeWitt equation describes a quantum state of the universe without an explicit external time parameter.
+
+So this begs the question, where does the time we experience come from?
+
+Well one proposal is that time emerges through correlations between physical systems. In the Page-Wootters mechanism, a subsystem can function as a clock, allowing another subsystem's apparent evolution to be described relative to it, even when the combined system is stationary.
+
+This introduces a profound distinction between external time (a parameter in conventional formulations of physics) and relational time (defined through correlations between physical systems).
+
+The crucial nuance is that the Wheeler-DeWitt equation does not establish that time is unreal, nor does every approach to quantum gravity eliminate time in the same way. Rather, it exposes a problem, that our familiar concept of time may not translate straightforwardly into a quantum description of the entire universe.
+
+So if the universe has no external clock, what does it mean for the universe to evolve? This a very open question, one that explores the true essence of the problem of time in quantum gravity.
+
+(Was thinking about starting this series for some time now. Do let me know if you all have any suggestions.)",fact_post,
+"What Does NASA’s OSIRIS-REx Camera Footage Actually Show?”
+NASA’s OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification and Security – Regolith Explorer) capsule of rocks and dust collected from asteroid Bennu lands on Earth at, in a targeted area of the Department of Defense’s Utah Test and Training Range at 8:52 a.m. MDT (10:52 a.m. EDT) on Sunday. This video shows a compilation of spacecraft, airplane, and ground camera footage of the landing.",fact_post,
+"I still don’t understand why we can’t find the center of the universe
+Yes I have seen that this has been asked many times and explained, but the explanations don’t make sense still so…
+
+My first problem is that there are contradictions. Some explain that the universe is expanding, some say it’s infinite. Which is it? I will gladly except that the observable universe is expanding due to how we observe light, the timeline of the CMB, etc. and the universe itself is infinite. I’ll also except that the universe is infinite in the sense that it will expand forever and that the constant (or accelerated) growth is what defines it as infinite in the same way that one can count forever.
+
+I read that space is expanding everywhere in every direction, which is why there is no center point. This makes sense for the observable universe but not the entire universe which was once much smaller. The Earth vs Earth’s crust or ballon theories assume that everything is on the edge of the universe, not somewhere between the center and edge or closer to the center. If the Earth expands to 3x its diameter, Australia becomes 3x further away, Canada does not (I’m in the US). I could use paralax to determine the center of the world based on that just as Hubble’s law should allow me to use paralax to find the center of the universe. In my mind, the only way we can’t find the center of the universe is if ythe observable universe is all on the same side of the universe and is only a small portion of the universe, which would mean the CMB doesn’t have much to do with the age or size of the universe, only the observable universe or that we are in the center of the universe.
+
+EDIT: Thank you all for your responses. There were two things I didn’t understand and now do. First is that the universe is not expanding from one location but is expanding from every location. Many of the analogies did not explain this part. I have created a graphic (in a below reply) that should help understand that if there is a center, we will never find it. The second confusing part is that so many articles I’ve read leave out the “observable” part when discussing the size of the universe.
+
+EDIT 2: The third thing I didn’t understand is that I always pictured the universe to be a growing ball, with everything being inside the ball. Using the balloon analogy, with the universe being the skin, changes things.",question,
+"The ""Invisible"" Universe: Did You Know You Can't See 95% of It?
+Scientists have figured out that the universe is actually dominated by two mysterious, invisible components that we are still trying to fully understand:
+
+​Normal Matter (\\\~5%): This is everything made of atoms. Stars, planets, trees, rivers, tea, and you!
+
+​Dark Matter (\\\~27%): It doesn’t emit, reflect, or absorb light, making it totally invisible. We only know it's there because its massive gravity pulls galaxies together like an invisible glue. Without it, galaxies would fly apart.
+
+​Dark Energy (\\\~68%): A mysterious force that is causing the universe to expand faster and faster every single day. Think of it as the opposite of gravity, pushing everything away from each other.
+
+What is one scientific fact or mystery about space, nature, or everyday life that absolutely blows your mind? Drop your thoughts, questions, or cool facts below!",fact_post,
+"If the universe were really infinite, (into the past) could we arrive at the present?
+Imagine a single domino, representing the present.  
+(DOMINO P)  
+With an infinite set of dominos before it. (which we will call DOMINO T#)  
+Since the present “occurs” we will say DOMINO P fell, but that would require all of the dominos before it to also fall, even if there are an infinite amount of them.
+
+If there are an infinite amount of events/moments before the present, how would we arrive at it?",speculation,
+"How did NASA actually calculate that the universe is 13.8 billion years old instead of just guessing?
+I keep seeing the figure 13.77 to 13.8 billion years cited everywhere, but I've never fully understood how missions like WMAP and Planck actually derived that number from the Cosmic Microwave Background.
+
+Are they basically running the expansion rate (Hubble constant) backwards to a single point, or is it based entirely on modeling cosmological parameters from temperature fluctuations in the CMB? Also, how do cross-checks like the age of the oldest globular clusters fit into confirming that timeline?",question,
+"What would the universe be without humanity?
+I strongly believe in the ""first bird"" theory. We could be the consciousness. The universe being aware of itself for the first time. In that case, humanity needs to be protected at all costs. Our brain is the most complicated anomaly that we know of in the entire universe. We cannot go extinct. We cannot allow ourselves to go extinct we don’t even know how rare intelligent life is.
+
+There are 10\^25 planets in the known universe. That's a lot of planets, but is it enough to give intelligent life a chance?
+
+The ""3 Great Filters"":
+
+The rarity of life, the rarity of complex life, and then the rarity of intelligent life.
+
+It’s easy to make a planet (10\^25 is a huge number), but it's hard to get life. Then it's even harder to get complex life (animals), and nearly impossible to get intelligent life.
+
+Does that mean we could be alone?
+
+As of right now probably. If (intelligent) life existed just a few billion years ago before us. They technically could have conquered galaxies. So where are they? Maybe we aren’t ""interesting"" to them? But that wouldn’t make sense. Our galaxy and andromeda are extremely valuable once dark energy dominates the universe.
+
+Does that mean we will stay alone?
+
+No.
+
+The universe is 13.8 billion years old, but it will live for trillions of years if Heat death is correct. So we are technically living in the ""early morning.""
+
+in fact, Earth is 1/3 as old as the universe. We are really, really early, but rocky planets capable of supporting life started forming around 12 billion years ago. Could this mean intelligent life isn’t rare, because we exist right after the circumstances for life began in the universe? So maybe it isn’t as rare as we expected? Or, is it actually extremely rare, and we were just extremely lucky?
+
+You know what, let’s imagine that an intelligent civilization started just one billion years, they would have had a 1 billion year head start.  
+Even traveling at a conservative 10% of the speed of light using self replicating probes, a intelligent civilisation could completely colonize a galaxy like the Milky Way in a few tens of millions of years. A billion years is enough time to bridge the gap between galaxies. So physically speaking, they should be here.
+
+On the other hand there are 2 trillion galaxies out there, what if ""faster than light travel"" is just physically impossible? If nothing can break the cosmic speed limit, those civilizations would be way too far away to ever get in touch with or reach our Local Group.
+
+Gonna get headaches if I read my own thread ngl.  
+What’s your honest take about this?
+
+Sources I used:   
+https://exoplanets.nasa.gov/  
+https://exoplanetarchive.ipac.caltech.edu/  
+https://en.wikipedia.org/wiki/Rare\_Earth\_hypothesis  
+https://en.wikipedia.org/wiki/Fermi\_paradox  
+https://en.wikipedia.org/wiki/Hart%E2%80%93Tipler\_conjecture  
+https://en.wikipedia.org/wiki/Age\_of\_the\_universe  
+https://en.wikipedia.org/wiki/Future\_of\_an\_expanding\_universe  
+https://en.wikipedia.org/wiki/The\_Five\_Ages\_of\_the\_Universe  
+https://en.wikipedia.org/wiki/Timeline\_of\_the\_far\_future  
+https://en.wikipedia.org/wiki/Chronology\_of\_the\_universe  
+https://en.wikipedia.org/wiki/Self-replicating\_spacecraft  
+https://grabbyaliens.com/  
+https://www.lesswrong.com/w/great-filter  
+https://www.universetoday.com/articles/arrive-early-universes-life-party  
+https://www.youtube.com/watch?v=l3whaviTqqg",speculation,
+"Are we ever truly NOT moving?
+now, i understand that you would need to refer to an object like the road or a tree, but my question goes slightly deeper. Are we ever truly not moving relative to ANYTHING like the void that fills the emptiness between planets and stars? I am wondering if one could even reach the state of not moving in relation to the void itself as i understand that a planet moving while we sit still, counts as both of the objects moving, i hope this made sense",question,
+"Why is it that we can predict with decent accuracy when the big bang occurred, but not where it occurred?
+The standard answer that the big band occurred everywhere simultaneously isn't anything but a broad spectrum answer to a very specific event. Im sure there  are people on reddit that are as familiar with the behavior of explosive detonations and the expansion of gasses as I am.  My experience while limited to what a person living in rural Oklahoma can get away with, is small and usually related to tannerite and clever ways of compounding its effects. The outcome is usually the same, theres a flash and then an equally dispersed amount of flying debris. Usually accompanied by a Wholly Fucking Shit ! Did you see how that washer come apart?
+
+   But my point is simple the point of detonation does not occur everywhere, nor could it without it being everywhere and with a burn rate a lot hotter and faster than even RDX. If the big bang happened everywhere the explosion would have needed to be so evenly detonationaded to not leave differences in time space after it just doesn't seem likely.  Help me out with the vagueness of the standard models answer to why we cant find the where of the big bang.",question,
+"Kardashev scale - what is it ?
+Summary — ""Earth → Growth → Galaxy"" video (The Kardashev/Cardartesev Scale)
+
+The video explores a thought experiment: what if civilizational progress were measured not by wealth or military power, but by how much energy a civilization can harness and control?
+
+It introduces the Kardashev Scale (transcript shows ""Cardartesev,"" likely a transcription error) through its types:
+
+Type I Civilization: Has fully mastered the usable energy of its home planet — controlling sunlight, wind, tides, and heat. Would use a clean, planetary-scale energy grid to store and deliver power globally, even across deserts.
+
+The transcript cuts off here, but based on the visual (Earth → arrow labeled ""Growth"" → spiral galaxy), the video appears to build toward higher stages — likely Type II (harnessing a star's total energy) and Type III (harnessing a galaxy's energy) — using the visual metaphor of growth from a single planet to galactic scale.",question,
+"Is it a star? Is it a plane?
+Hubby thinks shooting star was captured in the background. Any thoughts on what it might be??",question,
+"Are the edges of the universe equally far away from earth? Or is there one “edge” or direction that’s about closer to earth than the rest?
+I every edge was equally far, wouldn’t that mean that the earth is in the dead center of a massive universe? How unlikely would it be to have a universe so unfathomably large and somehow we are in the exact center of it?",question,
+"The true size of the universe
+Is earth 1/10th of the size of the observable universe? My friend just said it is and im confused",fact_post,
+"Time Left for Life on Earth
+If life on Earth began 3.8 billion years ago, and inevitable changes to our Sun end all life on Earth in 600 million years, that means we are 86% percent along in the total span of life on Earth. Just 14% left on the timeline! Thoughts?",fact_post,
+"Am i going crazy? (theory)
+so ive been thinking about this stuff whenever ive been bored for like the past couple years and i wanna know what in the world you guys think of this. let me know if you have anything to correct or to add-on to my theory here. or just let me know if im crazy.
+
+so, my theory is that nothing can be infinite. infinity is not physically possible. everything has to have a start and an end. but, i think time doesnt have an end. as we know, black holes bend time. so if you imagine time as a plane, it will create a little dent in it. for the purpose of cleanly explaining this, lets imagine time as a line. as we know, time has to have a beginning and end, so a line perfectly represents this. but, i believe that this line is actually a circle. it goes around and it loops.   
+but you may be wondering, how in the world does that work? time doesnt go in a loop, right?  
+thats where we go back to the black hole thing. i believe there is a black hole so insanely big that it creates a dent in that circle so big that it pokes through to the other side. aka a wormhole. I believe the big bang is actually just a white hole. the whole universe ends with a black hole so giant that it sucks everything in, then everything is transported to the beginning of time, where its spit out, aka the big bang.  
+  
+ive also heard things like this: ""Theoretical physicists have proposed that an ""anti-universe"" running backward in time could exist, specifically appearing as a mirror image of our own prior to the Big Bang"" This would be perfectly explained too. when we have that big wormhole in our circle, that means our circle is split in half. we are living on the time on one half of that circle, and the other half is exactly the opposite",speculation,
+"What would happen if a rogue neutron star enter in our solar system ??
+Rogue lanet, rogue star or rogue object are the object which are freely trvaelling into the cosmos hurtling through the space, not orbiting any host star. So what would happen if such a neutros star strike into our solar system ?",question,
+"Why Do Gas Giants Exist?
+Im not asking how they came to be, i want to know what definite purpose they hold. Regardless of if you believe in a religion/creator what purpose do they hold if it isn’t to harbor life (assuming there is not life on them). I cant come up with a reason for why they exist other than just random chance or from gathering a ton of mass from the early ages of a solar system. This had beeb stumping me for quite a while.",question,
+"Gravity is doing more than keeping us down 🌘
+The Moon’s gravity creates tidal forces that move ocean water and shape coastlines over time.  That means the sea is constantly responding to the sky above it.",fact_post,
+"That one neighbor who “ope, didn’t see ya there” right before crashing into us in a few billion years.
+Andromeda isn’t just our neighbor—it’s a more violent, older, merger-scarred spiral that exposes the flaws in our galaxy-formation models. Studying it is less about beauty and more about cosmic forensics.",speculation,
+"If expansion is happening faster than speed of light how can our galaxy still possibly collide with the Andromeda galaxy?
+I always hear the expansion is happening faster than the speed of light. I read a useful comparison to help  imagine this scenario is to think about how a loaf of raisin bread rises in an oven. Although individual raisins don’t travel around through the dough, they nevertheless end up further away from each other as the dough expands during the baking process. You get the picture: the dough is empty space; the raisins are the galaxies.
+
+So not only the outside space expands, also all the space between and in every direction.    
+Even if galaxies don’t move around at all, their mutual distances will grow because of the expansion of space.
+
+So im assuming galaxies also cannot move faster than the expansion so how would they still collide? Is it because they move towards each other at speeds that combined do exceed the speed of the expansion?",question,
+"With respect to pre-big bang theory, has science wrestled down the concept of Nothing?
+I agree with the argument against creation, whose proponents always say “you can’t get something from nothing”.  As someone said, I forget who, it is not only possible to get something from nothing, it’s impossible not to, because there can’t always have been something. That makes sense to me. What I have difficulty with is the very concept of nothing. It seems to me to be correlative to Heisenberg in that once you try to envision it it ceases being Nothing and has become Something. Language fails in this regard because when you start, as one must, using prepositions, you’ve established a place and a place needs somewhere to be. My real question is, have the astrophysicists or anyone else managed to cope with nothing, mathematically or philosophically or however? Does anyone have anything interesting to say about it?",question,
+"Is it possible that ""beginning"" and ""end"" are only human concepts?
+Hi! There are questions about our reality that are probably impossible to answer, for example what there was before the big bang or when and how the whole reality started to exist. I think it's impossible because even if you could answer the first question, at that point you still couldn't answer what was the actual ""beginning"".
+
+Even for the question I want to ask there's no answer but only opinions: Do you think it's possible that beginning and end are only ideas and events that affects us and are part of our logic, but that aren't part of the mechanism of the universe? What I mean is, do you think it's possible that there was no actual beginning for the universe and it always existed, without involving ""creators"" or similar non scientific explanations?",speculation,
+"Do you think Earth is the boss of all Universe?
+If Earth isn't the boss of the universe, then where is everyone? Scientists call this the Fermi Paradox — the contradiction between the high chance of alien life and the complete lack of contact.
+
+Here are the most likely reasons no one has contacted Earth yet:
+
+1. We're too far away  
+   The nearest star is over 4 light-years away. Even at light speed, a round-trip message would take 8 years. With current tech, we couldn't reach another star in tens of thousands of years.  
+2. They don't know we exist  
+   Our first radio signals have only traveled about 100 light-years — a tiny bubble in a galaxy 100,000 light-years wide. Aliens just might not have seen us yet.  
+3. We're not interesting enough  
+   Advanced civilizations might ignore planets without obvious technology, industry, or signs of intelligence. For most of Earth's history, they'd see only dinosaurs or bacteria.  
+4. The ""Zoo Hypothesis""  
+   Maybe they know we're here but deliberately avoid contact — like scientists observing an animal reserve without interfering.  
+5. We're early or late  
+   Civilizations might be so rare in time that ours doesn't overlap with any others. Or maybe most life destroys itself (or gets destroyed) before becoming interstellar.  
+6. We're looking wrong  
+   We assume aliens use radio or light signals. They might communicate in ways we can't detect — neutrinos, gravity waves, or something beyond our physics.",speculation,
+"Is the expansion of the universe a minimum requirement for it to exists?
+Hi! It is my understanding that expansion of space acts mostly/exclusively in the areas outside galaxies and with very low gravity. Does it mean that without the expansion of space, universe itself would slowly collapse into itself or slowly into a supermassive blackhole?",question,
+"Pristine star reveals the dawn of stars and galaxies in the universe
+The finding, published in Nature Astronomy, points to an object born from material touched by only the earliest stellar deaths. This likely makes it one of the clearest surviving records of the young universe.",fact_post,
+"If humans eventually colonize other planets, what do you think we’ll look back on from Earth and consider strange?
+I wonder if future humans will think it’s odd that we were confined to one planet for so long kind of like how we look back at people who had never traveled beyond their hometown.👀",question,
+"Can somebody explain what this is?
+Saw this on YouTube and got curious because I saw something similar through the telescope last night",question,
+"Day Will Turn to Night for 6 Minutes: The Rare Solar Eclipse That Will Shock the World
+When Day Becomes Night: The 6-Minute Total Solar Eclipse of 2027  
+**Meta Description:** On August 2, 2027, a rare total solar eclipse will turn day into night for over six minutes. Here’s why scientists call it historic.",fact_post,
+"Why do photographed planets look like this?
+This is from natalie portman’s insta post. It’s a photo of Venus and Jupiter, she’s in Italy. I’ve never seen planets that look like this in photographs and I found it a bit weird, they look like cells",fact_post,
+"Why are many cosmologists/astrophysicists so stubbornly reluctant about accepting the possibility that space is literally infinite?
+I've heard all the arguments. I've read all the theories. And yet my logic and instincts tell me that space, also known as emptiness, never ends.
+
+My very atoms (which do not contain planet-like electron orbitals) tell me so. They don't really, I just wanted to sort of insert a little dig at the planet-like orbital deception.
+
+In any event, nothingness can't just stop.
+
+And I'll tell you something else: I've long said that space is the sole thing in existence to which the term *infinite* can apply.
+
+This debate is irresistibly compelling and triggering to me. It's triggering in that people talk so much drokking nonsense in discussions on the subject.
+
+People, myself included, have such strong opinions regarding the possibility of space being literally infinite. This endless debate provokes real emotions.",speculation,
+"Does the fact that The Milky Way is accelerating toward a great attractor (Shapley) mean that earth is technically not an enertial frame of reference?
+Is this effect ever noticeable? For example, during one of our very long space flights?",question,
+"Can we ever escape the Cosmic Horizon?
+Ever since I came to know about the fact the universe we see is just 30 per cent of the observable universe. The rest is expanding faster than the speed of light; I have always wondered will we be ever able to escape the cosmic horizon? We might need to understand and learn to implement new laws of physics in order to do so? What do you guys think?",question,
+"My theory of the future of the Universe
+I seen videos online, it’s not specifically clear or known but some say it will be a Big rip, a heat death, some say that the universe will go Completely dark. I just want to believe that the universe will restart, as the universe brings in everything it has expanded to. I believe the speed of this will create particles, or sparks to create particles. I’m not a guy that knows much. I will be open to any criticism or discussion!",speculation,
+"my theory on reincarnation
+i'm a 16yo so i, in fact, know nothing but as a teenager i'm usually caught in my toughts. once, a friend of mine told me that after you die, the speed of your consciousness is faster than the Universe so it simply gets lost.
+
+  After that statement i started thinking a bit. So, the instance of death is the moment your consciousness detaches from the body and travels freely through the bigger ecosystem(the Universe), which can't in fact keep the power the consciousness holds, as we - the smaller ecosystems - can. We might keep that power in place by keeping it busy with holding our whole identity(memories, thoughts, emotions, reasoning).
+
+  So, why not compare the Universe with a basic program on a PC? Of course, there are digits at the base of this program but i can also use the same digits in its functionability - us, the smaller ecosystems, lay at the bigger ecosystem base, even if it's proven or not, but we also live and exist inside the ecosystem. But I can always erase the digit 2 from the program's layout, this action not having a change on anything overall, because i can always get the identity of this digit by adding 1+1 or by dividing 8 by 4. it doesn't matter at all, bc i can bring the value of 2 back, it's the identity of 2 that disappears.
+
+  Our identity is kept in the consciousness and it's basically all of our memories in a place. Our whole personality is just a faint touch of the past and we can lose it every 7 years beacuse 7 years our body lives and then it suddenly decides to regenerate cells from head to toe. But it's the memories and the ability of our consciousness to keep everything preserved and safe. It's crazy how our consciousness is our identity and our memories are our consciousness' identity. There, in the consciousness, are formed the emotions, which are common feelings, universal feelings, things we all feel. They're all thoughts of our subconsciousness, filtered by our personality. 
+
+  My last idea was somehow heartfelt but seriously now, the Universe is ruled by The Second Law of Thermodynamics, which explains why we live in a cold Universe, with a lot of energy that is mostly being spread around. I personally don't believe the Universe doesn't have an ending. Everything finishes at some point, the way our life does. So, of course our consciousness will freely move through the Universe at whatever speed it needs to feel the end coming faster. What does a PC program do? It reuses the value you just 'deleted'. Your consciousness will come back here. It's the identity that goes somewhere else. Since i let myself feel with my consciousness, my consciousness also becomes my soul. My identity won't travel as a soul does because it'll never come back but it's not my problem now to think where my identity will get to be, as older people say to young people. 
+
+  Yes, now i know that my consciousness comes back into the Universe after it gets to see the ending and after accepts seeing how its identity is being stolen, now what else? Remember how that program deleted the identity, but somehow the value never dissappeared? That consciousness is not coming back into the same form. It'll come back in maybe 2 different slices of consciousness, for eg, and 2 people will meet in an afterlife of yours just to complete your value and to bring back that identity. If you loved yourself, maybe they'll love eachother too, or they might as well hate eachother. Your consciousness might transfer to a family too. But, as the Universe is cold but also has stars and suns, representing bits of the last identity that was stored in that consciousness.
+
+  I know some things don't make sense at first or the fact that the ideas don't melt into eachother at first but it kind of makes sense in my head. Maybe two friends will get deja vu from my ideas in an afterlife and put everything in order. Also my english ain't great because i was taught english in a romanian school so hell naaah man. I also might've got things mixed up or all wrong but i don't want to die with my burning ideas in my head and have an agitated and burning cold death. thank you so so so much for reading!!!!",speculation,
+"Game Theory: A theory I came up with while studying for my examinations, which ate me up since.
+This is a theory I came across while studying Evolution in Biology. I had not slept for around 2-3 days and this may be why I came up with such an absurd theory. I would greatly appreciate if you read the whole thing and let me know about your take on this.
+
+As I was studying Biology, I realized (though I knew), about how perfect life is; from the structure of organisms, functions, different organelles and their functions, the laws of physics, the physical constants because of which our universe exists (it is a known fact that our universe would not exist if there was a discrepancy by even the minutest of values in a physical constant, for example, the gravitational constant). That led me to God, about the Supreme Being who created our universe from the scratch. However, practically speaking, it is very hard to imagine that we are the ONLY living organisms present in the universe, after all, it's infinitely big and constantly expanding at a fast speed than light. So, if God truly made our universe, he MUST be responsible for each an every thing and being, whether or whether not they exist.
+
+After rambling, I came to an absurd checkpoint (one can say); since we have no proof of outer life (technically), we can't prove/disprove anything related to it, since we do not fully understand those concepts or that particular view. Similarly, what makes each and every one of us so sure that there is ONE God and not many? What's telling us or making us believe that God is the Supreme Being, and there are no other Supreme Beings? What if, they have a separate world, which we technically call heaven, where the Supreme Being(s) live(s)?
+
+This particular thought (which I know is absolutely absurd and I will probably get backlash for this), led me to spiral into a chaotic state of mind. We know that we are 3-Dimensional (will refer to Dimensional as D from now) creatures, who observe our immediate surroundings in 2D. We can control the length, breadth and height of a particular object we create right. There are many scientists around the world who strongly believe that Time MAYBE the 4th Dimension, so let us assume that for this particular thread. In theory, we CANNOT control time, but be bound by it forever. This can be taken a step down for further understanding: a 2D object can not control it's height right- this can be seen when we draw anything on a piece of paper, it is BOUND to the 2D surface, and CANNOT have height. Hence, what if God is a 4D Being who can technically control the 4th Dimension, here assumed to be time?
+
+On further thinking/rambling, I started making weirder assumptions. We 3D Beings can code and make a multitude of programs or games or applications. They are bound to a screen (2D) and cannot have height. At the max, they can create visual effects which may make us feel like it has height (for example art or by using shadows). However, it remains true that they are BOUND to a 2D Screen or surface which they CANNOT escape. For example, we all know that video games are one of the most popular sources of entertainment for a huge number of people. There exists many types of games, with many challenges or plots or stories, which the programmer(s) create by coding. So, in reality, we 3D beings are creating something which is BOUND to 2 Dimensions, which WE can CONTROL. Discrepancies or mistakes in code results in bugs in games. Since we are actually coding and making the game, we technically code the actions and mindsets of the protagonists, antagonists, NPCs with fixed dialogues, the world-building (in case of an Open World Game), and so on. This basically makes us, by generalization and absurd comparison, Supreme Beings of the said world we created using code, binding it to a 2D surface/plain. The only catch here is, that those characters we code do NOT have a mind of their own.
+
+Going further down this convoluted, imaginary and twisted rabbit hole, I started correlating shit which technically should not even be discussed under the same topic. Nowadays, Artificial Intelligence (AI) is gaining widespread popularity and use all over the world. What's common is that AI is ALSO coded and made by us, similar to the games we create. These AI models are BOUND to a screen or a 2D surface. However, with the advent of technology and the curiosity of the human brain, we have started implementing AI into 3D mechanical models called robots (I know you all know but for clarity, I do not want to miss anything). The programs we create (AI) are being put in 3D models, which we created, therefore allowing a 2D program to interact with our 3D world. Now there are popularly 3 types of AI theorized/categorized by renowned scientists/programmers across the globe, two of which HAVE self-learning capacity. This means, they have a conscious mind, much like ours, which may or may not develop to be smarter than us humans. It is a KNOWN FACT that this MAY lead to catastrophes (like in the Terminator Franchise) and wide-spread replacement of humans in industries and/or workplaces. If AI is left unchecked and are given self-learning capability and a free mind, our world will be in grave danger. This is the ONLY difference between the games/characters we code and AI: presence of a conscious mind which has the capability to self-learn. Whether or not we apply this to 3D robotic models, AI which has these capabilities will eventually find a way to do so on their own (I do not want to get into that because I'm sure you all can figure that out).
+
+Anyway, what I'm getting at is that, what if we are just a 'game' or a 'source of entertainment' created by 4D beings? Since we can create entire worlds with a story line which may or may not end, using code bound in 2D, the same can happen for us right? The various organelles, perfect physical constants with no discrepancies, a numerous variety of structures with different functions (cellular as well as in species (such as bacteriophages (which was actually THE organism which I thought to be very robot-like which led me to talk shit for so long))), all CAN in theory be replicated in a code (although it's VERY OVERWHELMING). I'm sure you must have heard about Mandela Effect. For those who have not, in short, it's basically having memory of a certain instance (which you are 100% sure of remembering it in a different way) different to what most people have. For further reference, you can find videos on it online so if interested or baffled, please do so. In my particular theory, Mandela Effect can just be termed as bugs in the system the 4D beings have plausibly created. They may or may not be intentional, but certainly CAN be, right? Similarly, the Multiverse Theory with different decisions occurring at every instance, or with different laws of physics, may just be other 'worlds' or 'games' created by OTHER 4D beings? This correlates with the above paragraph where I am skeptical about the existence of ONE 'God' or 'Supreme Being' with no one else of His kind. And what I find interesting is that this might be plausible, for 4D beings ought to be much superior than 3D beings, or is it? 
+
+Above I briefly mentioned AI. Again, reiterating what I sad, AI are bound to 2D, which CAN actually enter our 3D world indirectly if left unchecked (specifically those AI which have a self-learning capability and are left unchecked). Also, it is known that AI CAN actually grow more smarter, intelligent and powerful than us human beings if left unchecked. So, what if we humans or on a wider scale, any 3D organism living in our world/universe, can do the same by indirect means if let into the 4D world? I have not actually theorized this OR can grasp this concept of entering into a 4D world, if that is even possible. But, as best as I can explain it simply, is with reference to the movie Interstellar, where it is seen that Cooper can actually access the 3D world not bound by time, as he somehow made way through to the 4D plain as I would like to call it.
+
+Regardless, my mind had given out when I came to the theory of us entering the 4D world. I got burned out, and still am, and can not process or proceed further. I know many, if not all, will not read this through at all, or even to the end, but for those who do, please tell me your take on this, for I am dumbfounded and lost.",speculation,
+"My theory about black holes and parallel universes
+We all know black holes absorbs light.
+
+My theory is that we might possibly live inside a black hole, and that we see our universe constantly expanding as we speak because the more a black hole absorbs light into it, it transmits that light into our universe which is inside a black hole.
+
+Meaning that we also might be living in a universe that's inside a black hole, that's inside another black hole that holds another universe that could very well be a copy of our universe with maybe some slight variations from this reality. (Parallel Universe) That is also living inside a black hole.
+
+This is my crazy theory, please don't take it seriously.",speculation,
+"My theory of what's at the end of the universe
+So what we are almost certain of is that the universe is forever expanding in all directions...but what's at the end? If you just went straight through the outer ""wall,"" what would happen? I think that you would end up in a 4 dimensional world. Not only that, but I think we are in a 4 dimensional world as it is, but cannot see the 4th dimension because we can only perceive in 3. The easiest way to explain this is by explaining why I think if you were in a 2 dimensional world and you went to the end of that universe, you'd end up in the 3rd. Imagine you're in a 2 dimensional plane, kind of like a stick figure on a piece of paper. You can look up, down, left, and right, but you cannot look away from the paper, because that is a 3 dimensional perception. The stick figures on that piece of paper have no idea there's something around the piece of paper because their 2 dimensional minds can only see what is on the piece of paper. But if you ran to the end of the piece of paper and jumped off, you would be a 2 dimensional figure that fell into the 3rd dimension. I think that our universe is similar to the paper, and going to the edge of our universe would be no different than going to the edge of the paper. If you jumped off, you would be in the 4th dimension. Of course I don't know if any of this is true, I'm no physicist, and maybe this is just downright stupid, but just some food for thought. If you think it a possibility, what do you think would happened when you crossed into the 4th dimension? Would your body turn 4 d or would you just be a 3d creature in the 4th dimension. 4th dimensional creatures wouldn't be able to see you, so is it possible there are 2nd dimensional creatures in our 3d world that crossed over from their universe? Would you be able to see everything in 4d? Would you even be able to cross over or would it be like an impenetrable wall? Do you think I'm the most stupid person to ever walk the earth and you have no idea how I even figured out how to se the Internet? What are your opinions?",speculation,
+"The universe is blowing my mind, what concepts should I study?
+I've been thinking a lot about the universe lately, how vast it is - the history of earth over billions of years, how humans are a sneeze in that timescale and how rare life is in the part of the universe we are aware of or have an understanding of.
+
+Its been making me think a lot about the trivialities of life in context - some of the things we do out of routine, some of the things we stress about, fight for etc. Basically opened a bunch of existential questions 
+
+I was thinking and reading about how the universe we know may one day have no life, and that the universe we know may actually be a small part of something bigger we cant comprehend and i just find it fascinating
+
+I'm coming at this from a pure layman's viewpoint, are there any books to read or places to start that can further develop my interest that aren't too heavy? Or any concepts along the lines above i could study - i saw something about string theory, not sure what that is 
+
+Much appreciated",speculation,
+"Is the earth the center of the solar system/universe? So was Copernicus “wrong”?
+Ok from my understanding, correct me if I’m wrong, the infinite universe has no center (that we know of), so technically any vantage point can serve as the center. In that case (especially from a human vantage point), the earth is at the center of the universe. Just like for example if we were located in Jupiter, Jupiter would be at the center of the universe because that’s our vantage point.    
+Obviously the earth isn’t “special” (nor is any other mass or planet) but because we are in it, our interpretations of the world come from this vantage point (the earth).
+
+So was Copernicus “wrong” for saying the sun was at the center of our solar system? By wrong I don’t mean his statement was ultimately untrue but it \*could\* be untrue if we chose another vantage point (say Venus, or Jupiter to be the center). From my understanding, Copernicus chose the Sun because it made the math easier. 
+
+If that was the case, why was his theory so revolutionary? Didnt Ptolemy have a similar model? 
+
+Also can someone explain this: is earth (and other planets) really revolving around the sun or are we like the moon and earth where we’re all just jiving doing a whirling dervish dance around each other but there’s really no set point? 
+
+Also was does it mean that we revolve around the sun’s center? I’ve heard that claim too",question,
+"There is NO evidence to prove the ramifications of this question correct, but it is NOT out of line to question it:  Who contrived General Relativity, Albert or Mileva Einstein?
+It was known that Mileva Einstein was subjectively a better physics student than Albert, but may have suffered from the discrimination against women in science that was widespread at the time. 
+
+Albert published “his” work regarding General Relativity in November 1915. 
+
+The first observational evidence confirming his predictions came in 2019. 
+
+Albert and Mileva separated in 1914, and officially divorced in 1919.  Albert agreed to give Mileva his Nobel Prize money in 1921. 
+
+Albert would go on to have an illustrious career, but engage in numerous OBVIOUS brain farts like when contemplating the legitimacy of quantum mechanics, to paraphrase some nonsense “I can’t believe G_d plays dice with The Universe” as well as disagreeing with the concept of quantum entanglement calling it “spooky action at a distance” and additionally telling Feynman with respect to his prediction of the enormous amount of energy that constitutes the “zero point energy” to again paraphrase “if there were that much energy, it would warp space-time”. 
+
+It is not that I don’t believe that Albert was capable of conceiving of and constructing the theory of General Relativity…what I take issue with is that anyone who demonstrates the type of intellectual hubris he displayed in poo-pooing others well conceived notions betrays him as the genius we have all assumed him to be. 
+
+Because he did ALL of his monumental work while married to Mileva, and because NO ONE who displays this level of intellectual hubris would ever give up the prize awarded for “THEIR” genius without good cause, it is therefore my conclusion that until proven otherwise, Mileva Einstein was the one who communicated to Albert all that he would come to be acclaimed for. And, had he still had her as a consulting confidant…instead of pursuing other “lady parts”, we would have long ago had a resolution for quantum gravity provided by Mileva herself (of course by way of Albert).",speculation,
+"What is the eternal inflation theory?
+Can somebody explain, please? I read about it but didn't understand much. Pardon my lack of knowledge.
+
+What I understood is that there are inflation fields that keep expanding the space exponentially. Where the inflation stops in a localized region, there happens a Big Bang - the origin of a universe. But isn't Big Bang itself also an inflation of space? So, how did inflation stop there?
+
+Also, how can it even be tested since it tells about the things which are outside the universe.",question,
+"Can you suggest me some books, articles or videos to truly start ""studying"" the universe?
+I'm tired of just knowing some things, i'd like to truly begin to study, i finished university (in a different field) so now i have the time to focus on studying just for personal interest and fun, to increase my knowledge and keep my mind sharp.
+
+But there are so many books, theories, videos, honestly i need a little help to properly answer questions like:
+
+What truly Is a star? How these ""giant balls of plasma"" work?
+What Is a black hole?
+In what sense universe Is expading?
+How can we use space to help improving our lives?
+What truly Is dark matter and how It works?
+In what sense you can bend the universe and shorten the distance between two points like in a paper?
+
+I don't mean just short explanation, i'd like to know more and understand these things.
+
+Thanks.",question,
+"A theoretical question about relativity… the theory
+OK, so if I understand correctly, if you move at the speed of light, then time essentially stops for you but not the rest of the universe.
+
+So if I were to completely stop like all momentum in any direction uncoupled from the Earth and floating, totally stationary in space so that my solar system is floating away for me, but of course I didn’t die… Then would all of the time of the universe flood upon me?  Like the opposite of time stopping at the speed of light?",speculation,
+"Hello everyone! Can you help me with my idea with learning astronomy, please?
+&amp;#x200B;
+
+First of all, I apologize if this post is not appropriate or does not fit the topics of this group.
+
+I am a high school student who wants to learn astronomy and cosmology as a hobby and out of pure passion. I learn best by writing, so my preferred method is to write down everything I read in the form of essays that I can revisit throughout my life.
+
+So far, I have read and written about the Universe in general: its properties, components (ordinary matter, dark matter, dark energy, quarks, leptons, and bosons), special units of measurement used in astronomy, the physical Universe, the observable Universe, the four fundamental forces, and theories regarding its origin and eventual fate. I have gone into considerable detail about the Big Bang and have also covered other theories.
+
+Now I would like to start reading and writing about galaxies and celestial objects such as stars, planets, and so on.
+
+Do you think there is anything else I should study and write about regarding the general nature of the Universe before moving on to galaxies and celestial bodies, or is my current foundation sufficient? Is there any particularly interesting topic that I may have overlooked?
+
+I would prefer not to go too deeply into highly technical details, but any advice would be greatly appreciated. Thank you very much!
+
+I would share what I have written so far, but it is handwritten in my language, and I do not think Google Lens would be able to translate my handwriting accurately.",question,
+"What is the multiverse theory?
+I've seen and heard some depictions of the multiverse and people's explanations but whether the universe is metaphysical or not has always been a question nobody cared to explain first. If there were infinite universes, then what governs their existence? If they're physical objects what keeps them separate? If its upto my imagination in the end, then is it just a concept? If it is, then would it be relevant to ask if anything is possible, do you think that theres something that does hold whatever or it together. Assuming I can say that there's some universe out there with the god hercules as a real deity? And if there technically could be any kind and every kind of god out there, whats the limit on wondering about a god that's powerful enough to be beyond a multiverse? Not trying to steer this in any direction, other than just wondering the possibilities. I don't think that asking what governs the multiverse's existence has to be like some kind of 4th dimensional-esque thing. I don't know, it seems like a logical question to me if we're going to take it into ""deep"" consideration anyways.",question,
+"Cosmology in crisis: the epicycles of ΛCDM
+Since solutions (i.e. theories) aren't allowed here, I will only post the problems. And boy are there serious problems with Lamba Cold Dark Matter. The truth is it is every bit as broken as Ptolemaic geocentrism was in the 16th century. It is nothing but a conglomeration of ad-hoc fixes. Numbers don't add up? Why not invent something ""dark"" and use it to make everything add up.
+
+[The Reality Crisis / Part One: Cosmology in crisis: the epicycles of ΛCDM - The Ecocivilisation Diaries](https://www.ecocivilisation-diaries.net/articles/the-reality-crisis-part-one-cosmology-in-crisis-the-epicycles-of-%CE%9Bcdm)
+
+We cannot fix ΛCDM until we are ready to admit that the problems in cosmology are directly linked to both our inability to agree on a metaphysical interpretation of QM and our inability to agree on what consciousness is, or even whether it actually exists. It's all one Great Big Problem. 
+
+This is a series of articles. The link is to Part One, which is specifically about the difficulties in cosmology. You may want to start with the introduction though (which you can get to from a link at the top of part one).
+
+And to be clear, my ""solution"" does not involve any new physics. Our problems are conceptual -- **philosophical**. Until we fix those conceptual problems, new physics isn't going to help.",fact_post,
+"Our Universe is collapsing...perhaps?
+Is there a theory about the universe collapsing? My thoughts are **1.** It's obvious, but not provable yet, that our Universe is rotating. Which is why **2.** Our galaxy is falling through space while dragging everything with it in it's own helical rotation. This leads me to believe **3.** Our universe has a helical orbit/rotation.
+
+Therefore **4.** The ""expansion of the universe"" we believe we see, is actually an observable increased distance between two points caused by outside forces such as new universes forming/dying/exploding. This would be analogous to one of those squishy plastic balls filled with glitter. As an outside force applies pressure to the ball, it's shape changes- increasing the distance between two pieces of glitter while the volume remains a constant.
+
+Thanks in advance.",speculation,
+"Black holes - are they singularities or not?
+---
+
+Many scientists have started to think about black holes and what's inside them. Some think it's a singularity, while others believe it might be something else. But what?
+
+—
+——
+1 (General Relativity and Black Holes)
+——
+—
+
+General relativity, Einstein's theory of gravity, describes how mass and energy curve spacetime, influencing how objects move and creating the effect we know as gravity. This is mathematically described by the Einstein field equations:
+
+\[ G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu} \]
+
+where \( G_{\mu\nu} \) represents the curvature of spacetime, \( T_{\mu\nu} \) is the stress-energy tensor, \( G \) is the gravitational constant, and \( c \) is the speed of light. 
+
+In this framework, black holes form when massive stars collapse under their own gravity after exhausting their nuclear fuel. If the remaining mass \( M \) exceeds the Tolman-Oppenheimer-Volkoff limit (about 2-3 solar masses), the gravitational collapse continues, resulting in a black hole.
+
+Black holes are characterized by an event horizon, a boundary beyond which nothing, not even light, can escape. The radius of the event horizon (Schwarzschild radius) \( r_s \) is given by:
+
+\[ r_s = \frac{2GM}{c^2} \]
+
+At the center of a black hole, general relativity predicts a singularity, a point where density \( \rho \) and the curvature of spacetime become infinite. The density near the singularity can be represented as:
+
+\[ \rho = \frac{M}{\frac{4}{3} \pi r_s^3} \]
+
+where \( r_s \) is extremely small, leading to \( \rho \rightarrow \infty \).
+
+There are different types of black holes, such as Schwarzschild black holes (non-rotating) and Kerr black holes (rotating). Quantum mechanics suggests black holes emit radiation, known as Hawking radiation, with power \( P \) given by:
+
+\[ P = \frac{\hbar c^6}{15360 \pi G^2 M^2} \]
+
+where \( \hbar \) is the reduced Planck constant. This radiation causes black holes to lose mass over time and potentially evaporate completely.
+
+—
+——
+2 (My Idea/Hypothesis)
+——
+—
+
+I genuinely think it's a neutron star/neutron soup but a lot smaller, or a star core made of neutron soup being influenced by massive forces from within itself.
+
+This is because black holes are created by the same forces that create neutron stars. One of the main differences is gravity. Black holes have an event horizon where the escape velocity \( v_{esc} \) exceeds the speed of light. The escape velocity \( v_{esc} \) from a black hole at a distance \( r \) from the center is:
+
+\[ v_{esc} = \sqrt{\frac{2GM}{r}} \]
+
+Black holes are much stronger than neutron stars due to their extreme gravitational pull.
+
+I also believe the spacetime curvature of a black hole isn't infinite. If the curvature were infinite, the event horizon \( r_s \) would shrink to a single infinite point, which is inconsistent with our observations.
+
+—
+Shorter:
+—
+
+If the spacetime curve were infinite, the width wouldn't be, and so the event horizon would shrink to a single infinite point of gravity, mass, and energy due to the width of the spacetime curve.
+
+—
+Back to My Hypothesis
+—
+
+My idea is that a black hole would not have infinitely high gravity and density inside. Instead, it would shrink, leading to a pancake-like, super-dense neutron soup held up by radiation and quantum mechanics. This would prevent it from collapsing to an infinite point. It is impossible for a finite mass with infinite density in an infinitely small size to be stable; it would immediately explode into faster-than-light neutron particles, and this process would reoccur until the black hole is infinitely small and evaporates because there is no mass in it. This process would be super long and drastic.
+
+—
+———————————————————————————
+—
+(For now, we can only debate about this. This is meant to be neutral and a topic made for pure discussion.) What are your ideas?
+
+Please point out any problems or inconsistencies.
+
+Thanks!",question,
+"I just realized something
+so I just watched a youtube short saying that Quote ""if the universe is infinite that means there is infinite amount of copies of each one of us in our universe because the very very small chance that the exact arrangement of atoms that make you up is repeated times infinity is still infinity"" so I thought that when those atoms repeat themselves that would mean there is a certain time that the universe just like copy pastes itself making it expand more. I am not saying this is true  but just something I thought of after watching that short and I was bored and wanted to share this with someone :)",speculation,
+"Question about the ""before"" of the Big Bang
+(Second time trying to post here)
+Hello, im from Brazil so my english is not so good. I always had a question, ""what originate or ignite the big bang"", and what i saw on the internet was the quantum fluctuations. For my little understanding, for that to happen, it needs an empty space, or vacuum im not sure. The thing is, I know that we cannot have Proof of this type of things, but, in the very beginning, before the quantum fluctuations could have happened, WAS THERE EMPTY SPACE OR SPACE DIDN'T EXIST? Because for me with little knowlegde, to something happen, i would be necessary at least a space  even if it's empty, right? And how would empty space was there for from the beginning then?
+Thank you guys",question,
+"Mechanism of the birth of the universe from nothing or zero energy, Origin of Big Bang energy, New inflation mechanism!
+**Mechanism of the birth of the universe from nothing or zero energy, Origin of Big Bang energy, New inflation mechanism!**
+
+\*Scientists who claim that the universe was born in a state of Zero Energy, where there is no matter or energy, explain this using the phrase ""the birth of the universe from nothing.""
+
+At the current level, these hypotheses or models are assuming quantum fluctuations or assuming physical laws, so they are not strictly suitable for calling it ""nothing."" When it comes to the word ""nothing,"" some people think of ""absolute nothingness"" where nothing exists, while others think that a state where there is no visible or tangible existence such as matter or galactic structures can also be called ""nothing.
+
+Simply put, the term ""nothing"" used here can be thought of as a state of Zero Energy. Even if the term is a little inappropriate, please do not get too fixated on this term.
+
+**1. Positive mass energy can be offset by negative gravitational potential energy**
+
+The claim that positive mass energy can be offset by negative gravitational potential energy has been made by scholars such as Edward Tryon, Stephen Hawking, Alan Guth, and others.... However, they did not present specific calculation results, but only made conceptual (ideological) claims.
+
+In fact, Tryon's paper is a short paper of two pages, with three formulas, two of which are simple definitions, and one of which is his conjecture without any derivation. The paper itself is only an abstract explanation or claim (positive energy can be canceled by negative energy) without any derivation or proof.
+
+&gt;E\_g \~ -GmM/R  
+where G is the gravitational constant and M denotes the net mass of the Universe contained within the Hubble radius R=c/H, where H is Hubble's constant.
+
+&gt;The density of matter which has so far been observed is somewhat less than the critical value ρ\_c required for the Universe to be closed:
+
+&gt;ρ\_c=3H\^2/8πG
+
+&gt;Sandage's resent determination of the cosmic deceleration parameter indicates, however, that our Universe probably is closed, in which case the true ρ exceeds ρ\_c. If I assume the critical density in my estimate of E\_g, I obtain
+
+&gt;E\_g \~ - (mc\^2)/2
+
+He claims that since mass energy (E=mc\^2) is positive energy and gravitational potential energy (E\_g=-GmM/R) is negative energy, positive mass energy can be counteracted by negative gravitational potential energy. However, his claim is abstract and only a conceptual claim.
+
+He claims that gravitational potential energy can be calculated as E\_g \~ -(mc\^2)/2, but he does not give a precise calculation, and strictly speaking -(1/2)mc\^2 is not even the same value as mc\^2, but rather half of the mass energy mc\^2.
+
+The same goes for the claims of Stephen Hawking and Alan Guth. They claim that ""the positive energy of matter can be canceled by negative energy, gravitational potential energy,"" but they do not provide specific situations or calculations for the cancellation.
+
+In his book [*Brief Answers to the Big Questions*](https://en.wikipedia.org/wiki/Brief_Answers_to_the_Big_Questions), Hawking explains.
+
+&gt;To help you get your head around this weird but crucial concept, let me draw on a simple analogy. Imagine a man wants to build a hill on a flat piece of land. The hill will represent the universe. To make this hill he digs a hole in the ground and uses that soil to dig his hill. But of course he's not just making a hill—he's also making a hole, in effect a negative version of the hill. The stuff that was in the hole has now become the hill, so it all perfectly balances out. This is the principle behind what happened at the beginning of the universe. When the [Big Bang](https://en.wikipedia.org/wiki/Big_Bang) produced a massive amount of positive energy, it simultaneously produced the same amount of negative energy. In this way, the positive and the negative add up to zero, always. It's another law of nature. So where is all this negative energy today? It's in the third ingredient in our cosmic cookbook: it's in space. This may sound odd, but according to the laws of nature concerning gravity and motion—laws that are among the oldest in [science](https://en.wikipedia.org/wiki/Science)—space itself is a vast store of negative energy. Enough to ensure that everything adds up to zero.[^(\[14\])](https://en.wikipedia.org/wiki/Zero-energy_universe#cite_note-Hawking_2018-14) : [https://en.wikipedia.org/wiki/Zero-energy\_universe](https://en.wikipedia.org/wiki/Zero-energy_universe)
+
+While paying tribute to the ideas and efforts of these pioneers, there are many gaps (such as the absence of specific calculations and the expansion mechanism of the universe), so I would like to fill in some of these gaps through this paper.
+
+Energy is a property that an object has. Therefore, in this article, the term 'energy' can be thought of as being or object with energy. Energy is one of the most basic physical quantities, and, regarding the birth of energy and the expansion of the early universe, the following model may be valid.
+
+**2. The birth of energy through the uncertainty principle**
+
+\*Examples of mass estimation using the energy-time uncertainty principle  
+[https://qph.cf2.quoracdn.net/main-qimg-131c99dac899caadc78e3f54669abbc5](https://qph.cf2.quoracdn.net/main-qimg-131c99dac899caadc78e3f54669abbc5)
+
+&gt;Thus, the energy-time uncertainty principle serves as a powerful tool for predicting particle masses in quantum field theory, particle physics, and cosmology.
+
+In the energy-time uncertainty principle,
+
+ΔEΔt≥hbar/2
+
+ΔE≥hbar/2Δt
+
+if Δt=t\_P, ΔE≥hbar/2Δt\_P=(1/2)(m\_P)c\^2 holds.
+
+t\_P : Planck time, m\_P : Planck mass
+
+If, Δt \~ t\_P = 5.39x10\^-44s
+
+ΔE≥hbar/2Δt = hbar/2t\_P = (1/2)m\_Pc\^2
+
+Δx = ct\_P = 2R’ : Since Δx corresponds to the diameter of the mass (or energy) distribution
+
+In other words, during Planck time, energy fluctuations greater than (1/2) Planck mass energy are possible.
+
+Assuming a spherical mass distribution, and calculating the mass density value of the (1/2) Planck mass,
+
+ρ\_0 = (3/π)ρ\_P = 4.924x10\^96 \[kg/m\^3\]
+
+It can be seen that it is extremely dense. In other words, the quantum fluctuation that occurred during the Planck time create mass (or energy) with an extremely high density.
+
+The total positive mass of the observable universe is approximately 3.03x10\^54 kg (Since the mass of a proton is approximately 10\^-27 kg, approximately 10\^81 protons), and the size of the region in which this mass is distributed with the initial density ρ\_0 is
+
+**R\_obs-universe(ρ=ρ\_0) = 5.28 x10\^-15 \[m\]**
+
+**The observable universe is made possible by energy distribution at the level of the atomic nucleus.**
+
+Even if there was no energy before the Big Bang, enormous amounts of energy can be created due to the uncertainty principle. In a region smaller than the size of an atomic nucleus, the total mass-energy that exists in the observable universe can be created.
+
+Given that the range of mass densities that a new hypothesis or model can choose from is from 0 to infinity, we can see that the model's inferences regarding the birth of our universe are not bad.
+
+**3. Total energy of the system including gravitational potential energy**
+
+In the early universe, when only positive mass energy is considered, the mass energy value appears to be a very large positive energy, but when negative gravitational potential energy is also considered, the total energy can be zero and even negative energy.
+
+In the quantum fluctuation process based on the uncertainty principle, there is a gravitational source ΔE, and there is a time Δt for the gravitational force to be transmitted, so gravitational potential energy also exists.
+
+Considering not only positive mass energy but also negative gravitational potential energy, the total energy of the system is
+
+E\_T= Σ(m\_i)c\^2 + Σ-G(m\_i)(m\_j)/r
+
+For a simple analysis, assuming a spherical uniform distribution,
+
+E\_T= Σ(m\_i)c\^2 + Σ-G(m\_i)(m\_j)/r = Mc\^2 - (3/5)(GM\^2)/R
+
+According to the uncertainty principle, during Δt=t\_P, energy fluctuation of more than ΔE =(1/2)(m\_P)c\^2 is possible. However, let us consider that an energy of ΔE=(5/6)(m\_P)c\^2, slightly larger than the minimum value, was born.
+
+1)If, Δt=t\_P, ΔE=(5/6)(m\_P)c\^2, 2R =ct\_P ; R is the radius of the mass distribution.
+
+**E\_T = Mc\^2 - (3/5)(GM\^2)/R = (5/6)(m\_P)c\^2 - (3/5)G{(5/6)(m\_P)}\^2/(ct\_P/2)**
+
+**E\_T = (5/6)(m\_P)c\^2 -(5/6)(m\_P)c\^2 =0**
+
+The total energy of the system is 0
+
+**In other words, a mechanism that generates enormous mass (or energy) while maintaining a Zero Energy State is possible.**
+
+If the above quantum fluctuations occur at approximately the size of an atomic nucleus, there is a possibility that these mass and energy distributions will expand to form the current observable universe.
+
+2)If, Δt=(3/5)\^(1/2)t\_P, ΔE≥(5/12)\^(1/2)(m\_P)c\^2,
+
+In the analysis above, the minimum energy of quantum fluctuations possible during the Planck time is ∆E ≥ (1/2)(m\_P)c\^2, and the minimum energy fluctuation for which expansion after birth can occur is ∆E &gt; (5/6)(m\_P)c\^2. Since ∆E=(5/6)(m\_P)c\^2 is greater than ∆E=(1/2)(m\_P)c\^2, the birth and coming into existence of the universe is a probabilistic event.
+
+**For those unsatisfied with probabilistic event,** let's find cases where the birth and expansion of the universe were inevitable events. By doing a little calculation, we can find the following values:  
+Calculating the total energy of the system,
+
+If, Δt=(3/5)\^(1/2)t\_P, ΔE≥(5/12)\^(1/2)(m\_P)c\^2,  
+Calculating the total energy of the system,
+
+[https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-n6gq8zr1o2tb1.jpg?width=508&amp;format=pjpg&amp;auto=webp&amp;s=42bb7f99a669e609a3854f559d25b57675349e9b](https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-n6gq8zr1o2tb1.jpg?width=508&amp;format=pjpg&amp;auto=webp&amp;s=42bb7f99a669e609a3854f559d25b57675349e9b)
+
+The total energy of the system is 0.
+
+[https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-rhhxnzk4o2tb1.jpg?width=367&amp;format=pjpg&amp;auto=webp&amp;s=2558d08516349c48c9f0243d90114f78e0a5d6ac](https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-rhhxnzk4o2tb1.jpg?width=367&amp;format=pjpg&amp;auto=webp&amp;s=2558d08516349c48c9f0243d90114f78e0a5d6ac)
+
+“E\_T = 0” represents “Nothing” state.
+
+Mass appears in “Σ(+mc\^2)” stage, which suggests the state of “Something”.
+
+In other words, “Nothing” produces a negative energy of the same size as that of a positive mass energy and can produce “Something” while keeping the state of “Nothing” in the entire process (“E\_T = 0” is kept both in the beginning of and in the end of the process).
+
+In other words, **a Mechanism that generates enormous energy (or mass) while maintaining a Zero Energy State is possible. This is not to say that the total energy of the observable universe is zero.** This is because gravitational potential energy changes as time passes. This suggests that enormous mass or energy can be created from a zero energy state in the early stages of the universe.
+
+**4. The mechanism by which the born quantum fluctuation does not return to nothing and creates an expanding universe,** Why quantum fluctuations do not return to nothing and form the current universe
+
+**4.1. The expansion effect that occurs when the total energy of the system becomes a negative energy state**  
+4.1.1. Negative energy and negative mass exert a repulsive force on positive masses, causing the mass distribution to expand.
+
+U=-(3/5)(GM\^2/R) = - (m\_gp)c\^2
+
+(-m\_gp &lt; 0, -m\_gp =- (3/5)(GM\^2/Rc\^2, -m\_gp is the equivalent mass of gravitational potential energy.)
+
+F\_gp = -G(-m\_gp)m/R\^2 = +G(m\_gp)m/R\^2
+
+4.1.2. Gravitational effect between negative masses  
+The gravitational force acting between negative masses is attractive force(F = − G(−m)(−m)/r\^2 = − Gmm/r\^2 ), but since the inertial mass is negative in the case of negative mass, the gravitational effect is repulsive(F = −ma, a = − F/m). So the distribution of negative energy or the distribution of negative equivalent mass is inflated.
+
+**4.2. When considering the total energy including gravitational potential energy (gravitational binding energy), the energy-time uncertainty principle**
+
+Regarding the existence of quantum fluctuations without annihilation, the following logic can be made. If the total energy of the system, including the gravitational potential energy, is 0 or very close to 0,
+
+Δt ≥ hbar/2ΔE\_T
+
+If ΔE\_T --&gt;0, Δt --&gt;∞
+
+That is, ∆t can be larger than the age of the universe, and these quantum fluctuations can exist for a longer time than the age of the universe. Another effect, the expansion effect due to negative mass states, can cause state changes in quantum fluctuations. Therefore, it is thought that ∆t need not be larger than the age of the universe. It is possible that a Δt of a level where gravitational interaction with other quantum fluctuations is possible is sufficient.
+
+**4.3. Why quantum fluctuations do not return to nothing and form the current universe**
+
+According to the energy-time uncertainty principle, during Δt, an energy fluctuation of ΔE is possible, but this energy fluctuation should have reverted back to nothing. By the way, there is also a gravitational interaction during the time of Δt, and if the negative gravitational potential energy (or gravitational self-energy) exceeds the positive mass-energy during this Δt, the total energy of the corresponding mass (or energy) distribution becomes negative energy, that is, the negative mass state.
+
+Because there is a repulsive gravitational effect between negative masses, this mass (or energy) distribution expands. Thus, it is possible to create an expansion that does not go back to nothing.
+
+[https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-9h9qf9odo2tb1.jpg?width=692&amp;format=pjpg&amp;auto=webp&amp;s=ec3c7d2db87d0f24e642be44811df0d87584e9f6](https://preview.redd.it/here-is-a-hypothesis-mechanism-of-the-birth-of-the-universe-v0-9h9qf9odo2tb1.jpg?width=692&amp;format=pjpg&amp;auto=webp&amp;s=ec3c7d2db87d0f24e642be44811df0d87584e9f6)
+
+**5. Some forms of early universe expansion**
+
+**5.1. In Planck time, if the total positive energy of the observable universe, or the total positive energy of the entire universe, was born from a single quantum fluctuation**
+
+The total positive mass existing within the 46.5 billion light years of the observable universe is approximately 3.03x10\^54 kg (approximately 10\^81 protons). Since the entire universe is larger than the observable universe, the total positive mass of the entire universe must be larger.
+
+From the energy-time uncertainty principle,
+
+ΔEΔt ≥ hbar/2
+
+If Δt=t\_P, ΔE≥hbar/2Δt\_P=(1/2)(m\_P)c\^2 holds.
+
+Now, if we consider the case where the total positive mass-energy of the observable universe, (3.03x10\^54kg)c\^2, was born during the Planck time, R \~ l\_P,
+
+E\_T = Mc\^2 - (3/5)(GM\^2)/R = (1-(3/5)GM/Rc\^2)Mc\^2 = -(8.39x10\^61) Mc\^2
+
+Negative gravitational potential energy is about 10\^61 times larger than positive mass energy, so the system is in a very low negative energy state (a very large negative energy state in absolute terms) and is expanding.
+
+In addition, this is a very large energy, which is extremely far from the minimum value of (1/2) Planck mass-energy. Since the Planck mass is approximately 10\^-8 kg, the total positive mass-energy of the observable universe is approximately 10\^61 times larger than the (1/2) Planck mass energy. The minimum energy of the quantum fluctuations that can occur during the Planck time is about 10\^124 times smaller than the total energy, including the gravitational potential energy.
+
+**That is, the event where the total positive mass of the observable universe is born from a single quantum fluctuation is an event with a very low probability.**
+
+Therefore, in the current vacuum, such an event is unlikely to occur in the range of the observable universe. Since it is an event with a very low probability,
+
+**5.2. In the current mainstream cosmology, the mainstream cosmology places the accelerated expansion period called ""inflation"" before the ""Big Bang model""**
+
+In this case, the total energy of the system, including the gravitational potential energy, is a very large negative energy state. Therefore, the expansion of the mass and energy distribution occurs.
+
+The Planck time is approximately 10\^-43s, and the time when inflation occurs is approximately 10\^-36s. There is a difference between the Planck time and the inflation time.
+
+If, Δt=10\^-36s,
+
+We get the value ΔE ≥ hbar/2Δt = (5.89x10\^-16 kg)c\^2.
+
+That is, at the time Δt=10\^-36s when inflation occurs, energy fluctuations of ΔE ≥ (5.89x10\^-16 kg)c\^2 or more are possible.
+
+However, at this time, the point where the total energy of the quantum fluctuations becomes 0 is ΔE = (0.33kg)c\^2. That is, ΔE must be greater than (0.33kg)c\^2 for the mass distribution to expand and for the current universe to form.
+
+However, this ΔE = (0.33kg)c\^2 is quite far from the minimum value of ΔE ((5.89x10\^-16 kg)c\^2) obtained just above. It is approximately 10\^15 times larger. In other words, such an event is likely to be a probabilistic event, and a very low-probability event. Also, in this case, there is the issue of the frequency at which the surrounding quantum fluctuations must exist in order to participate in the gravitational interaction.
+
+**5.3. During the Planck time, the total energy of a single quantum fluctuation is zero, and the expansion of the universe occurs due to the participation of surrounding quantum fluctuations in gravitational interactions**
+
+1)If, Δt=t\_P, ΔE=(5/6)(m\_P)c\^2, 2R =ct\_P ; R is the radius of the mass distribution.
+
+**E\_T = Mc\^2 - (3/5)(GM\^2)/R = (5/6)(m\_P)c\^2 - (3/5)G{(5/6)(m\_P)}\^2/(ct\_P/2)**
+
+**E\_T = (5/6)(m\_P)c\^2 -(5/6)(m\_P)c\^2 =0**
+
+The total energy of the system is 0
+
+In the above method, the total energy of one quantum fluctuation is zero energy. Since individual quantum fluctuations are born in a zero energy state, and as time passes, the range of gravitational interaction expands, when surrounding quantum fluctuations come within the range of gravitational interaction, accelerated expansion occurs by this method. **As time passes and the extent of gravitational interaction increases, the positive mass energy grows proportional to M, while the negative gravitational potential energy grows proportional to -M\^2/R.** Therefore, temporarily, the repulsive force due to negative gravitational potential energy becomes superior to the attractive force due to positive energy, and the universe enters a period of accelerated expansion.
+
+\~\~\~\~\~
+
+Through this model, we can simultaneously solve the problem of the origin of universe energy and the problem of accelerated expansion in the early stages of the universe.
+
+**\[ Abstract \]**  
+There was a model claiming the birth of the universe from nothing, but the specific mechanism for the birth and expansion of the universe was very poor.
+
+According to the energy-time uncertainty principle, during Δt, an energy fluctuation of ΔE is possible, but this energy fluctuation should have reverted back to nothing. By the way, since there is ΔE, the source of gravity, and Δt, the time during which gravity is transmitted, in the energy-time uncertainty principle, gravitational potential energy must also exist.
+
+If the total energy of the system including the gravitational potential energy is close to 0, that is, ΔE\_T-&gt; 0, Δt -&gt;∞ becomes possible. Therefore, there is a possibility that quantum fluctuations can exist for a longer time than the age of the universe. Also, there is also a gravitational interaction during the time of ∆t, and if the negative gravitational self-energy exceeds the positive mass-energy during this ∆t, the total energy of the corresponding mass distribution becomes negative energy, that is, the negative mass state. Because there is a repulsive gravitational effect between negative masses, this mass distribution expands. Thus, it is possible to create an expansion that does not go back to nothing.
+
+Calculations show that if the quantum fluctuation occur for a time less than ∆t = (3/10)\^(1/2)t\_p ≈ 0.77t\_p , then an energy fluctuation of ∆E &gt; (5/6)\^(1/2)m\_pc\^2 ≈ 0.65m\_pc\^2 must occur. But in this case, because of the negative gravitational self-energy, ∆E will enter the negative energy (mass) state before the time of ∆t. Because there is a repulsive gravitational effect between negative masses, ∆E cannot contract, but expands. Thus, the universe does not return to nothing, but can exist.
+
+Gravitational Potential Energy Model provides a means of distinguishing whether the existence of the present universe is an inevitable event or an event with a very low probability. And, it presents a new model for the process of inflation, the accelerating expansion of the early universe. 
+
+This paper also provides an explanation for why the early universe started in a dense state. Additionally, when the negative gravitational potential energy exceeds the positive energy, it can produce an accelerated expansion of the universe. Through this mechanism, inflation, which is the accelerated expansion of the early universe, and dark energy, which is the cause of the accelerated expansion of the recent universe, can be explained at the same time.
+
+\-----
+
+Please refer to pages 14 \~ 18P, 27P of the following paper.
+
+[https://www.researchgate.net/publication/371951438\_The\_Birth\_Mechanism\_of\_the\_Universe\_from\_Nothing\_and\_New\_Inflation\_Mechanism](https://www.researchgate.net/publication/371951438_The_Birth_Mechanism_of_the_Universe_from_Nothing_and_New_Inflation_Mechanism)",fact_post,
+"Question about future of stars
+Hello everyone. My interest in universe began when I was around 15. The theories of how universe began and keeps expanding, how black holes are created and are literally breaking our knowledge of everything we know are very interesting to me and I love talking about this stuff whenever I get the chance, because I am able to learn new things. There is however one thing out of many that I don't think I understand correctly and that is the future of stars. 
+
+As we all know stars are created when previous one explodes in a super bright, super powerful supernova. That's how our Sun was created and what comes with that, our planet, as well as many others. What boggles me, is the theory, that in the future no more stars will be created. 
+
+In a very interesting youtube video created by Melodysheep called ""Timelapse of the future: journey to the end of time"" we can hear that theory being talked about. ""Stars on the night sky will turn off and no more stars will be created"" is one of the things we can hear in that video. 
+
+But what I don't understand or maybe I'm just not comprehending it enough, if stars, planets, whole star systems are created out of accumulated gas clouds collapsing after previous star goes supernova, how could new stars stop being created? Does that mean that with every new generations of stars that are emerging out of gas clouds, they are being created smaller than their ancestors, and in far distant future there won't be enough gas clouds to create stars? That would suggest that only planets would be created or there won't be enough gas to create anything and it would just stay that way. Just a colorful painting left behind by the last big star. 
+
+Or perhaps that means that the last stars the universe would see being created will be red and brown dwarfs, which don't explode but just slowly burn themselves out into black dwarfs?
+
+Sorry for a long post, I just wanted to explain everything from my point of view. I hope everything I wrote would be comprehensible enough not to confuse anybody. Hope you all have a great day, night or evening and I want to thank you in advance for the answers and possible discussions on that subject",question,
+"Prolly gonna get deleted but, is does infinities inconsistency with objectivism rule out its possibility?
+Okay so before i get started i want you all to know that in no way what so ever do i have any knowledge in philosphy or anything but i was having a discussion with my professer today over the concept of infinity and its place in the world of science specifically space and the universe.
+
+so i have recently been researching the Poincaré recurrence theory and apart of this theory relates to the idea of infinity, however it struck me, that infinity is not an objective concept, as it cannot be proven to exist within our universe. So therefore it essentially becomes a subjective concept.
+
+For example we used to belive that mathamatic equations like Pi were infinite however, the view of a constructionist breaks that down instantly, because in constructivism the view holds that mathamatical objects are only to be considered to exist if they can be EXPLICITLY constructed or demonstrated. however infinity cannot be fully constructed or demonstrating, literally rulling out its possibility of existance.
+
+so if it cannot mathamatically exist then how on earth can it exist externally from earth?
+
+Through the Big Bang Theory it states that all matter came from a finite amount of energy that became so large in mass that it became unstable etc and exploded, wich means these models of how our universe was created do not require an infinite universe to explain there phenomena, to add onto this the idea that the universe has an age also blantantly rules out that we live in an infinite universe, the age of the universe automatically implies a temporal boundary on its existance. it basically outlines The idea that our universe has boundaries and is finite. (with our universe being around 93 billion light years in diameter)
+
+The issue is that a goal of science is to turn theories into objective facts, and with infinity being a majority subjective theory, thats when i ask if it is even possible for it to exist, i mean with the lack of concrete interpretation, consistancy and proof, how can we say that it even exists.
+
+So i ask, can this extreme inconsistancy with reality and objectivism rule out its possibility",question,
+"Does space have an Aether? Does Coranal Discharge lean towards the medium of space being of electrical nature? How else can electrical energy travel through space?
+Believing that the Aether was one of the most important results of modern scientific research, Tesla refused to abandon it, because in his mind, the ether was an important key to understanding ***how electrical energy could travel through space without wires.***
+
+In 1896 Tesla finally obtained proof of the Aether. He invented a new form of vacuum tube which could be charged to any high potential and operated with pressures up to 4,000,000 volts.
+
+In 1929, Tesla spoke of these vacuum tubes saying, “One of the first striking observations made with my tubes **was that a purplish glow for several feet around the end of the tube was formed, and I readily ascertained that it was due to the escape of the charges of the particles as soon as they passed out into the air**; for it was only in a nearly perfect vacuum that these charges could be confined to them.”
+
+***The coronal discharge proved that there must be a medium besides air in the space, composed of particles immeasurably smaller than those of air, as otherwise such a discharge would not be possible.***
+
+
+
+[Protons may be stretchier than physicists had thought (snexplores.org)](https://www.snexplores.org/article/proton-stretch-strong-force-particle-physics-quark)
+
+For the most part, the quarks moved as expected when electric fields pulled them in opposite directions. But something odd happened when ***the*** [***electrons***](https://www.snexplores.org/article/scientists-say-electron) ***had higher energies.*** The quarks seemed to respond more strongly to an electric field than theory predicted. But this only happened for a small range of electron energies.
+
+If electric fields made by positrons can tug quarks around as easily as fields made by electrons, that would provide more evidence of protons’ stretchiness.
+
+Could protons, neutrons and electrons (basic building blocks) be the medium in space allowing for electrical energies to  travel through space? Was Tesla right?",speculation,
+"If the universe i flat are black holes flat too?
+If the universe i flat are black holes flat too? 
+
+Will the sigulerty point pearce true the flatness?
+
+Maybe it will eventually explode and create a new universe like a ""white hole"". Im been thinking lately that in center of every black hole there is a white hole that creates a new universe like the big bang. And our universe is inside a black hole. And this goes on Forever.
+
+Maybe everything exist in this infinite flat landscape and all the new universe's exist simultaneously like other dimensions. 
+
+Or maybe the universe is curved but so infinite large that we can't dedect it. And we live in this large bubble with probably other bubbles like the multiverse theory.
+
+I guess my question is are the universe flat or curved. And is it infinite or does it have a edge? And what is outside this edge?
+
+Sorry, I have a lot questions and my brain hurts! 
+Hope you all can help my understand all this better😅
+
+Thanks",speculation,
+"Water Balloon Bang Theory?
+Hear me out
+
+I hope this doesn’t get taken down but if I am breaking the theory rule your welcome to take it down. A little bit of this was about how I helped my brother with a science project. Just please don’t ban me for this. I will promise to not post again if so. 
+
+Now to get in to it my questions and why I’m stuck not understanding. Also the story of how I managed to help my little brother impress his teacher with his science project.
+
+I recently read an article about the shape of the universe being flat. From my current understanding so far; it doesn’t have a mass at the center holding it together with gravity and spinning, like a galaxy. The part that that kind of gets me thinking more is that, this supposed flat universe is infinitely expanding too. How can that be?
+
+The way I used to picture the Big Bang “explosion” happening was like a spontaneous spherical outward momentum and energy in all directions from a center point. How would that be if the universe is flat?
+
+I started over and started thinking from a flat perspective. What could possibly make something expand while staying flat? 
+
+I began doing experiments with my little brother to help him with his scientific method 6th school project. We scattered the internet for slow-mo videos of explosions, trying to find the perfect example of a flat explosive. Our results came down to something as simple as a water balloon. 
+
+With our idea in mind, it was time to test it. We took countless slow-mo videos of bursting water balloons. From different heights, to throwing, and even trying to collide two balloons together. Our results always came back the same. A flat expansion until it burst, with water continuing to expand. 
+
+He came up with his(our) theory that he named, the balloon bang. 
+
+To finish his project we even gathered information and history about the common cosmic theory’s of today that could add to his theory. 
+
+Now to explain. Imagine whatever Celestial object came before the Big Bang, is a water balloon. In order for that balloon to burst and expand flat, it had to have hit something. That’s where Einstein theory of relativity opens the door for the possibility of infinite parallel universes. Maybe the 2 objects, which again are of equal mass and energy collided head on?
+With the 2 balloons being their own universe, you can see how the universe would expand flat. If it didn’t have another object to collide with, it should cause a spherical expansion in all directions but not infinite. A sphere would eventually collapse in on itself if it were round.
+
+Everything isn’t accurate and we definitely don’t know everything that is known about the sciences of the universe. We simply came up with a way that from a physics standpoint could make sense. It could just be in our heads.
+
+He definitely loved every part of the project and had fun. His 6th grade teacher was even blown and loved it. Even encouraged him to continue on until he becomes an astrophysicist one day so he can learn the answer.
+
+What do Y’ll think? Hopefully it makes sense.
+Thank you and again if I broke the rule I do apologize.",question,
+"Could we still just be in the acceleration part of the Big Bang explosion?
+I’m not an expert on the Big-Bang Theory but had a thought that maybe someone could shed some light on. We think of the Big Bang as a giant explosion. All explosions have a period of time where things are accelerating outwards until the force dies out and everything starts decelerating from then on. Scientists are questioning why our galaxies appear to be accelerating away from each other and attributed this acceleration to “dark energy.”  Could it be that we are just still in the acceleration phase of the explosion that was the big bang and whatever caused the big bang is still exerting its explosive force on everything? Given this idea, there could be a time in the far future when our universe does in fact slow down and collapse back in on itself. Forgive my ignorance. I was raised religiously most my life and was told Big Bang was nonsense and just recently cast all that aside and am starting to explore science from a new unbiased lens. Thanks in advance.",question,
+"I have a hypothesis regarding black holes, white holes, and the big bang. Tear it to pieces and tell me why I'm wrong.
+I'd like to preface this by stating I don't know physics or string theory, but I do read articles on black holes, neutron stars, planck particles, strange quarks, and I get ideas every once in a while, so here it goes:
+ Could the Big bang be the results of a supermassive White hole?
+Thought process:
+Theoretically a white hole should be on the opposite side of a black hole, but we've never documented a white hole in our own universe before. Why? Could it be that a black hole typically doesn't contain enough mass to tear a hole through the fabric of Space-time?
+What if an especially large supermassive black hole was necessary in order to rip a hole in the fabric of Space-Time to create a white hole in another universe?
+Since black holes and white holes are a singularity, wouldn't that explain the universe expanding faster than the speed of light? Wouldn't the large amounts of matter and the heat released at the big bang be explained by a white hole? I also believe a white hole is a great reason behind why there was no black hole immediately after the big bang.
+I'm sure somebody could tear down my hypothesis, so please do. I'm interested in how wrong I am and why.",speculation,
+"Does my vision of the Universe makes sense?
+Good day everyone,
+
+First of all, this is my first post here, if I'm doing something wrong, just tell me.
+Second, the usual ""English isn't my native langage"".
+
+Then, I'm posting here today, because I think a lot about the universe, since I'm a kid, and I would like to know if my thoughts are only mine, or are they shared? Moreover, I'd like to know if there are flaws in my reasoning, or accepted theories contradicting my thoughts, and finally, what books/articles/other should I read/watch to learn more about these subjects?
+
+So please, I'm going to share some thoughts, contradict me if I'm wrong, it's the aim here.
+
+First, a quick introduction :
+Since I'm young, I'm asking myself and others a lot of question about the origin of life, of the universe, our purpose etc. As I grew up, I found some answers, a lot more questions, and I categorized myself in the ""Existential Nihilists"", concerning the purpose and most humanity-oriented thoughts. 
+
+When I was younger and I asked people what made the universe, my father would say ""The Big Bang."" And when I asked ""but what was before the big bang?"" he would say ""nothing."". And this answer never fullfilled me. What is ""nothing?"", what made the big bang, how can a ""nothing"" produce such power?
+I think it's a Hawking who explained very well the ""before"" the universe, and I understood that my question was not making any sense, because ""before"" is about time, and time did not exist before the big bang.
+But then, more questions. How can we date the universe itself? Why the big bang? If there was nothing before, what happened 13,8 billion years ago for the big bang to happen?
+
+Then I read about the Big Bounce somewhere. And this, once again, answered some questions but implied even more questions! If the big bang is the result of one huge bounce, what created the unverse before ours? How come it contracted into one single point? The answer I think my father would say is ""The old universe always existed"", because this doesn't fills me. How ""Always"" ? So this universe was in contraction forever? No, that is not logic. 
+
+Then something occured to me. What if it was contracted into one single point because of one huge black-hole ?
+Then everything makes sense. There is no such thing as an ""older"" universe. Everything is the same bag of atoms thrown in the space-time randomly, since forever, and for ever.
+It starts with a big bang, then dilation, then a black hole appears, and it starts to ""swallow"" everything, and it becomes so huge that it ""swallows"" other black holes, time, and the universe starts to move toward this one point. The attraction is so powerful that the expansion itself is stopped, the universe starts crumbling into one dark-hole. And when nothing else is around, but the dark hole, it starts swallowing itself, until everything is but one point.. And it starts with a big bang.
+
+Does this make sense?
+Who's studies can I read upon this subject?
+I read a bit of Hawking, but not much.
+
+Thanks in Advance,
+
+X.",speculation,
+"Micorwave's Personal Universe. A non theory pseudoscientific rambling
+I believe I am living in my own universe. Independent of others and ultimately revolves around my own perceptions and observations of what I have observed throughout my life in my universe.  
+
+Why would I think that? 
+
+My brain is very similar to how the universe is observed. We all know the studies of astrophysicist Franco Vazza and neuroscientist Alberto Feletti. If my brain is developing over billions of years, why is it's structure resembling the universe instead of something completely arbitrary ? I think this may be due to billions of years of evolutionary synchronization of my brain to its relationship to the universe. 
+
+So how could I possibly live in my own universe even if my brain is configured with a universe structure? 
+
+There have been many studies on the 'Multiverse' and it's not out of the question that it exists. From the big bang there would have been a lot of matter that would have traveled at the speed of light. Who is to say that this matter did not create other universes? 
+
+So here is what I have to ask you Universe (and Reddit). What do I have to learn from you? 
+
+Please before deleting my post please read my response to the subreddit TOC below - 
+
+""What do you think of my theory?""
+  
+The answer is: You do not have a theory.
+
+// You don't know me bro. 
+  
+
+  
+""Well, can I post my theory anyway?""
+  
+No. Almost certainly you do not have a theory. It will get reported and removed. You will be warned, and if you try again you will be banned.
+
+// I guess I get one strike. one chance. My palms are sweaty, knees weak, arms are heavy  
+// There's vomit on my sweater already, mom's spaghetti. 
+  
+
+  
+""So what is a theory?""
+  
+In science, a theory is a substantiated explanation for observations. 
+
+// I got a lot of those
+
+It's an framework for the way the universe works
+
+// So we are saying we know how the universe works? Are we sure? Do we know if it is even   
+// finite or infinite ?
+
+, or a model used to better understand and make predictions. Examples are the theory of cosmological inflation, the germ theory of desease, or the theory of general relativity.
+
+//  You misspelled disease. 
+
+ It is almost always supported by a rigorous mathematical framework, that has explanatory and predictive power. 
+
+// almost always, so what are the excepted theories that are not supported by rigorous mathematical framework, that has explanatory and predictive power. 
+
+A theory isn't exactly the universe
+
+// Uhhh... what ? 
+
+, but it's a useful map to navigate and understand the universe; All theories are wrong, but some theories are useful.
+
+// Can't some theories be correct but just not proven yet? 
+  
+
+  
+If you have a factual claim that can be tested (e.g. validated through measurement) then that's a hypothesis. The way a theory becomes accepted is if it provides more explanatory power than the previous leading theory, and if it generates hypotheses that are then validated. 
+
+// I think now we are just getting into syntax. 
+
+// 'can be tested e.g. validated through measurement' So we need to get out our tape measurers? 
+
+'The way a theory becomes accepted is if it provides more explanatory power than the previous leading theory, and if it generates hypotheses that are then validated.'
+
+// So you are the authority of process flows for theory? 
+
+If it solves no problems, adds more complications and complexity, doesn't make any measurable predictions, or isn't supported by a mathematical framework, then it's probably just pseudoscientific rambling. If the mathematics isn't clear or hasn't yet been validated by other mathematicians, it is conjecture, waiting to be mathematically proven.
+
+// So let's just say if you have an idea and you don't have the mathematical knowledge of //realizing that idea then that idea is void and is chalked up to pseudoscientific rambling. 
+  
+
+  
+In other words, a theory is in stark contrast to pseudoscientific rambling, a testable hypothesis, or a mathematical conjecture.
+
+  
+// So no one else can think and express their ideas unless they have the same amount of knowledge that you have. 
+
+
+  
+What to do next? Perhaps take the time (weeks/months) reading around the subject, watching videos, and listening to people who are qualified in the subject.
+
+
+  
+// We have lived our own lives and in during that time we make our own assessments of the observations that we see and than therefore take reasonable thoughts about what we have observed. 
+
+ 
+  
+Ask questions. Do not make assertions or ramble off your ideas.
+
+// This is horrible. How do we advance without sharing information and ideas with each other.",speculation,
+"Can 'information' theoretically be faster than light?
+If every theory and calculations would be solved, and then be put in the theoretically infinite information simulator, then could it let you fast-forward through every stage of the Universe?
+
+That may mean the fact that yes, we are just calculations, everything could be answered mathematically, so, if the simulator would have every bit of information it needed, then truly, you could simulate an entire Universe, as everything is atoms and everything can be explained, then even what we call ""true"" life could be achieved in the simulation, then we could fast-forward and watch the simulation as it would discover this theory as well, and so on.
+
+I don't know, this came into my thoughts now after I've been smoking and chilling for a minute.",question,
+"Bubble universes?
+Either I am to stupid to grasp the idea? Or, it's  just another strange theory by somebody(s) trying to justify the grant money. First off I am just your average person with no college degree. Just a lot of curiosity. Can somebody give me a dumbed down explanation in plain English, please. Tried reading articles and academic papers. Just ended up more confused. Or just tell me politely, to accept it as it is and move on. Thanks for any help constructively provided. Mean comments on my stupidity, at least though in some humor.",question,
+"Interesting question
+I don't know if this is a unique thought, but I was in my astronomy class and I had an interesting thought experiment. It starts with the hypothetical situation that all life in the universe - humans, other earth-dwelling life, bacteria, aliens (should they exist) - vanished or died. I define life as any collection of matter that is able to perceive/sense the universe, which is what life truly is when you boil it down. Perception is vaguely defined, whether it be through the traditional senses (sight, taste, etc.) or unconventional senses (sensing ultraviolet waves, etc.)
+
+So this hypothetical version of our universe is lifeless, by definition having nothing to perceive it. If there is nothing to perceive the universe, does it exist?
+
+This may seem like a stupid question at first. ""Of course it exists,"" you might say. The point of this question is to get at the nature of what defines the universe and reality. Does reality exist to be perceived? If it isn't perceived, does it exist?
+
+Now, surely the universe did not always contain life. If the bing-bang theory is correct (lets assume that it is), life surely did not exist for the first few seconds of the Universe (and likely first few million/billion years). However, now that life exists (whether it be limited to earth or not), we know that the universe existed before Earth existed as we can measure and detect the world and see light from long before our galaxy even existed, making it virtually a certainty that the universe existed before earth-dwelling life.
+
+Here comes a follow-up question. Lets say our universe never had life to begin with, rather than all existing life perishing. Then does it ever exist? The moment life came on earth, the Universe suddenly popped into ""existence"" i.e. perception. However, if life never arose in our universe anywhere, does it EVER exist?
+
+One guide to answering this question can be seen in quantum physics. I myself am no expert in physics (I am an economics student) but I know that, on the quantum level, it only seems that particles appear into measurable existence/change behavior once they are observed (think of Schrodinger's cat or the double split experiment).",question,assuming they have only asked a question
+"Pls tell me I'm not weird and that actually some of yall might believe what I'm​ saying
+Okay hear me out on this one, I'm sure you guys have heard that we are not yet capable of the understanding de human brain at its fullest extent. This theory is a bit weird and it might sound crazy, but I'm to give you guys something to think about and question yourselves ""is there really a multiverse out there?"" or maybe you guys are just going to laugh at me for saying such crazy things.
+
+About six months ago, I started to have really really lucid dreams. These dreams were so real that I could remember them as if I had really actually lived the moment. However, they never took place on our Earth. They were mostly in different universes where something had to change the outcome of things completely.
+
+To give you more insight into the next couple of paragraphs, I'm going to tell you guys that one of my biggest dreams in life and how they relate to the theory. One of them is becoming the president of Venezuela, marrying this girl I went to school with and having a mustang. literally.
+
+Dream #1: I see how my soul or consciousness is walking through a vortex (kinda like a portal?), I get through ""portal"" and I appear in someone's body. However, I realized it's my body because of how my voice sounds and I'm guessing you would know how your body feels, anyway, I see myself in the mirror and I'm wearing a suit and tie, and then Venezuelan flag pin on my suit. A lady comes into the room where I was at and asks me ""my love are you ready?"" to this point I think it's awesome that my brain is dreaming about something that I've always wanted. I've yet had to realize that this was no dream, this was real. In the room where I was at, there was a small tv showing the news, in which one of the headlines said ""War between Earth 33 and Earth 86 is imminent."" but I didn't pay close attention thinking it was just a dream. The lady suddenly kisses me and tells me ""You're not supposed to be here but since you already are... I'll in 30 years"" and then I woke up.
+
+Dream #2: like in the last dream, my mind is going through a ""portal"" and I land in my doppelganger's body in another Earth, this time this Earth was indeed different. It had a red sky and red grass, everything was way different. I look up and I see a really big sign that says: Welcome to Earth 52. I'm amazed that the same thing is happening to me again. Most of the dream happened at the place where I work at, not the same people worked there but still it's crazy the similarities. Anyways, I see my reflection on the glass and I see myself at the age of around 40 or late 30s. I go inside and I say hi to everyone and I see my old manager, he's happy to see me and happy that I'm running a country (until this moment I was not aware of what I was doing with my life but I was wearing the same suit as my first dream) well when he shakes my hand and he got the same expression as the lady in my first dream, he was upset and then said ""You're not from around here, you might be looking for answers but you gotta wait for them, see you in 30."" and I woke up again.
+
+This might sound crazy but our minds might be more powerful than we really think. In my point of view these dreams were no dreams and were more like visions from another universes or perhaps from the future. Let me know what y'all really think about this.",speculation,
+"Some thoughts on the holographic principle.
+I think the holographic principle is an interesting idea. It states that information is stored on a plane in a lower dimension than the world we experience, and it expresses itself in a higher dimension, which you could take as the third dimension of space. It’s all explained very well in this video: https://youtu.be/klpDHn8viX8
+
+It’s fascinating when you put some of the puzzle pieces together. So our universe is expanding, and since galaxies seem to be moving away from eachother at an accelerating speed, that would mean that the boundaries or horizon of our universe is exponentially expanding at that rate. Then you have the discovery that information (matter / energy) that goes inside a black hole does not translate to its volume increasing in size, but rather the surface increasing in size accordingly. Compare that to the clusters of matter and energy moving away from eachother at accelerating speed, and you could argue that is is very comparable to information going into a black hole expanding the surface of it. 
+
+Then if you enter the holographic principle into the mix, it states that the information inside a universe is stored on its surface, and the 3d elements we experience are holographs of that information. 
+
+I also like that the theory seems to accommodate fractal geometry. That appeals to me because I feel that there must be a primordial law underneath all known laws of physics and quantum mechanics, that everything in existence abides to first and foremost. You can describe how different systems work on a specific scale, in a specific context. But those contexts are further evolved configurations of dimensions and elements (previous contexts). You basically just have to ask yourself “what conditions are required for X to occur?” If you looker the forming of ice from water, then the answer is that temperature has to be below 0 degrees celcius. If you look at the forming of the first atoms, then the answer is that the universe has to be cooled down to a specific temperature. If you look at the forming of stars, the answer is that atoms have to have been formed, with a nucleus that has mass to warp space. That way we can divide the evolution of the universe into epochs, which basically entail specific contexts (specific conditions with specific values for the parameters). We’re backtracking here. There’s already a lot of knowledge about how elements have formed, to the extent of a specific scale. Protons and neutrons were thought to be the basic building blocks of matter, until quarks were discovered. So we gradually zoom in on the building blocks of nature, granting our perspective a higher resolution. We also know a lot about how stars and planets and black holes are formed, on a larger scale. But because we are embedded in what appears to be the fourdimensional fabric of spacetime, it is difficult to figure out how those were formed. The Big Bang is supposed to be the origin of all four dimensions springing into existence at once. But maybe there’s been a long evolution of lower dimensions before that. All elements we know did not spring into existence simultanuously, they are the result of a causal cascade of new configurations forming which then provide a new context for other things to form. That’s what I mean with that one primordial law. The common denominator on every scale, from the smallest to the biggest. Take the concept of entropy: the number of different configurations that a system defined by macroscopic variables could assume. Some configurations are more likely to occur under certain conditions than others. A very important property of nature on all scales is probability. Probabilities seem to converge to a reality (~collapsed waveform) the bigger the scale you study it on. The double slit experiment teaches us that the property of probability is an expression of how elements behave on a very small scale. Probability also applies to the very large, but the set of probable configurations seems to become more narrow and well-defined. We can predict the place of a planet in orbit around a star, but we cannot simultanuously predict the place and speed of an electron around the nucleus of an atom. So probability appears to be an inherent property of nature, that changes values as you move along the scale. 
+
+Take the distribution of planets with liquid water for example. We know that earth has liquid water because of its orbit around the sun in the goldielock zone. You can safely assume that throughout the universe there are more planets orbiting outside a goldielock zone than inside one. When you look at the diverse life on our planet, you look back and realise all the causal events that have to have happened to arrive at this point. If you view the universe as a tree, the life on our planet is a tiny tiny tiny branch on a branch on a branch (and so forth) of that tree. But I feel that if we were to be able to look beyond the Big Bang, that tree will reveal itself to be itself just a branch on a tree. 
+
+Nature is mimicking nature throughout its scales of existence. So if you know that stars are formed with a massive outburst of energy, you can see a similar kind of behaviour on a smaller scale, like an explosion. Even lighting a lighter gives you a glimpse of the same underlying mechanism on a smaller scale. Now zoom out to the scale of the entire know universe. It is supposed to have originated with a Big Bang. Now imagine that this event happened in a twodimsional universe, where certain causal events led to a specific context for a third dimension to be formed, creating an inflating bubble that surpasses the scale of that twodimensional state so that it becomes inapparent. And before that twodimensional universe there may have been a universe that had only one dimension.  
+A black hole might basically be a collapse back to the twodimensional context because of violations of the laws that allowed the threedimensional context to form. Not traveling back in time but a specific configuration of elements regressing back to a less ordered state, as following the law of entropy. And there might be equivalents of black holes in the twodimensional context collapsing back into a onedimensional context. My imagination reaches its limits as to what context comes before that, but I feel that the thread running through all dimensional states is the dimension of time. If planets and stars are expressions of the probabilistic distribution of matter and energy across space, then the dimensions of space and how it’s warped by those forces are expressions of the distribution of moments/contexts across time.
+
+
+I always used to think that the concept of the multiverse wasn’t a case of “a new universe springing into creation with every decision you make” as some documentaries like to depict it. That felt like there was too much a focus on humans, kind of the same territory as assuming that the earth is the centre of the universe. I found it a very improbable proposition that every interaction on a tinier scale would create a an entire parallel universe with an identical causal chain of events up to that point and a diverging chain of events from that point. What I understood by multiverses, is the inherent property of microscopic elements to hover between probabilistic states with the possibility to change the configuration of our universe on larger scales. The uncertainty principle entails that elements on the quantum scale are pregnant with probability, which only collapses into reality when it interacts with other elements, like being observed by a detector. So the multiverse for me means to say that every different possible configuration of the elements in our universe is reflected in the inherent property of the quantum elements within that universe to move more freely and to have more free parameters, which translates into the context of a cosmic theatre in which things might or might not happen. If you take the absolute starting point of the Big Bang as the first configuration of elements in space and time, and you take the expansion of the universe as the evolution of configurations of those elements in time, then you could look at the current size of the universe and look inwards from its edge, peeling layers away like an onion, with each layer representing a certain moment in ‘time’ with a specific configuration of the elements in ‘space’. Because if the information is truly stored on its surface, you could view the surface as being merely the space in which the elements can move, and the expansion of that plane as the free parameter of time in which space itself can move. Hence time is the context in which space can expand and warp, and space is the context in which elements can interact. They are connected. It always intrigued me that the speed at which an element travels through space affects how time is experienced. So they definitely are intertwined somehow. I also never could fathom how the Big Bang is supposed to be the beginning of space ánd time. It appeared to me that time should be a preëxistent condition to provide a context for things to even happen, the ultimate free parameter. So imagine that it takes the dimension of time to provide a context for a dimension of space to exist in. Then imagine that it takes space as a dimension for elements to exist in. If space had only 1 dimension, it would be a dot. And the dot moving through time would form a line, with each larger measure of the line being the entire evolution of configurations of (elements in) space; each dot on the line a specific configuration on a specific moment in time. If space had 2 dimensions, it could be an expanding circle, with each increase of the circumference being a further evolution of different configurations of (elements in) space across the dimension of time. Now if space has 3 dimensions (which is commonly assumed, were it not for string theory), it could be an expanding sphere, with each layer of the sphere representing a different configuration of (elements in) space. If time is the dimension across which space expands, then the Big Bang can be taken as T, the next layer T+1 and so forth. Which measure of time we apply to differentiate between T and T+1 (as in: “T + one what?” second, minute, Planck time?) depends on who tries to describe it. Mathematics remains merely a language following strict rules of logic to help us describe patterns and relations in the universe, but to measure something you need to define a unit of measurement, which is to choose a certain scale and thus relativistic perspective. Be that as it may, the dimension of time seems to be a necessary condition for space and elements to exist. Space and time seem to break down in a singularity, as a result of a specific configuration of mass and energy so immense that that specific region of space (that specific context) collapses in on itself, regressing to a state before T+1. Objects in 3D as we know them seize to exist in that form, and in losing that free parameter snap back into their 2D state. The reason why time seems to ‘stop’ as you cross the event horizon, is because the causal relations described in 3D now have to be described in 2D. So the ghost image suspended on the event horizon of whatever goes inside it, is the last threedimensional expression of it before it loses that free parameter and falls back to its 2D state.
+
+
+This is merely me brainstorming after watching a bunch of YouTube videos on the universe. I welcome anyone noticing inconsistencies with current models and theories so I can adjust my hypothesis. I also welcome anyone to extrapolate on this idea and run wild with it!",speculation,assuming they have mentioned their thoughts

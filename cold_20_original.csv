@@ -1,0 +1,161 @@
+text,label,note
+"Why do galaxies almost always have a supermassive black hole at their center? Why the center specifically
+I don’t understand why the black hole is always in the middle.
+
+Is it because gravity pulls everything inward over time?
+
+Or did the black hole form first and the galaxy formed around it?
+
+Why does the center of a galaxy end up having such a massive object instead of it being somewhere random?",question,cold
+"Do Black Hole Stars Exist
+Black hole stars may have powered the universe’s first light.
+
+Astrophysics postdoctoral fellow Rohan Naidu of MIT Kavli Institute for Astrophysics and Space Research, explores the idea that some early cosmic objects were not powered by nuclear fusion like our Sun, but by a black hole at their core. These massive, gas-filled structures could explain the mysterious “little red dots” spotted in deep space images of the early universe. If true, black hole stars may have played a major role in the rapid growth of supermassive black holes and the formation of the first galaxies.",question,cold
+"Where does the Solar System actually end? Kuiper Belt? Oort Cloud? Heliopause??
+I always thought the Solar System was simple:
+
+it starts at the Sun and basically ends at the Kuiper Belt (Neptune/Pluto area).
+
+But then I keep seeing terms like Scattered Disk, Heliopause, and Oort Cloud, and now I’m confused",question,cold
+"I wonder if one day we will be able to colonize the moon and make it habitable?
+Total Solar Eclipse by the Moon captured by Artemis II mission",speculation,cold
+"Space Is Expanding While You Watch This
+Space is getting bigger right now. 🔭
+
+Erika Hamden explains why galaxies appear to move away from us, not because they are speeding through space, but because space itself is expanding between them. Astronomers discovered this cosmic expansion more than 100 years ago, and today scientists think it may be accelerating because of something we still do not fully understand called dark energy. There is literally more space now than when you started watching this video. 
+
+This project is part of IF/THEN®, an initiative of Lyda Hill Philanthropies.",fact_post,cold
+"How We Find Earth-Like Planets
+Finding another Earth isn’t easy, it’s a cosmic challenge. 🌍
+
+Avi Shporer, a research scientist at the MIT Kavli Institute, studies how astronomers detect planets beyond our solar system. We’ve found thousands of exoplanets, but Earth-sized, rocky worlds remain some of the hardest to spot. Their small size makes them incredibly difficult to detect around distant stars. Their year-long orbits make them even harder to find, which is why so few true Earth-like planets have been confirmed.",question,cold
+"IC 1396 - The Elephant's Trunk Nebula (SHO, 23hrs)
+Full-resolution image: [https://app.astrobin.com/i/u5q68q](https://app.astrobin.com/i/u5q68q)
+
+Floating in Cepheus, roughly 2,400 light-years away, this is IC 1396, a vast emission nebula over 100 light-years across, ionised by the massive star system HD 206267 at its heart. Snaking through the glow is the Elephant's Trunk: a dense, dark pillar of gas and dust about 20 light-years long, where gravity is forming new stars even as radiation slowly erodes it away.
+
+The whole region spans nearly 3° of sky, or about six full moons side by side. That faint blue ""star"" to the right isn't a star at all, but PK 100+04.1, a planetary nebula: the glowing shell ejected by a dying star, shining almost entirely in ionised oxygen.
+
+Two more faint objects caught my eye in this frame: a blue, semi-circular cloud near the top, and a red, two-lobed shape to the left of the main nebula. I nearly submitted them as new discoveries, but both turned out to be known planetary nebulae, Cr 1 and StDr 4 (just obscure enough that I'd never crossed paths with them before).
+
+The light in this image left IC 1396 around 374 BC. Back on Earth, Athens had just lost the Peloponnesian War, her Long Walls torn down after her last fleet was destroyed at the Hellespont; Socrates was condemned to death in Athens, while Hippocrates founded his school of medicine on Kos. All of that happened before this light even began its journey.
+
+Acquisition:
+
+* Shot in Bedfordshire, UK, Bortle 5-6
+* RGB (Stars): 1h 30min
+* SHO: 21h 15min
+
+Equipment:
+
+* ZWO FF65 + 0.75x reducer
+* ZWO EAF
+* Altair Hypercam 26M
+* Altair 7x2"" EFW
+* Antlia 3nm Pro SHO filters
+* Altair ColourPRO LRGB
+* SW EQ6R-Pro
+* Astromenia 50/200 Guide Scope + ZWO ASI120MM Mini + IR/UV Cut",fact_post,cold
+"We are literally made of dead stars
+The Carl Sagan’s phrase “We are made of stardust” got me hooked. I’ve heard about it before as well but at some point i have a desire to explore it deeply, to get to the essence of his words.    
+The more you dive into this topic, the more details appear.    
+The origin of dust and gas is a moment where the concept of star matter comes into effect. A significant part of the material that later formed the Solar System consist of hydrogen and helium, the elements that have existed since the early stages of universe. However, the more complex and heavy elements such as carbon, oxygen, nitrogen, iron and others first appeared much later, approximately the hundreds of millions of years after the Big Bang.  At that moment hydrogen and helium started to collapsing under gravity and gave rise to the first generation of starts. The formation of elements first began to form exactly inside the stars.    
+There were multiple of reactions of nuclear fusion under the immense influence of pressure and temperature, light elements slowly fused into heavier ones. This is how the complexity of matter was born, forming the basis of everything around us.    
+When a star runs out of fuel and breaks apart, it releases all the material that was once inside it into space. This material becomes the raw material for future generations of stars, planets, and star systems. Thus, the universe works like a continuous cycle: starts are born from the remnants of previous generations, the exhaustion of their fuel, explosion and the dispersal of matter back into space – from this, new systems gradually form, and ultimately the Earth emerges. Over time, life arises from the same recycled stellar materials.    
+The phosphorus is also take place in our structure. For instance, iron in our blood was formed deep inside a massive star once upon a time. Then its explosion was able to outshine an entire galaxy like the Milky Way due to its power. As a result, everything we perceive as living or non-living is actually made from the remnants of long-dead starts.
+
+“As Carl Sagan said:    
+The nitrogen in our DNA, calcium in our bones, iron in our blood and carbon in our apple pies was originated deep inside collapsing stars. We are made of stellar materials.”
+
+“Lawrence Krauss:    
+Every atom in our body was formed from exploded star. Perhaps, the atoms of your left hand belonged to another star than those in right hand. It’s the most poetic thing i know about physics: we all are a stardust. “",speculation,cold
+"Open-source browser model of the universe built from HYG, Gaia, NED and JPL catalogs
+There's a browser-based model of the universe at ""Your Eyes In Space"" that this sub might appreciate. Free, open source, nothing to install
+
+It's basically real catalogs wired into one continuous scene: Solar System bodies on JPL elements with a time control, 109,000 stars from HYG with their parallaxes and spectral types, 55 galaxies at NED/SIMBAD distances, Sgr A\* with the S-stars on their GRAVITY/Keck orbits, a handful of other black holes and pulsars with catalog parameters, nebulae and clusters at literature positions, and the deep-space probes on their trajectories. Anything that isn't catalog data is labelled procedural, and there's a toggle that tints all of it so it's always clear what's real and what's filler.
+
+The plan for it is to grow into a proper learning platform, basic physics and astrophysics with the universe as the blackboard. There are some narrated tours in there already as a first step. If something's in the wrong place or a distance doesn't match the literature, the project's on GitHub and takes issues.",fact_post,cold
+"Billions of years from now, the Sun will enter its red giant phase.
+Mercury and Venus are expected to be engulfed as the Sun expands. Earth will become uninhabitable long before that, while the surviving planets will gradually move into wider orbits as the Sun loses mass. But there’s an unexpected twist: as the Sun expands, its habitable zone will move outward. Some of the icy moons around the outer planets could temporarily enter a region where conditions might allow liquid water to exist.
+
+[https://youtu.be/AMHOrMpQlzw](https://youtu.be/AMHOrMpQlzw)",speculation,cold
+"Why does light take so long to escape a star? A random walk, from a 3D atmosphere to the blackboard
+Apparently I keep coming back to this example... The hair, shirt and classroom change a bit with the years; the random walk remains. Consistency of a physics professor, perhaps? :-)
+
+
+
+Here we go from a photon finding its way through our 3D model atmosphere to the simplest possible blackboard model: one step forwards, or one step backwards. The average displacement is zero, so that won’t get us very far. The mean square gives us something more useful.
+
+
+
+The neat up-and-down argument is inspired by The Feynman Lectures on Physics, Volume I, §6–3, “The random walk”. Still my favourite way to get to that familiar square root of N.
+
+
+
+Lectures and visualisations by Jon Sundqvist, Institute of Astronomy, KU Leuven. The stellar-atmosphere calculation is part of SUPERSTARS-3D.
+
+
+
+A note on the two examples in the opening: the 9.7 million scatterings and roughly 98 minutes describe this particular path through our simulated hot-star atmosphere. The roughly 100,000-year solar diffusion timescale refers to a different problem and depends on the solar model.
+
+
+
+Questions and corrections are welcome, as always. Enjoy :-)",question,cold
+"Do you think the universe came to existence by destiny or just a incredibly low chance ?
+By destined I don’t mean the God or religions, I mean liki some law “a must”. I hope my question is clear to understand",question,cold
+"Are we on the verge of detecting a definitive alien technosignature?
+Lately I’ve been reading about technosignatures. Things like laser pulses, unusual light patterns, strange transits, or anything that could indicate advanced technology beyond Earth.
+
+With advances in AI, sky surveys, and next-generation telescopes, it feels like our ability to search for technosignatures is scaling up dramatically in the next 10-30 years. Do you think we could find evidence so strong that it would be widely accepted as an alien technosignature within our lifetime?",question,cold
+"Are there any answers in the cosmos that can’t also be found by going smaller instead of bigger?
+If reality is consistent across scales, then maybe the deepest insights are just as easy to find in the small structures we've not yet discovered, as they are in distant galaxies.  Miniaturization. Higher resolution observation. Understanding smaller and smaller systems with greater precision.",question,cold
+"Is space expansion a theory or a fact?
+Hi! As per title. Until now I thought expansion of space time was a fact, but recently I've read different interpretations of the phenomenon. Is it actually a \*certain\* fact or a potentially temporary explanation?",question,cold
+"Is the universe really flat?
+This image shows the results of the BOOMERanG experiment, which studied the cosmic microwave background radiation, the remnant radiation from the Big Bang. The measurements showed that the universe is geometrically flat on a cosmological scale, meaning that the curvature of spacetime is very close to zero, rather than a two-dimensional surface. This finding is one of the most important discoveries in cosmology because it supports the Big Bang model and is consistent with the predictions of the theory of cosmic inflation, which posits that the massive expansion at the beginning of the universe resulted in its geometry appearing flat. The WMAP and Planck missions later confirmed this result with even greater precision, making the flat universe model the most consistent with observational evidence available to date.",question,cold
+"If you don't like the theory of panspermia, please respond.
+Even if you don't believe in panspermia because of whatever logical conceit that you use to dismiss it, you must accept that for over 3.5+ billion years somehow the Earth has housed the exact sort of microbes that can easily travel to, infect, and propagate on other terran bodies.
+
+So even if your geocentric views on the origin of life are true, panspermia must have been occurring locally for billions of years.
+
+If you dispute this, please tell us what celestial event could possibly sterilize the estimated 10^41 self-replicating microbes that have supposedly existed in the entire history of Earth, especially considering that each and every of these microbes is fully capable of becoming the LUCA of all subsequent life on any other terran body that contains liquid water and chemical energy?
+
+And every time so-called ""astrobiologists"" find what they all once agreed were chemical signatures of life literally everywhere, these former biosignatures are written off the exact same way that the Catholic church wrote off heliocentrism. Instead of accepting that any self-replicating system capable of infecting other places obviously must have done so after having ben given countless millions of chances to spread over (at least) 3.5+ billions of years, ""astrobiologists"" desperately seek non-microbial explanations for every disequilibrium that was previously accepted as a clear biosignature.",question,cold
+"STEM Major and Religion
+My question is surrounded around the unknown. And this could be controversial, but I mean it with an open mind and heart coming from someone whose read a handful of books written by some of the top voices in theoretical physics, astrophysics and orbital mechanics, and more. 
+
+What percent, and this was posed by a top religious voice that debates a lot, of the universe is known or our understanding of how physics work within the universe?
+
+I do subscribe to theoretical physics and what the math shows. 
+
+But I think the discussion was around if the response to the question isn’t close to 100% why isn’t there a possibility of a creator, God and Christ, possible and still fall in line with the modern day theories, which I still think the term theory is over-used in a way. Especially if you subscribe to the infinite universe idea where every possible iteration/derivative occurs at every second. 
+
+Truly wanting to have a civil discussion on this.",speculation,cold
+"The Dream or Reality?
+Today, I dreamed. A voice overlooking the universe speaking, yet  there was no sound, it was like the words it spoke was somehow getting imprinted in my mind. There was a quote which even though I don't remember word to word but got the meaning of it stated : ""The chapter of **Humanity** is currently in it's initial phase, this story has been in the **Exploration** phase for a quite long time, but soon there will be revelations. A new verse, **Multiverse** is coming.""
+
+When I woke up in sweat, only this message remained in my head. There was more to the dream that I can't remeber but only this gist. 
+
+I know I might sound a bit Animist or Oneiromancer but this was indeed something else. There are theories going around that the dream we see is our consciousness connection to a parallel world and what we see is somehow getting us entangled with that realm. We also believe that there is a possibility of multiverse existing. We have ancient scriptures talk about it as well.
+
+It could also be some thoughts venturing deep within my mind taking the shape of dream. Or it might be a resonance to something outside our knowledge. But this did send me into deep thoughts that what if its true, maybe not an immediate factor but what if. I mean, I do get myself involved with the mysteries of universe quite alot so could be a dream created by my desire.
+
+I don't quite understand the message as it could have multiple meaning like 
+1. A new universe is getting born
+2. Us being able to discover traces of other universes
+3. Or maybe our universe in some manner getting connected to other universes.
+
+The possibility of getting connected with other universe does give rise to many questions though. The first being how is it going to happen? 
+- Will be a tear in space-time fabric?
+- Will we be able to find the existence of wormhole?
+Maybe an incredibly dense energetic phenomenon?
+
+I don't know. But I thought of speaking my mind out here. Whether this means something or not. Please, do share if you have any take on this.
+
+Regards",question,cold
+"Expansion of the universe or....?
+first of all, sorry for my english. Unfortunately I live in modern Russia, it is difficult to practice English here.
+There is a theory of the expansion of the universe, according to which space expands.
+In addition, a substance consists of positively or negatively charged elements.
+Hence the question. What if it is not space that expands, but matter that decreases? For example, the charge of elements of particles of matter decreases, but space remains unchanged. The redshift effect will persist as matter decreases
+I'm interested in your opinion.",question,cold
