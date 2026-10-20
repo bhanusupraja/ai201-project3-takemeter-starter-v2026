@@ -39,7 +39,7 @@
 
 ## What This Does
 
-DRAFT, to be reviewed. TakeMeter sorts posts from r/universe, a public subreddit about space and the cosmos, into three labels: `fact_post`, `question` and `speculation`. The goal is to tell apart posts that give checkable information, posts that ask the community something, and posts that push the poster's own unsupported theory.
+TakeMeter sorts posts from r/universe, a public subreddit about space and the cosmos, into three labels: `fact_post`, `question` and `speculation`. The goal is to tell apart posts that give checkable information, posts that ask the community something, and posts that push the poster's own unsupported theory.
 
 ---
 
@@ -85,9 +85,9 @@ DRAFT, to be reviewed. TakeMeter sorts posts from r/universe, a public subreddit
 
 ## The Dataset
 
-**Where the posts came from:** r/universe, a public subreddit. The first 36 were copied by hand; the rest came from listing files (top, controversial, search) saved from my browser and converted with `scrape_posts.py`. Current count is 166 posts. The target is 200 (150 minimum under the stop rule), so I am still collecting.
+**Where the posts came from:** r/universe, a public subreddit. The first 36 were copied by hand; the rest came from listing files (top, controversial, search) saved from my browser and converted with `scrape_posts.py`. Current count is 166 posts. The target was 200 and the minimum under the stop rule is 150. I stopped at 166, above the minimum, because of time, so `fact_post` and `speculation` have fewer examples than I would have liked and their test-split scores will be jumpy.
 
-**How I labeled them:** DRAFT. I labeled 20 posts cold (no help, no tools), marked `cold` in the note column. Claude pre-labeled the other rows (the first 36 plus 112 more) and I then read every one and corrected the labels I disagreed with. I also removed two near-duplicate posts that appeared twice. I also set aside 17 posts in `excluded_posts.csv` (astrophoto captions with only equipment lists, image-only or link-only posts) because none of my three labels applies to them.
+**How I labeled them:** I labeled 20 posts cold (no help, no tools), marked `cold` in the note column. Claude pre-labeled the other rows (the first 36 plus 112 more) and I then read every one and corrected the labels I disagreed with. I also removed two near-duplicate posts that appeared twice. I also set aside 17 posts in `excluded_posts.csv` (astrophoto captions with only equipment lists, image-only or link-only posts) because none of my three labels applies to them.
 
 **Counts per label:** (166 rows, update after collecting more)
 
