@@ -55,7 +55,7 @@ whether you hit them:
 
 Accuracy on the held-out test split is at least 0.65 in each of the three seeds.
 
-**Why this target:** DRAFT. Three labels means a guesser gets about 33%, and `fact_post` alone is about 50% of my draft file, so 0.65 has to beat "always say fact_post". It is high enough to be useful and low enough for about 200 examples.
+**Why this target:** With three labels a random guesser gets about 33%, and always answering `question` would score 44% on my 166 posts (73 of 166). A model has to beat that by a clear margin to be worth using, so 0.65 is about 20 points above the lazy guess. I'm not going higher because I only have about 170 examples and a 25-post test split, where one post moves accuracy by 4 points. It has to hold in all three seeds, which is stricter than hitting it once.
 
 ---
 
@@ -63,7 +63,7 @@ Accuracy on the held-out test split is at least 0.65 in each of the three seeds.
 
 Every label has an F1 of at least 0.50 on the held-out test split in each seed.
 
-**Why this target:** DRAFT. `speculation` is my smallest label (5 of 36 draft rows, about 14%), so only a handful of its posts will land in the test split and its F1 will jump around. I set the floor lower than the accuracy target for that reason.
+**Why this target:** `speculation` and `fact_post` are my smaller labels, and the test split holds only about 6 to 8 posts of each, so their F1 will jump around between seeds. I set the floor at 0.50, below the accuracy target, because a label with 6 test posts can swing by 0.2 from a single post. I still want a floor on every label so the model can't score well by ignoring the smallest one.
 
 ---
 
@@ -71,7 +71,7 @@ Every label has an F1 of at least 0.50 on the held-out test split in each seed.
 
 No label is above 60% or below 15% of the rows in `labels.csv`.
 
-**Why this target:** DRAFT. The course cap is 70%, but a label near 70% makes "always guess it" score too well. `speculation` is already near the 15% floor in my draft, so this criterion is one I may fail unless I collect more of it.
+**Why this target:** The course limit is 70%, but a label that big lets "always guess it" score too well. In my current 166 rows `question` is the largest at 44% and `fact_post` the smallest at 31%, so I'm well inside 60% and above 15% today. I set the bar at 60% so that I have room to add more `fact_post` posts without worrying, and to catch it if collecting more posts drifts toward `question`.
 
 ---
 
@@ -79,7 +79,7 @@ No label is above 60% or below 15% of the rows in `labels.csv`.
 
 When I relabel the 30 staff posts under the staff taxonomy, I agree with staff on at least 21 of 30 (70%).
 
-**Why this target:** DRAFT. Several of the 30 are chosen to be ambiguous, so I do not expect near-perfect agreement. 70% would show I apply written rules the same way most of the time.
+**Why this target:** Several of the 30 staff posts were picked because they are hard to call, so I don't expect near-perfect agreement. 21 of 30 (70%) would show I apply the written rules the same way most of the time. My own cold labels are a warning: I changed 12 of 20 after rereading my rule, so I know I can drift when I go by the title instead of the definition.
 
 ---
 
@@ -87,7 +87,7 @@ When I relabel the 30 staff posts under the staff taxonomy, I agree with staff o
 
 Among test predictions where the model's top probability is at least 0.80, at least 80% are correct, in each seed.
 
-**Why this target:** DRAFT. A confident prediction should be right more often than an unsure one, or the confidence number tells me nothing. I set 0.80 and 80% to match each other, not because I have a baseline for it.
+**Why this target:** If the model's confident predictions aren't more accurate than its unsure ones, its confidence number tells me nothing. I picked 0.80 as the confidence cutoff and 80% as the required accuracy to match each other. I don't have a baseline for what a model trained on about 116 examples will do, so this is the criterion I'm least sure about, and with 25 test posts few predictions may even reach 0.80.
 
 ---
 
