@@ -178,91 +178,82 @@ My 20 cold labels first came out as 13 `question`, 4 `speculation` and 3 `fact_p
 
 ## Baseline vs. Trained
 
-<!-- Both models on the same posts. `python baseline.py --trained results.json`
-     prints this table for you. -->
+*(Unit 6 sections below were drafted by Claude from the numbers the notebook and `baseline.py` produced. I need to read them and rewrite anything that is not in my own words.)*
 
-| Measure | Baseline | Trained | Difference |
-|---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+Same 25 held-out posts (`test_split.csv`, seed 42) for every column. The baseline is `facebook/bart-large-mnli`, zero-shot, no training, run on CPU (about 25 posts in a couple of minutes).
+
+| Measure | Baseline (my definitions) | Baseline (bare label names) | Trained | Trained minus baseline (definitions) |
+|---|---|---|---|---|
+| Overall accuracy | 0.440 | 0.720 | 0.640 | +0.200 |
+| Macro F1 | 0.401 | 0.681 | 0.483 | +0.082 |
+| F1 — `fact_post` | 0.480 | 0.857 | 0.714 | +0.234 |
+| F1 — `question` | 0.500 | 0.741 | 0.733 | +0.233 |
+| F1 — `speculation` | 0.222 | 0.444 | 0.000 | -0.222 |
+
+I report the run **with my definitions** (`baseline_results.json`) as the baseline, because that is what the brief describes. I also ran it once with `label_definitions.txt` moved away so it fell back to bare label names (`baseline_results_bare_names.json`).
 
 **What I predicted before I looked:**
 
 *(Drafted by Claude and committed before any baseline number was produced; I need to confirm or rewrite it.)* I expect my trained model to beat the baseline on `question` and `fact_post`, because those have clear surface patterns (a question asked of the community; numbers and named objects) that it saw in 116 training posts. I expect the baseline to match or beat it on `speculation`, since my trained model never predicted that label in the unit 5 run and a general model at least knows what "a theory" sounds like.
 
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
-
-**What the gap actually means:**
-<!-- If the baseline matched your trained model, your fine-tuning added
-     nothing — and that is a real finding, not a failure. Say it plainly. -->
-
-
+**What the gap actually means:** Against the baseline that uses my definitions, fine-tuning helped on `fact_post` and `question` (about +0.23 F1 each) and on accuracy (+0.20). But it did nothing for `speculation`: the baseline got 0.222 and my trained model got 0.000 because it never predicted that label. My prediction above was right on both counts. The surprise is the second baseline: with bare label names, zero-shot got 0.720 accuracy, which is *higher* than my trained model's 0.640 on these 25 posts, and ahead on every label including `speculation` (0.444). So my definitions made the general model worse (0.440 vs 0.720), perhaps because the long definition sentences confuse the entailment prompt, and a simple zero-shot model with no training is at least as good as what I trained. With only 25 test posts one post is 4 points, and my seeds below swing by 16 points, so I would not claim the bare-names baseline is truly better, but I also cannot claim fine-tuning added anything over it.
 
 ---
 
 ## Run Log — Before
 
-<!-- Five criteria across three seeds. The notebook's section 6 prints the
-     spread table; the Target and Verdict columns are yours. -->
+Three seeds (42, 7, 2024), each a different 70/15/15 split of the same 166 posts. Source: `results_three_seeds_before.json` (CPU, torch 2.14.1+cpu).
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.640 | 0.560 | 0.480 | 0.160 |
+| Macro F1 | 0.483 | 0.404 | 0.284 | 0.199 |
+| F1 — `fact_post` | 0.714 | 0.545 | 0.222 | 0.492 |
+| F1 — `question` | 0.733 | 0.667 | 0.629 | 0.105 |
+| F1 — `speculation` | 0.000 | 0.000 | 0.000 | 0.000 |
+
+Accuracy moved 0.16 across seeds, more than the 10 points the notebook warns about, so my dataset is too small (25 test posts, 6 to 8 per label) for a stable measure.
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 in every seed | 0.640 | 0.560 | 0.480 | MISSED |
+| 2. Every label F1 | ≥ 0.50 in every seed | min 0.000 (`speculation`) | min 0.000 (`speculation`) | min 0.000 (`speculation`) | MISSED |
+| 3. Balance of `labels.csv` | no label above 60% or below 15% | 44.0% / 30.7% / 25.3% | same file | same file | MET |
+| 4. Agreement with staff | ≥ 21 of 30 | not yet measured | not yet measured | not yet measured | PENDING |
+| 5. Confident predictions right | ≥ 80% right when top probability ≥ 0.80 | no prediction reached 0.80 (max 0.526) | none (max 0.513) | none (max 0.538) | MISSED |
+
+Criterion 5 was checked from per-prediction probabilities saved in `confidence_before.json` (a separate rerun of the same three seeds, same settings).
 
 ### Confusion matrix
 
-<!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
-     An image of a matrix earns nothing. -->
+Seed 42 (rows are true labels, columns are the model's guesses):
 
-| true \ predicted |  |  |  |
+| true \ predicted | fact_post | question | speculation |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **fact_post** | 5 | 3 | 0 |
+| **question** | 0 | 11 | 0 |
+| **speculation** | 1 | 5 | 0 |
 
-**My biggest off-diagonal number, and what it means:**
-<!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
-     direction. "7 real analysis posts were called hot_take and only 3 went the
-     other way" is a direction, not just an error rate. -->
-
-
+**My biggest off-diagonal number, and what it means:** 5 of the 6 real `speculation` posts were called `question`, while 0 real `question` posts were called `speculation`. The model has not learned the `question` / `speculation` boundary at all, and it leans one way: anything that is not clearly a fact becomes a `question`.
 
 ---
 
 ## Verdicts and Diagnoses
 
-<!-- MET or MISSED against LAST UNIT's target. The target has to hold across
-     all three seeds, not turn up sometimes. -->
-
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | ≥ 0.65 in every seed | MISSED | 0.640, 0.560, 0.480. Even the best seed is just under, and the target has to hold in all three. |
+| 2 | Every label F1 | ≥ 0.50 in every seed | MISSED | `speculation` F1 is 0.000 in all three seeds, and `fact_post` also falls to 0.222 in seed 2024. |
+| 3 | Balance | no label above 60% or below 15% | MET | The shares are 44.0%, 30.7% and 25.3%, so every label is inside the band. This does not depend on the seed. |
+| 4 | Agreement with staff | ≥ 21 of 30 | PENDING | Waiting on the staff-set labeling (Milestone 3). |
+| 5 | Confidence | ≥ 80% right when top probability ≥ 0.80 | MISSED | No test prediction in any seed reached 0.80, so the target can't be shown to hold. The highest confidence was 0.538. |
 
 **Diagnoses**
 
-<!-- For each miss: the cause, and how you know. The four common causes are:
-     too few examples for a label, a boundary you applied inconsistently, a
-     genuinely hard label pair, and a task the model can't reach from this
-     much data.
-
-     ⚠️ Use your agreement report as evidence. It is the only instrument you
-     have that can tell a LABELLING problem from a MODEL problem, and this
-     section is graded on whether you used it that way. -->
-
-
-
----
+- **Criteria 1 and 2 (`speculation` never predicted):** In all three seeds the model gets `speculation` F1 of 0.000, and in seed 42 it sends 5 of 6 to `question` and none the other way. I see two causes that I can't yet tell apart. (a) *Labeling consistency:* I relabeled 12 of my 20 cold posts after realising I had been reading the title and not the body, and my own hard cases all sit between `question` and `speculation`. If I applied that boundary two ways in the 116 training posts, there is no consistent pattern for the model to learn. My staff-set agreement report should show whether that is true. (b) *Too little signal:* `speculation` has only 30 training posts per split, and only 6 test posts, so one or two posts swing its F1 by 0.2 or more.
+- **Criterion 5 (confidence):** the model is never confident. The highest top probability across all three seeds is 0.538, and the validation loss only fell from about 1.02 to 0.94 over three epochs against a chance level of about 1.10 for three labels. That looks like an undertrained model (3 epochs on 116 posts at the default 2e-5), not a labeling problem.
+- **Accuracy instability (criterion 1):** accuracy ranges 0.48 to 0.64. With 25 test posts, each one is 4 points, so some of the miss is the small test set and not only the model.
+- **Pattern:** the three misses share one cause: the model barely moved off guessing the biggest class. It's one problem, undertraining plus a hard boundary, not three.
 
 ## Agreement Report
 
