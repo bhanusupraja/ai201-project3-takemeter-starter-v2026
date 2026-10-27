@@ -189,6 +189,9 @@ My 20 cold labels first came out as 13 `question`, 4 `speculation` and 3 `fact_p
 | F1 — `label_two` |  |  |  |
 
 **What I predicted before I looked:**
+
+*(Drafted by Claude and committed before any baseline number was produced; I need to confirm or rewrite it.)* I expect my trained model to beat the baseline on `question` and `fact_post`, because those have clear surface patterns (a question asked of the community; numbers and named objects) that it saw in 116 training posts. I expect the baseline to match or beat it on `speculation`, since my trained model never predicted that label in the unit 5 run and a general model at least knows what "a theory" sounds like.
+
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
