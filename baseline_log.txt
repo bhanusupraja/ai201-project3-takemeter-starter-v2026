@@ -1,0 +1,36 @@
+Using your definitions from label_definitions.txt.
+Reading the held-out posts from test_split.csv — the same ones your
+trained model was scored on.
+
+Classifying 25 posts across 3 labels.
+A few seconds each — this is what no fine-tuning costs at runtime.
+
+Loading facebook/bart-large-mnli (first run downloads ~1.6 GB)…
+C:\Users\bhanusupraja.d\OneDrive - Mphasis\Desktop\codepath-AI\ai201\ai201-project3-takemeter-starter-v2026\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\bhanusupraja.d\.cache\huggingface\hub\models--facebook--bart-large-mnli. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Device set to use cpu
+  1/25  2/25  3/25  4/25  5/25  6/25  7/25  8/25  9/25  10/25  11/25  12/25  13/25  14/25  15/25  16/25  17/25  18/25  19/25  20/25  21/25  22/25  23/25  24/25  25/25                              accuracy  0.440
+macro F1  0.401
+
+  fact_post        F1 0.480   (n=8)
+  question         F1 0.500   (n=11)
+  speculation      F1 0.222   (n=6)
+
+
+Paste this into your README under **Baseline vs. Trained**:
+
+| Measure | Baseline |
+|---|---|
+| Overall accuracy | 0.440 |
+| Macro F1 | 0.401 |
+| F1 — `fact_post` | 0.480 |
+| F1 — `question` | 0.500 |
+| F1 — `speculation` | 0.222 |
+
+Wrote baseline_results.json. Commit it.
+
+Before you look at your trained model's numbers: write one sentence
+predicting where it will beat this. Milestone 1 asks for it, and a
+prediction made after the fact isn't one.
