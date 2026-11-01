@@ -219,7 +219,7 @@ Accuracy moved 0.16 across seeds, more than the 10 points the notebook warns abo
 | 1. Overall accuracy | ≥ 0.65 in every seed | 0.640 | 0.560 | 0.480 | MISSED |
 | 2. Every label F1 | ≥ 0.50 in every seed | min 0.000 (`speculation`) | min 0.000 (`speculation`) | min 0.000 (`speculation`) | MISSED |
 | 3. Balance of `labels.csv` | no label above 60% or below 15% | 44.0% / 30.7% / 25.3% | same file | same file | MET |
-| 4. Agreement with staff | ≥ 21 of 30 | not yet measured | not yet measured | not yet measured | PENDING |
+| 4. Agreement with staff | ≥ 21 of 30 | 30 / 30 | same (labels do not depend on the seed) | same | MET (see caveat in Agreement Report) |
 | 5. Confident predictions right | ≥ 80% right when top probability ≥ 0.80 | no prediction reached 0.80 (max 0.526) | none (max 0.513) | none (max 0.538) | MISSED |
 
 Criterion 5 was checked from per-prediction probabilities saved in `confidence_before.json` (a separate rerun of the same three seeds, same settings).
@@ -245,92 +245,69 @@ Seed 42 (rows are true labels, columns are the model's guesses):
 | 1 | Overall accuracy | ≥ 0.65 in every seed | MISSED | 0.640, 0.560, 0.480. Even the best seed is just under, and the target has to hold in all three. |
 | 2 | Every label F1 | ≥ 0.50 in every seed | MISSED | `speculation` F1 is 0.000 in all three seeds, and `fact_post` also falls to 0.222 in seed 2024. |
 | 3 | Balance | no label above 60% or below 15% | MET | The shares are 44.0%, 30.7% and 25.3%, so every label is inside the band. This does not depend on the seed. |
-| 4 | Agreement with staff | ≥ 21 of 30 | PENDING | Waiting on the staff-set labeling (Milestone 3). |
+| 4 | Agreement with staff | ≥ 21 of 30 | MET | 30 of 30 matched staff. Caveat: the labels began as an AI draft that I reviewed and kept, so this is weak evidence about my own consistency. |
 | 5 | Confidence | ≥ 80% right when top probability ≥ 0.80 | MISSED | No test prediction in any seed reached 0.80, so the target can't be shown to hold. The highest confidence was 0.538. |
 
 **Diagnoses**
 
-- **Criteria 1 and 2 (`speculation` never predicted):** In all three seeds the model gets `speculation` F1 of 0.000, and in seed 42 it sends 5 of 6 to `question` and none the other way. I see two causes that I can't yet tell apart. (a) *Labeling consistency:* I relabeled 12 of my 20 cold posts after realising I had been reading the title and not the body, and my own hard cases all sit between `question` and `speculation`. If I applied that boundary two ways in the 116 training posts, there is no consistent pattern for the model to learn. My staff-set agreement report should show whether that is true. (b) *Too little signal:* `speculation` has only 30 training posts per split, and only 6 test posts, so one or two posts swing its F1 by 0.2 or more.
+- **Criteria 1 and 2 (`speculation` never predicted):** In all three seeds the model gets `speculation` F1 of 0.000, and in seed 42 it sends 5 of 6 to `question` and none the other way. I see two causes that I can't yet tell apart. (a) *Labeling consistency:* I relabeled 12 of my 20 cold posts after realising I had been reading the title and not the body, and my own hard cases all sit between `question` and `speculation`. If I applied that boundary two ways in the 116 training posts, there is no consistent pattern for the model to learn. My staff-set agreement check did not settle it: I matched staff 30 of 30, but from an AI draft and under a different taxonomy, so it gives no evidence either way. (b) *Too little signal:* `speculation` has only 30 training posts per split, and only 6 test posts, so one or two posts swing its F1 by 0.2 or more.
 - **Criterion 5 (confidence):** the model is never confident. The highest top probability across all three seeds is 0.538, and the validation loss only fell from about 1.02 to 0.94 over three epochs against a chance level of about 1.10 for three labels. That looks like an undertrained model (3 epochs on 116 posts at the default 2e-5), not a labeling problem.
 - **Accuracy instability (criterion 1):** accuracy ranges 0.48 to 0.64. With 25 test posts, each one is 4 points, so some of the miss is the small test set and not only the model.
 - **Pattern:** the three misses share one cause: the model barely moved off guessing the biggest class. It's one problem, undertraining plus a hard boundary, not three.
 
 ## Agreement Report
 
-<!-- Your rate against the staff set, and every disagreement adjudicated.
+**Agreement rate:** 30 / 30 = 100%
 
-     Remember you labelled these 30 under the STAFF taxonomy in
-     data/staff_taxonomy.md, not your own — so every argument below is made
-     from those definitions and those decision rules. -->
+**Where my labels came from (disclosure):** Claude generated a draft set of labels for the 30 staff posts (`my_staff_labels_draft.csv`) from `data/staff_taxonomy.md`. I then read each post against the staff definitions and decision rules, agreed with every draft label, and kept all 30 unchanged in `my_staff_labels.csv`. So these are labels I reviewed and endorsed, not labels I produced cold. I did not open the staff answer key until `my_staff_labels.csv` was saved. Because the starting point was an AI draft, a 100% rate says less about my own consistency than a cold 30 would have.
 
-**Agreement rate:** ___ / 30 = ___%
+**Disagreements:** none. There was nothing to adjudicate and I have not invented any. Both sets split 10 `analysis` / 10 `hot_take` / 10 `reaction`.
 
-<!-- Nobody grades this number. A 60% who argues every disagreement from the
-     stated rules beats a 95% who wrote "staff was right" nine times. Several
-     of the 30 were chosen because they're genuinely ambiguous — you should be
-     winning some of these. -->
+**The borderline posts:** staff flagged 7 posts as borderline (sp_005, sp_010, sp_014, sp_019, sp_020, sp_028, sp_029). I matched staff on all seven, but a post being ambiguous means a match here could have gone either way, so I don't read it as proof the rules are tight.
 
-**Disagreements**
+**What this tells me, and what it doesn't:**
 
-<!-- Three lines each: the post, both labels, and who you think is right and
-     why — grounded in the staff definitions you were both applying.
-
-     Then sort each into one of three piles:
-       (a) the rule covered it and I applied it loosely → a consistency problem
-       (b) the rule genuinely doesn't say               → a gap in the definitions
-       (c) the rule is ambiguous here and my reading is defensible → argue it.
-           This is a legitimate win.
-
-     Pile (a) is the one that matters most for your diagnosis: if you applied a
-     written rule two different ways on 30 posts, that is direct evidence about
-     what you did across your own 200. -->
-
-**1.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**What the pattern in my disagreements tells me:**
-
-
+- It does not show that I labeled my own 166 `r/universe` posts consistently. This check used the staff taxonomy (`analysis` / `hot_take` / `reaction`), not my own (`fact_post` / `question` / `speculation`), and it started from an AI draft.
+- It gives me no pile (a), (b) or (c) disagreements, so I have no agreement-based evidence for or against a labeling problem on the `question` / `speculation` boundary. My diagnosis of that boundary below rests on the confusion matrix and the relabeling I did in unit 5 only.
+- Criterion 4 (at least 21 of 30) is met on the number, but with the caveat above.
 
 ---
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** One setting: `EPOCHS` 3 → 10 in the training settings. Learning rate (2e-5), batch size (16), max length (128), the model (`distilbert-base-uncased`), my labels, taxonomy, criteria and the three seeds (42, 7, 2024) are all unchanged. Retrained with `RUN_LABEL = "after"`; numbers are in `results_three_seeds_after.json`.
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** The Criterion 5 diagnosis: the model was never confident (top probability never above 0.538) and validation loss only fell from about 1.02 to 0.94 against about 1.10 for chance, which I read as undertrained at 3 epochs on 116 posts. The `speculation` F1 of 0.000 was partly the same story, since the model never moved off guessing the biggest class.
 
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 in every seed | 0.800 | 0.720 | 0.720 | MET |
+| 2. Every label F1 | ≥ 0.50 in every seed | min 0.600 (`speculation`) | min 0.000 (`speculation`) | min 0.250 (`speculation`) | MISSED |
+| 3. Balance of `labels.csv` | no label above 60% or below 15% | 44.0% / 30.7% / 25.3% | same file | same file | MET |
+| 4. Agreement with staff | ≥ 21 of 30 | 30 / 30 | same | same | MET (weak evidence, see Agreement Report) |
+| 5. Confident predictions right | ≥ 80% right when top probability ≥ 0.80 | not re-measured | not re-measured | not re-measured | NOT RE-MEASURED |
 
-**Did it help, and how do I know:**
+Criterion 5 note: the after run saved only summary confidence numbers, not per-prediction probabilities, so I cannot say how many predictions reached 0.80. What I do have: mean confidence when right was 0.700 / 0.667 / 0.672 (before: 0.462 / 0.452 / 0.498), and the most-confident third of predictions was right 0.875 of the time in all three seeds. The before-run verdict (MISSED, nothing reached 0.80) stands as written.
 
-<!-- If it didn't, say so. Relabelling that didn't help is a genuinely
-     interesting result and earns full credit. -->
+| Measure | Before: 42 | Before: 7 | Before: 2024 | After: 42 | After: 7 | After: 2024 |
+|---|---|---|---|---|---|---|
+| Accuracy | 0.640 | 0.560 | 0.480 | 0.800 | 0.720 | 0.720 |
+| Macro F1 | 0.483 | 0.404 | 0.284 | 0.756 | 0.553 | 0.625 |
+| F1 `fact_post` | 0.714 | 0.545 | 0.222 | 0.750 | 0.889 | 0.824 |
+| F1 `question` | 0.733 | 0.667 | 0.629 | 0.917 | 0.769 | 0.800 |
+| F1 `speculation` | 0.000 | 0.000 | 0.000 | 0.600 | 0.000 | 0.250 |
 
+Confusion matrix after, seed 42 (rows are true labels, columns are the model's guesses):
 
+| true \ predicted | fact_post | question | speculation |
+|---|---|---|---|
+| **fact_post** | 6 | 1 | 1 |
+| **question** | 0 | 11 | 0 |
+| **speculation** | 2 | 1 | 3 |
+
+**Did it help, and how do I know:** Yes on accuracy and mostly on `fact_post` and `question`; only partly on `speculation`. Accuracy rose in all three seeds (0.64 → 0.80, 0.56 → 0.72, 0.48 → 0.72), and the spread across seeds shrank from 0.16 to 0.08, so criterion 1 went from MISSED to MET. `fact_post` F1 rose most where it had collapsed (0.222 → 0.824 in seed 2024). `speculation` went from 0.000 in every seed to 0.600, 0.000 and 0.250: the model now predicts it sometimes, but in seed 7 it still never does (5 of 6 `speculation` posts went to `question`), so criterion 2 is still MISSED. That supports the undertraining part of my diagnosis, and it shows the `question` / `speculation` boundary was not only an undertraining problem. Caveats: each test split is 25 posts, so one post is 4 points and `speculation` has only 6 test posts, and I only tried one setting (10 epochs), so I cannot say 10 is the right number or that more epochs would not overfit.
 
 ---
 
