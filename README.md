@@ -163,6 +163,13 @@ My 20 cold labels first came out as 13 `question`, 4 `speculation` and 3 `fact_p
 - *What came back:* an explanation that my definition looks at what most of the post does, not at the punctuation, with examples from my own data such as a "Friday Fun Fact" whose title is a question but whose body explains quantum gravity. Claude also listed the cold posts where title and body disagreed, but left the labels to me.
 - *What I changed:* I relabelled 12 of my 20 cold posts (13 `question` / 4 `speculation` / 3 `fact_post` became 7 / 4 / 9) and kept the originals in `cold_20_original.csv`. Because I changed them after being told the rule, the cold set is no longer a pure first-instinct check, and I say so in The Dataset above.
 
+**Moment 3 — unit 6: staff labels and retraining**
+
+- *What I asked for:* Claude generated a draft set of labels for the 30 staff posts (`my_staff_labels_draft.csv`) from `data/staff_taxonomy.md`, and ran the retrain for my improvement (10 epochs, `RUN_LABEL = "after"`) by executing the notebook's cells from a script.
+- *What came back:* the draft labels, and `results_three_seeds_after.json`. Claude also suggested more epochs as the improvement because my diagnosis pointed at undertraining, and drafted the Agreement Report, Run Log — After and the sections below.
+- *What I changed:* I read each staff-post label against the staff rules and kept all 30, so I matched staff 30 of 30. Because they started as an AI draft, I say in the Agreement Report that this is weak evidence about my own consistency. I chose to keep the epochs improvement.
+- *A mistake worth recording:* the notebook cell Claude ran also wrote `results.json`, overwriting my unit 5 file with 10-epoch numbers. It was restored from git before anything was committed, and `results.json` still shows the unit 5 accuracy of 0.64.
+
 **Other help:** Claude also wrote `scrape_posts.py` and `label_cold.py`, drafted the first versions of my label definitions, the README, and the five acceptance criteria, and ran the notebook cells for me to produce `results.json`. I treat the criteria numbers as my own decisions to confirm, not as something Claude set.
 
 **Pre-labelling disclosure:** 146 of the 166 rows in `labels.csv` were pre-labelled by Claude and then reviewed one by one by me, with my corrections applied; the other 20 are my cold labels (12 of which I changed after clarifying my rule).
@@ -313,14 +320,15 @@ Confusion matrix after, seed 42 (rows are true labels, columns are the model's g
 
 ## What's Still Broken
 
-<!-- For each criterion still missed: what you'd do, and why you stopped. -->
+*(Drafted by Claude from the after-run numbers; I need to read it and rewrite it in my own words.)*
 
+- **Criterion 2 (every label F1 ≥ 0.50): still MISSED.** `speculation` F1 is 0.600, 0.000 and 0.250 across the three seeds. *What I'd do:* add more `speculation` posts (I only have 42 of 166, and 6 land in each test split), then re-check the `question` / `speculation` boundary in my own labels, since that is where my hard cases and my unit 5 relabeling all sat. *Why I stopped:* the unit allows one change, and I used it on epochs. Adding posts or relabeling would have been a second change.
+- **Criterion 5 (confidence): MISSED before, not re-measured after.** The after run saved only summary confidence numbers, so I can't tell whether any prediction reached 0.80. *What I'd do:* save per-prediction probabilities in the after run (as I did for `confidence_before.json`) and re-check. Mean confidence when right did rise from about 0.46 to about 0.67, so it may now be closer, but I haven't shown it.
+- **Criteria 1, 3 and 4 are met, with caveats.** Criterion 1 (accuracy) is met only after the fix, on 25-post test splits where one post is 4 points. Criterion 4 (agreement) is met at 30/30, but the labels began as an AI draft I reviewed, so it says little about my own consistency.
+- **Not tested:** whether 10 epochs is the right number or whether more epochs would overfit. I tried one setting.
 
-
-**The gap between what I meant my labels to capture and what the model
-learned:**
-<!-- Two sentences. Your confusion matrix is the evidence. -->
-
+**The gap between what I meant my labels to capture and what the model learned:**
+I meant `speculation` to mean the poster's own reasoning going beyond checkable facts, and `question` to mean the post mostly asks. In the before run the model learned neither distinction (seed 42 sent 5 of 6 `speculation` posts to `question`, and seed 7 sent 6 of 6). After 10 epochs it started separating `speculation` in some seeds (3 of 6 correct in seed 42), but it still often sends those posts to `fact_post` or `question` (2 and 1 of 6 in seed 42), which suggests it is picking up surface cues like numbers and question-shaped titles, not the reasoning pattern I defined.
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
